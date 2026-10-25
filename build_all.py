@@ -51,13 +51,16 @@ def main():
             print(f"{day}: already published, skipping")
             continue
         extra = ["--font", FONT] + (["--test"] if TEST else [])
-        sh([sys.executable, "make_video.py", f"scripts/{day}.txt"] + extra)
-        files = [f"output/{day}.mp4"]
+        files = []
+        if os.path.exists(f"scripts/{day}.txt"):
+            sh([sys.executable, "make_video.py", f"scripts/{day}.txt"] + extra)
+            files.append(f"output/{day}.mp4")
         if os.path.exists(f"scripts/{day}_short.txt"):
             sh([sys.executable, "make_video.py", f"scripts/{day}_short.txt", "--short"] + extra)
             files.append(f"output/{day}_short.mp4")
-        thumb(meta.get("thumb", [meta["title"]]), f"output/{day}_thumb.jpg")
-        files.append(f"output/{day}_thumb.jpg")
+        if os.path.exists(f"scripts/{day}.txt"):
+            thumb(meta.get("thumb", [meta.get("title", day)]), f"output/{day}_thumb.jpg")
+            files.append(f"output/{day}_thumb.jpg")
         chapters = ""
         if os.path.exists(f"output/{day}_chapters.txt"):
             chapters = open(f"output/{day}_chapters.txt", encoding="utf-8").read()
@@ -65,7 +68,7 @@ def main():
         open(f"output/{day}_description.txt", "w", encoding="utf-8").write(desc)
         files.append(f"output/{day}_description.txt")
         if not NO_RELEASE:
-            sh(["gh", "release", "create", day, *files, "--title", meta["title"],
+            sh(["gh", "release", "create", day, *files, "--title", meta.get("title") or meta.get("short_title", day),
                 "--notes", f"Auto-built video for {day}"])
         built.append(day)
     print("Built:", built or "nothing new")
