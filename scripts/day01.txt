@@ -1,0 +1,20 @@
+# AI vs YOU
+आज एक सवाल हर student, हर fresher और हर नौकरी करने वाले के दिमाग में है। क्या AI मेरी job छीन लेगा? कोई कहता है पाँच साल में आधी jobs खत्म। कोई कहता है AI सिर्फ hype है। सच इन दोनों के बीच में है, और वो सच जानना आपके career के लिए बहुत ज़रूरी है। इस video के end तक आपको पता होगा कि AI असल में कौन से काम ले रहा है, कौन से काम नहीं ले पाएगा, और सबसे ज़रूरी, आपको अभी से क्या करना है। तो video skip मत करना।
+
+# AI असल में क्या है?
+पहले समझते हैं कि AI है क्या। आज का AI, जैसे ChatGPT, Claude या Gemini, एक बहुत fast pattern-machine है। इसने करोड़ों pages पढ़े हैं, और ये अंदाज़ा लगाता है कि अगला सही word या अगला सही step क्या होगा। मतलब AI उन कामों में बहुत तेज़ है जिनमें pattern है, जो बार-बार repeat होते हैं, और जिनका सही-गलत आसानी से check हो सकता है। लेकिन AI को अपने आप नहीं पता कि आपकी company को क्या चाहिए, आपके customer का mood क्या है, या कौन सा फैसला risky है। ये समझ अभी भी इंसान की है।
+
+# किन कामों पर असर?
+अब देखते हैं कि किन कामों पर सबसे ज़्यादा असर है। पहला, repetitive computer work। जैसे data entry, basic report बनाना, एक ही format में emails लिखना। ये काम AI सबसे पहले तेज़ कर रहा है। दूसरा, basic content। Simple translation, product description, generic social media posts। जहाँ quality कम चाहिए और quantity ज़्यादा, वहाँ AI आ चुका है। तीसरा, entry-level support। Customer के common सवालों के जवाब अब कई companies में chatbot देता है। ध्यान दीजिए, यहाँ पूरी job नहीं जा रही, job के अंदर के कुछ tasks जा रहे हैं। जो इंसान सिर्फ वही tasks करता था, खतरा उसे है।
+
+# AI के लिए मुश्किल काम
+अब good news। कुछ काम AI के लिए अभी भी बहुत मुश्किल हैं। पहला, हाथ का skilled काम। Electrician, plumber, machine operator, technician। Physical दुनिया में हर situation अलग होती है। दूसरा, लोगों से जुड़ा काम। Sales, teaching, nursing, counselling। यहाँ trust और emotion चाहिए। तीसरा, फैसले और ज़िम्मेदारी वाला काम। Manager, planner, engineer जो final call लेता है। गलती होने पर ज़िम्मेदारी इंसान की होती है, AI की नहीं।
+
+# असली खतरा
+अब सबसे ज़रूरी बात। आपकी job AI नहीं लेगा। आपकी job वो इंसान लेगा जो AI use करना जानता है। सोचिए, दो लोग एक ही काम करते हैं। एक पुराने तरीके से दो घंटे लगाता है। दूसरा AI से वही काम बीस मिनट में करता है और बचे time में quality check करता है। Company किसे रखेगी? इसलिए डरने की बजाय AI को अपना assistant बनाइए।
+
+# अभी से क्या करें: 5 Steps
+तो अभी से क्या करें? पाँच steps। Step one: रोज़ पंद्रह मिनट किसी एक AI tool पर। ChatGPT, Claude या Gemini, कोई भी free version। अपनी पढ़ाई या काम का एक असली सवाल पूछिए। Step two: Prompt लिखना सीखिए। AI को बताइए वो कौन है, काम क्या है, और जवाब किस format में चाहिए। यही एक skill आपको बाकी लोगों से आगे कर देगी। Step three: अपने field का AI use खोजिए। Commerce में हैं तो Excel और reports, engineering में हैं तो calculations और documentation, design में हैं तो image tools। Step four: एक छोटा project बनाइए। AI की मदद से resume, एक छोटी website या एक report। ये आपके portfolio में जाएगा। Step five: Human skills मज़बूत कीजिए। बात करना, समझाना, team में काम करना। AI जितना आगे जाएगा, ये skills उतनी ही कीमती होंगी।
+
+# Final बात
+तो क्या AI आपकी job छीनेगा? अगर आप वही करते रहे जो मशीन कर सकती है, तो हाँ, खतरा है। लेकिन अगर आप AI को अपना tool बना लेते हैं, तो ये आपकी सबसे बड़ी ताकत बन सकता है। इस channel पर हम हर दिन ऐसे ही AI tools और tricks Hindi में सिखाएँगे। Wednesday को आ रही है video: Students के लिए सात FREE AI Tools। Comment में बताइए, आप किस field में हैं, अगली video उसी के हिसाब से बनाऊँगी। Subscribe कर लीजिए और bell icon दबा दीजिए। मिलते हैं अगली video में।

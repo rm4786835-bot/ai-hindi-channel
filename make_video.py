@@ -1,0 +1,173 @@
+r"""
+Free AI Hindi video maker — no credits needed.
+Voice: Microsoft Edge neural voice (free) via edge-tts.
+Video: background + Hindi captions rendered by FFmpeg (libass), so Hindi matras render correctly.
+
+Usage:
+    python make_video.py scripts\day01.txt            -> long video (16:9)
+    python make_video.py scripts\day01_short.txt --short   -> YouTube Short (9:16)
+
+Script format (plain .txt, UTF-8):
+    # Section title          <- a line starting with "# " starts a new section (shown top-left)
+    Sentences of voiceover...  (every sentence becomes one caption screen)
+"""
+import argparse, asyncio, hashlib, os, re, shutil, subprocess, sys
+
+VOICE = "hi-IN-SwaraNeural"      # Hindi female. Male option: hi-IN-MadhurNeural
+RATE = "+5%"                     # speed: "+0%" normal, "+10%" faster
+CHANNEL = "AI Hindi"             # watermark text, top-right
+GAP = 0.25                       # seconds of silence between sentences
+
+
+def run(cmd, cwd=None):
+    r = subprocess.run(cmd, cwd=cwd, capture_output=True, text=True, encoding="utf-8", errors="replace")
+    if r.returncode != 0:
+        print(r.stderr[-2000:])
+        sys.exit("FFmpeg step failed: " + " ".join(cmd[:3]))
+    return r.stdout
+
+
+def duration(path):
+    return float(run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", path]).strip())
+
+
+def parse(path):
+    sec, items = "", []
+    for raw in open(path, encoding="utf-8-sig").read().splitlines():
+        line = raw.strip()
+        if not line:
+            continue
+        if line.startswith("# "):
+            sec = line[2:].strip()
+            continue
+        for s in re.split(r"(?<=[।?!])\s+", line):
+            if s.strip():
+                items.append((sec, s.strip()))
+    if not items:
+        sys.exit("Script is empty.")
+    return items
+
+
+async def tts(text, out):
+    import edge_tts
+    await edge_tts.Communicate(text, VOICE, rate=RATE).save(out)
+
+
+def fake_tts(text, out):  # for testing without internet
+    run(["ffmpeg", "-y", "-f", "lavfi", "-i", "anullsrc=r=24000:cl=mono",
+         "-t", f"{0.07 * len(text) + 0.5:.2f}", "-c:a", "libmp3lame", out])
+
+
+def make_bg(w, h, out):
+    from PIL import Image, ImageDraw
+    a, b = (11, 20, 48), (20, 34, 78)
+    im = Image.new("RGB", (w, h)); d = ImageDraw.Draw(im)
+    for y in range(h):
+        t = y / h
+        d.line([(0, y), (w, y)], fill=tuple(int(a[i] * (1 - t) + b[i] * t) for i in range(3)))
+    s = 1 if h > w else w / 1920
+    d.rounded_rectangle([int(90 * s), int(72 * s), int(104 * s), int(128 * s)], radius=4, fill=(255, 212, 59))
+    im.save(out)
+
+
+def ass_time(t):
+    cs = int(round(t * 100)); h, cs = divmod(cs, 360000); m, cs = divmod(cs, 6000); s, cs = divmod(cs, 100)
+    return f"{h}:{m:02d}:{s:02d}.{cs:02d}"
+
+
+def color_words(text):
+    out = []
+    for w in text.split():
+        w = w.replace("{", "(").replace("}", ")")
+        out.append("{\\c&H3BD4FF&}" + w + "{\\c&HFFF4F0&}" if re.search(r"[A-Za-z]", w) else w)
+    return " ".join(out)
+
+
+def write_ass(items, times, w, h, font, short, out):
+    s = w / 1920 if not short else 1
+    body = 96 if short else 84
+    lines = [
+        "[Script Info]", "ScriptType: v4.00+", f"PlayResX: {w}", f"PlayResY: {h}", "WrapStyle: 0", "",
+        "[V4+ Styles]",
+        "Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, "
+        "Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding",
+        f"Style: Main,{font},{body},&H00FFF4F0,&H00FFF4F0,&H00301408,&H00000000,1,0,0,0,100,100,0,0,1,0,0,5,{150 if not short else 90},{150 if not short else 90},0,1",
+        f"Style: Head,{font},{int(52*s) if not short else 56},&H00FFF4F0,&H00FFF4F0,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,0,0,7,{int(125*s) if not short else 125},40,{int(66*s) if not short else 66},1",
+        f"Style: Mark,{font},{int(38*s) if not short else 40},&H00C89C8C,&H00C89C8C,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,0,0,9,40,{int(90*s) if not short else 90},{int(80*s) if not short else 80},1",
+        "", "[Events]", "Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text",
+    ]
+    total = times[-1][1]
+    lines.append(f"Dialogue: 0,{ass_time(0)},{ass_time(total)},Mark,,0,0,0,,{CHANNEL}")
+    for (sec, text), (a, b) in zip(items, times):
+        size = body if len(text) < 70 else int(body * 0.88) if len(text) < 120 else int(body * 0.76)
+        lines.append(f"Dialogue: 0,{ass_time(a)},{ass_time(b)},Main,,0,0,0,,{{\\fs{size}\\fad(120,80)}}{color_words(text)}")
+        if sec:
+            lines.append(f"Dialogue: 0,{ass_time(a)},{ass_time(b)},Head,,0,0,0,,{sec}")
+    open(out, "w", encoding="utf-8").write("\n".join(lines) + "\n")
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("script")
+    ap.add_argument("--short", action="store_true", help="vertical 9:16 Short")
+    ap.add_argument("--font", default="Nirmala UI", help="Hindi font name installed on the PC")
+    ap.add_argument("--test", action="store_true", help="silent test run without internet")
+    a = ap.parse_args()
+
+    for tool in ("ffmpeg", "ffprobe"):
+        if not shutil.which(tool):
+            sys.exit(f"{tool} not found. Install it first (see README).")
+
+    name = os.path.splitext(os.path.basename(a.script))[0]
+    work = os.path.abspath(os.path.join("build", name)); os.makedirs(work, exist_ok=True)
+    w, h = (1080, 1920) if a.short else (1920, 1080)
+    items = parse(a.script)
+    print(f"{len(items)} sentences. Making voice...")
+
+    run(["ffmpeg", "-y", "-f", "lavfi", "-i", "anullsrc=r=24000:cl=mono", "-t", str(GAP), "-c:a", "libmp3lame", "gap.mp3"], cwd=work)
+    alist, times, t = [], [], 0.0
+    for i, (_, text) in enumerate(items):
+        key = hashlib.md5(f"{VOICE}|{RATE}|{text}".encode("utf-8")).hexdigest()[:10]
+        fn = f"v_{key}.mp3"; p = os.path.join(work, fn)
+        if not os.path.exists(p) or a.test:
+            if a.test:
+                fake_tts(text, p)
+            else:
+                for attempt in range(3):
+                    try:
+                        asyncio.run(tts(text, p)); break
+                    except Exception as e:
+                        if attempt == 2:
+                            sys.exit(f"Voice failed on sentence {i+1}: {e}")
+        d = duration(p)
+        times.append((t, t + d + GAP)); t += d + GAP
+        alist += [f"file '{fn}'", "file 'gap.mp3'"]
+        print(f"  {i+1}/{len(items)}", end="\r")
+    open(os.path.join(work, "alist.txt"), "w", encoding="utf-8").write("\n".join(alist))
+    print("\nJoining voice...")
+    run(["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", "alist.txt", "-c:a", "aac", "-b:a", "160k", "voice.m4a"], cwd=work)
+
+    make_bg(w, h, os.path.join(work, "bg.png"))
+    write_ass(items, times, w, h, a.font, a.short, os.path.join(work, "subs.ass"))
+    print("Rendering video...")
+    out_name = f"{name}.mp4"
+    run(["ffmpeg", "-y", "-loop", "1", "-framerate", "30", "-i", "bg.png", "-i", "voice.m4a",
+         "-vf", "ass=subs.ass", "-c:v", "libx264", "-preset", "veryfast", "-tune", "stillimage", "-crf", "22",
+         "-pix_fmt", "yuv420p", "-c:a", "copy", "-shortest", "-movflags", "+faststart", out_name], cwd=work)
+    os.makedirs("output", exist_ok=True)
+    final = os.path.abspath(os.path.join("output", out_name))
+    shutil.move(os.path.join(work, out_name), final)
+    chap, last = [], None
+    for (sec, _), (st, _) in zip(items, times):
+        if sec and sec != last:
+            mm, ss = divmod(int(st), 60); chap.append(f"{mm}:{ss:02d} {sec}"); last = sec
+    if chap and not a.short:
+        chap[0] = "0:00" + chap[0][chap[0].index(" "):]
+        open(os.path.join("output", f"{name}_chapters.txt"), "w", encoding="utf-8").write("\n".join(chap) + "\n")
+        print("Chapters for description:\n" + "\n".join(chap))
+    m, s = divmod(int(t), 60)
+    print(f"Done: {final}  ({m}:{s:02d})")
+
+
+if __name__ == "__main__":
+    main()
