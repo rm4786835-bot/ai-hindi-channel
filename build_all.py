@@ -20,6 +20,21 @@ def release_exists(tag):
     return subprocess.run(["gh", "release", "view", tag], capture_output=True).returncode == 0
 
 
+def release_assets(tag):
+    r = subprocess.run(["gh", "release", "view", tag, "--json", "assets"], capture_output=True, text=True)
+    return [a["name"] for a in json.loads(r.stdout).get("assets", [])] if r.returncode == 0 else []
+
+
+def try_upload(day):
+    """Upload to YouTube once; mark the release with uploaded.txt so it never uploads twice."""
+    r = subprocess.run([sys.executable, "upload_youtube.py", day])
+    if r.returncode == 0:
+        open("output/uploaded.txt", "w").write(day + " uploaded\n")
+        subprocess.run(["gh", "release", "upload", day, "output/uploaded.txt", "--clobber"])
+    elif r.returncode != 2:
+        print(f"::warning::{day}: YouTube upload failed (video is still in the release)")
+
+
 def thumb(lines, out):
     from make_video import make_bg  # reuse gradient
     import tempfile
@@ -48,9 +63,15 @@ def main():
         meta = json.load(open(meta_path, encoding="utf-8"))
         day = meta["day"]
         if release_exists(day):
-            print(f"{day}: already published, skipping")
+            if meta.get("channel") and "uploaded.txt" not in release_assets(day):
+                print(f"{day}: built earlier but not uploaded yet, trying upload")
+                os.makedirs("output", exist_ok=True)
+                subprocess.run(["gh", "release", "download", day, "-D", "output", "--clobber"])
+                try_upload(day)
+            else:
+                print(f"{day}: already done, skipping")
             continue
-        extra = ["--font", FONT] + (["--test"] if TEST else [])
+        extra = ["--font", FONT] + (["--test"] if TEST else []) + (["--brand", meta["brand"]] if meta.get("brand") else [])
         files = []
         if os.path.exists(f"scripts/{day}.txt"):
             sh([sys.executable, "make_video.py", f"scripts/{day}.txt"] + extra)
@@ -70,9 +91,7 @@ def main():
         if not NO_RELEASE:
             sh(["gh", "release", "create", day, *files, "--title", meta.get("title") or meta.get("short_title", day),
                 "--notes", f"Auto-built video for {day}"])
-            r = subprocess.run([sys.executable, "upload_youtube.py", day])
-            if r.returncode != 0:
-                print(f"::warning::{day}: YouTube upload failed (video is still in the release)")
+            try_upload(day)
         built.append(day)
     print("Built:", built or "nothing new")
 

@@ -14,6 +14,7 @@ Script format (plain .txt, UTF-8):
 import argparse, asyncio, hashlib, os, re, shutil, subprocess, sys
 
 VOICE = "hi-IN-SwaraNeural"      # Hindi female. Male option: hi-IN-MadhurNeural
+EN_VOICE = "en-IN-NeerjaNeural"  # lines starting with "EN:" are spoken in Indian-English female voice
 RATE = "+5%"                     # speed: "+0%" normal, "+10%" faster
 CHANNEL = "AI Hindi"             # watermark text, top-right
 GAP = 0.25                       # seconds of silence between sentences
@@ -40,17 +41,20 @@ def parse(path):
         if line.startswith("# "):
             sec = line[2:].strip()
             continue
-        for s in re.split(r"(?<=[।?!])\s+", line):
+        en = line.startswith("EN:")
+        if en:
+            line = line[3:].strip()
+        for s in re.split(r"(?<=[।?!.])\s+" if en else r"(?<=[।?!])\s+", line):
             if s.strip():
-                items.append((sec, s.strip()))
+                items.append((sec, ("\x01" if en else "") + s.strip()))
     if not items:
         sys.exit("Script is empty.")
     return items
 
 
-async def tts(text, out):
+async def tts(text, out, voice=None):
     import edge_tts
-    await edge_tts.Communicate(text, VOICE, rate=RATE).save(out)
+    await edge_tts.Communicate(text, voice or VOICE, rate=RATE if voice in (None, VOICE) else "-5%").save(out)
 
 
 def fake_tts(text, out):  # for testing without internet
@@ -100,7 +104,12 @@ def write_ass(items, times, w, h, font, short, out):
     lines.append(f"Dialogue: 0,{ass_time(0)},{ass_time(total)},Mark,,0,0,0,,{CHANNEL}")
     for (sec, text), (a, b) in zip(items, times):
         size = body if len(text) < 70 else int(body * 0.88) if len(text) < 120 else int(body * 0.76)
-        lines.append(f"Dialogue: 0,{ass_time(a)},{ass_time(b)},Main,,0,0,0,,{{\\fs{size}\\fad(120,80)}}{color_words(text)}")
+        if text.startswith("\x01"):
+            text = text[1:]
+            body_txt = "{\\c&H3BD4FF&}" + text.replace("{", "(").replace("}", ")")
+        else:
+            body_txt = color_words(text)
+        lines.append(f"Dialogue: 0,{ass_time(a)},{ass_time(b)},Main,,0,0,0,,{{\\fs{size}\\fad(120,80)}}{body_txt}")
         if sec:
             lines.append(f"Dialogue: 0,{ass_time(a)},{ass_time(b)},Head,,0,0,0,,{sec}")
     open(out, "w", encoding="utf-8").write("\n".join(lines) + "\n")
@@ -112,7 +121,11 @@ def main():
     ap.add_argument("--short", action="store_true", help="vertical 9:16 Short")
     ap.add_argument("--font", default="Nirmala UI", help="Hindi font name installed on the PC")
     ap.add_argument("--test", action="store_true", help="silent test run without internet")
+    ap.add_argument("--brand", default=None, help="watermark text (channel name)")
     a = ap.parse_args()
+    global CHANNEL
+    if a.brand:
+        CHANNEL = a.brand
 
     for tool in ("ffmpeg", "ffprobe"):
         if not shutil.which(tool):
@@ -126,8 +139,10 @@ def main():
 
     run(["ffmpeg", "-y", "-f", "lavfi", "-i", "anullsrc=r=24000:cl=mono", "-t", str(GAP), "-c:a", "libmp3lame", "gap.mp3"], cwd=work)
     alist, times, t = [], [], 0.0
-    for i, (_, text) in enumerate(items):
-        key = hashlib.md5(f"{VOICE}|{RATE}|{text}".encode("utf-8")).hexdigest()[:10]
+    for i, (_, raw) in enumerate(items):
+        voice = EN_VOICE if raw.startswith("\x01") else VOICE
+        text = raw.lstrip("\x01")
+        key = hashlib.md5(f"{voice}|{RATE}|{text}".encode("utf-8")).hexdigest()[:10]
         fn = f"v_{key}.mp3"; p = os.path.join(work, fn)
         if not os.path.exists(p) or a.test:
             if a.test:
@@ -135,7 +150,7 @@ def main():
             else:
                 for attempt in range(3):
                     try:
-                        asyncio.run(tts(text, p)); break
+                        asyncio.run(tts(text, p, voice)); break
                     except Exception as e:
                         if attempt == 2:
                             sys.exit(f"Voice failed on sentence {i+1}: {e}")

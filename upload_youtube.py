@@ -85,9 +85,9 @@ def main():
     meta = json.load(open(f"scripts/{day}.json", encoding="utf-8"))
     ch = meta.get("channel")
     if not ch:
-        print(f"{day}: no 'channel' in json, skipping YouTube API upload"); return
+        print(f"{day}: no 'channel' in json, skipping YouTube API upload"); sys.exit(2)
     if not (os.environ.get("YT_CLIENT_ID") and os.environ.get(TOKEN_ENV[ch])):
-        print(f"{day}: secrets for '{ch}' not set, skipping"); return
+        print(f"::warning::{day}: secrets for '{ch}' not set yet, upload will retry on next run"); sys.exit(2)
     os.makedirs(DONE_DIR, exist_ok=True)
     tok = access_token(ch)
     cat = CATEGORY[ch]
