@@ -1,0 +1,10 @@
+# ChatGPT vs Claude vs Gemini
+ChatGPT, Claude और Gemini, तीनों में फर्क क्या है? एक मिनट में समझो।
+# 1. ChatGPT
+ChatGPT को OpenAI ने बनाया है। सबसे ज़्यादा जाना पहचाना नाम। Chat के साथ image बनाना और voice में बात करना, सब एक जगह।
+# 2. Claude
+Claude को Anthropic ने बनाया है। लंबे documents पढ़ना, साफ़ लिखना और coding में मदद, इसके लिए बहुत लोग इसे पसंद करते हैं।
+# 3. Gemini
+Gemini Google का AI है। अगर आप Gmail, Docs और Drive रोज़ use करते हो, तो Gemini उनसे जुड़कर काम आसान करता है।
+# तो कौन सा लें?
+तीनों का free version है। एक ही सवाल तीनों से पूछो, और जो जवाब आपको best लगे, वही आपका tool। Subscribe करो, रोज़ एक AI trick Hindi में।
