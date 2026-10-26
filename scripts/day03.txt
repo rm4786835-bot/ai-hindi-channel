@@ -1,0 +1,29 @@
+# पढ़ाई का नया तरीका
+Exam पास है, syllabus बहुत बड़ा है, और समझ नहीं आ रहा कहाँ से शुरू करें? आज मैं आपको सात ऐसे FREE AI tools बताऊँगी जो आपकी पढ़ाई को आसान और तेज़ बना सकते हैं। लेकिन एक शर्त है, इन्हें सही तरीके से use करना होगा, वरना फायदे की जगह नुकसान होगा। Video के end में वो सही तरीका भी बताऊँगी, तो पूरी video देखना।
+
+# 1. ChatGPT: Doubt clear करो
+पहला tool है ChatGPT। जब कोई topic समझ न आए, तो इससे कहिए, मुझे ये topic ऐसे समझाओ जैसे मैं दसवीं class का student हूँ। फिर कहिए, एक real life example दो। फिर कहिए, मुझसे तीन सवाल पूछो ताकि पता चले मैं समझा या नहीं। यानी ChatGPT को सिर्फ answer machine नहीं, अपना personal teacher बनाइए।
+
+# 2. Gemini: Google के साथ जुड़ा AI
+दूसरा tool है Google का Gemini। अगर आपके notes Google Drive या Docs में हैं, तो Gemini उनके साथ अच्छे से काम करता है। आप किसी diagram या सवाल की photo भी दिखा सकते हैं और उसका मतलब पूछ सकते हैं। Android phone में ये आसानी से मिल जाता है।
+
+# 3. Claude: लंबे Notes और लिखावट
+तीसरा tool है Claude। जब chapter बहुत लंबा हो, या PDF बहुत बड़ी हो, तो उसे Claude में डालकर कहिए, इसके main points बताओ। Assignment या essay लिखा है, तो कहिए, मेरी गलतियाँ बताओ लेकिन पूरा दोबारा मत लिखो। इससे आपकी अपनी writing सुधरेगी।
+
+# 4. Perplexity: Source के साथ जवाब
+चौथा tool है Perplexity। ये एक AI search engine है जो जवाब के साथ यह भी दिखाता है कि जानकारी कहाँ से ली गई। Project या research के लिए ये बहुत काम का है, क्योंकि आप खुद source खोलकर check कर सकते हैं कि बात सही है या नहीं।
+
+# 5. NotebookLM: अपनी Book से Quiz
+पाँचवाँ tool मेरा favourite है, Google का NotebookLM। इसमें आप अपनी PDF, notes या YouTube lecture का link डालते हैं, और ये सिर्फ उन्हीं से जवाब देता है। ये आपके notes से flashcards, quiz और study guide बना सकता है। इसमें audio summary भी बनती है, जिसे आप bus में या walk करते हुए सुन सकते हैं। Free version में रोज़ की कुछ limits हैं, लेकिन एक student के लिए काफी हैं।
+
+# 6. Microsoft Copilot
+छठा tool है Microsoft Copilot। ये भी free में chat करने देता है, और presentation के ideas, email या application लिखने में अच्छी मदद करता है। अगर आपके college में Microsoft Word या PowerPoint चलता है, तो ये आपके काम का है।
+
+# 7. Google Lens: Photo से सवाल
+सातवाँ tool आपके phone में पहले से है, Google Lens। किसी सवाल, diagram या English शब्द की photo लीजिए, और Lens उससे जुड़ी जानकारी ढूँढ देगा। जल्दी में कुछ समझना हो तो ये सबसे तेज़ तरीका है।
+
+# सही तरीका: ये गलती मत करना
+अब वो सबसे ज़रूरी बात। AI से answer copy करके homework submit करना सबसे बड़ी गलती है। Exam hall में AI आपके साथ नहीं होगा। इसलिए AI से समझिए, खुद लिखिए, और फिर AI से check करवाइए। दूसरी बात, AI कभी कभी गलत भी बोलता है। Important facts, dates और formula हमेशा अपनी book या teacher से confirm कीजिए। तीसरी बात, रोज़ बस बीस मिनट AI के साथ revision कीजिए, बाकी समय खुद पढ़िए।
+
+# आज का Task
+तो आज का task यह है। इन सात में से कोई एक tool चुनिए और अपने किसी एक chapter पर आज ही try कीजिए। Comment में बताइए कि आपने कौन सा tool चुना और कैसा लगा। ऐसे ही AI tips रोज़ Hindi में पाने के लिए channel को subscribe कर लीजिए। अगली video में बताऊँगी कि AI असल में काम कैसे करता है, बिल्कुल आसान भाषा में। मिलते हैं अगली video में।

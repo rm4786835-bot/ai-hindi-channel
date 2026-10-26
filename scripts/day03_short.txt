@@ -1,0 +1,10 @@
+# AI से Notes बनाने का 1 Trick
+लंबे chapter से छोटे notes बनाने हैं? ये एक trick याद रखो।
+# Step 1
+अपना chapter या PDF किसी भी AI tool में डालो, जैसे Claude, ChatGPT या NotebookLM।
+# Step 2
+अब ये लिखो: इसके सबसे ज़रूरी दस points बताओ, आसान Hindi में, और हर point के साथ एक example।
+# Step 3
+फिर लिखो: इन्हीं points से मुझसे पाँच सवाल पूछो। जवाब खुद दो, और AI से check करवाओ।
+# याद रखो
+Facts और formula हमेशा अपनी book से मिलाओ। ऐसी ही AI tricks के लिए subscribe करो।
