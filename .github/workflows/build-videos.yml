@@ -20,14 +20,19 @@ concurrency:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 40
     steps:
       - uses: actions/checkout@v4
       - name: Install FFmpeg and Hindi font
+        timeout-minutes: 10
         run: |
-          sudo apt-get update -qq
-          sudo apt-get install -y -qq ffmpeg fonts-noto-core
+          for i in 1 2 3; do
+            sudo timeout 240 apt-get -o Acquire::Retries=3 -o Acquire::http::Timeout=30 update -qq && \
+            sudo timeout 300 apt-get -o Acquire::Retries=3 install -y -qq --no-install-recommends ffmpeg fonts-noto-core && break
+            echo "apt attempt $i failed, retrying"; sleep 15
+          done
+          ffmpeg -version | head -1
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
