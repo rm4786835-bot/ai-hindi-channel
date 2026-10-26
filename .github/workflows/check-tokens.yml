@@ -1,0 +1,19 @@
+name: Check YouTube tokens
+on:
+  push:
+    branches: [main]
+    paths: [".github/check-tokens.txt"]
+  workflow_dispatch:
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install requests
+      - env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_TOKEN_TECH: ${{ secrets.YT_TOKEN_TECH }}
+          YT_TOKEN_ENGLISH: ${{ secrets.YT_TOKEN_ENGLISH }}
+          YT_TOKEN_MONEY: ${{ secrets.YT_TOKEN_MONEY }}
+        run: python upload_youtube.py --check
