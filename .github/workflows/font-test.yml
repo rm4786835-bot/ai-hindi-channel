@@ -30,13 +30,17 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install pillow
+      - run: pip install pillow requests
       - env:
           GH_TOKEN: ${{ github.token }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
         run: |
+          printf '# Footage test\n@ young indian student studying laptop\nये एक test है जिसमें असली video footage दिखनी चाहिए।\n@ money coins saving\nपैसा बचाना एक आदत है।\n' > /tmp/ft.txt
+          python make_video.py /tmp/ft.txt --test --font "$FONT" --brand "AI Hindi"
+          ffmpeg -loglevel error -y -ss 2 -i output/ft.mp4 -frames:v 1 -vf scale=640:-1 long.png
           python make_video.py scripts/eng01_short.txt --short --test --font "$FONT" --brand "Roz Ki English"
           python make_video.py scripts/money01_short.txt --short --test --font "$FONT" --brand "Paisa Psychology"
           ffmpeg -loglevel error -y -ss 9 -i output/eng01_short.mp4 -frames:v 1 -vf scale=540:-1 eng.png
           ffmpeg -loglevel error -y -ss 4 -i output/money01_short.mp4 -frames:v 1 -vf scale=540:-1 money.png
           gh release view fonttest >/dev/null 2>&1 || gh release create fonttest --title "font test" --notes "test frames" --prerelease
-          gh release upload fonttest eng.png money.png --clobber
+          gh release upload fonttest eng.png money.png long.png --clobber

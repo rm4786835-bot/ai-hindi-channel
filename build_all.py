@@ -6,6 +6,7 @@ import glob, json, os, subprocess, sys
 FONT = os.environ.get("FONT", "Noto Sans Devanagari")
 REPO = os.environ.get("GITHUB_REPOSITORY", "")
 TEST = "--test" in sys.argv
+DEFAULT_QUERY = {"tech": "technology laptop", "english": "people talking conversation", "money": "money finance"}
 NO_RELEASE = "--no-release" in sys.argv
 
 
@@ -38,11 +39,21 @@ def try_upload(day):
         print(f"::warning::{day}: YouTube upload failed (video is still in the release)")
 
 
-def thumb(lines, out):
+def thumb(lines, out, query=None):
     from make_video import make_bg  # reuse gradient
     import tempfile
     d = tempfile.mkdtemp()
     make_bg(1280, 720, os.path.join(d, "bg.png"))
+    if query and os.environ.get("PEXELS_API_KEY"):
+        try:
+            import stock
+            ph = stock.photo(query, os.path.join(d, "photo.jpg"))
+            if ph:
+                subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", ph, "-vf",
+                                "scale=1280:720:force_original_aspect_ratio=increase,crop=1280:720,eq=brightness=-0.12:saturation=1.15,"
+                                "drawbox=x=0:y=0:w=iw:h=ih:color=black@0.35:t=fill", "-frames:v", "1", os.path.join(d, "bg.png")], check=True)
+        except Exception as e:
+            print("thumbnail photo failed, using plain background:", e)
     big, sub = (lines + [""])[:2]
     ass = "\n".join([
         "[Script Info]", "ScriptType: v4.00+", "PlayResX: 1280", "PlayResY: 720", "WrapStyle: 0", "",
@@ -74,7 +85,8 @@ def main():
             else:
                 print(f"{day}: already done, skipping")
             continue
-        extra = ["--font", FONT] + (["--test"] if TEST else []) + (["--brand", meta["brand"]] if meta.get("brand") else [])
+        dq = meta.get("stock_default") or DEFAULT_QUERY.get(meta.get("channel"), "city life")
+        extra = ["--font", FONT, "--default-query", dq] + (["--test"] if TEST else []) + (["--brand", meta["brand"]] if meta.get("brand") else [])
         files = []
         if os.path.exists(f"scripts/{day}.txt"):
             sh([sys.executable, "make_video.py", f"scripts/{day}.txt"] + extra)
@@ -83,12 +95,15 @@ def main():
             sh([sys.executable, "make_video.py", f"scripts/{day}_short.txt", "--short"] + extra)
             files.append(f"output/{day}_short.mp4")
         if os.path.exists(f"scripts/{day}.txt"):
-            thumb(meta.get("thumb", [meta.get("title", day)]), f"output/{day}_thumb.jpg")
+            thumb(meta.get("thumb", [meta.get("title", day)]), f"output/{day}_thumb.jpg",
+                  meta.get("thumb_query") or meta.get("stock_default") or DEFAULT_QUERY.get(meta.get("channel")))
             files.append(f"output/{day}_thumb.jpg")
         chapters = ""
         if os.path.exists(f"output/{day}_chapters.txt"):
             chapters = open(f"output/{day}_chapters.txt", encoding="utf-8").read()
         desc = meta.get("description", "").replace("{chapters}", chapters)
+        if os.environ.get("PEXELS_API_KEY"):
+            desc += "\n\nStock footage: Pexels"
         open(f"output/{day}_description.txt", "w", encoding="utf-8").write(desc)
         files.append(f"output/{day}_description.txt")
         if not NO_RELEASE:

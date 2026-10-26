@@ -32,8 +32,8 @@ def duration(path):
     return float(run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", path]).strip())
 
 
-def parse(path):
-    sec, items = "", []
+def parse(path, default_query="city life"):
+    sec, items, query = "", [], default_query
     for raw in open(path, encoding="utf-8-sig").read().splitlines():
         line = raw.strip()
         if not line:
@@ -41,12 +41,15 @@ def parse(path):
         if line.startswith("# "):
             sec = line[2:].strip()
             continue
+        if line.startswith("@"):
+            query = line[1:].strip() or default_query
+            continue
         en = line.startswith("EN:")
         if en:
             line = line[3:].strip()
         for s in re.split(r"(?<=[।?!.])\s+" if en else r"(?<=[।?!])\s+", line):
             if s.strip():
-                items.append((sec, ("\x01" if en else "") + s.strip()))
+                items.append((sec, ("\x01" if en else "") + s.strip(), query))
     if not items:
         sys.exit("Script is empty.")
     return items
@@ -87,7 +90,7 @@ def color_words(text):
     return " ".join(out)
 
 
-def write_ass(items, times, w, h, font, short, out):
+def write_ass(items, times, w, h, font, short, out, footage=False):
     s = w / 1920 if not short else 1
     body = 112 if short else 92
     lines = [
@@ -95,14 +98,14 @@ def write_ass(items, times, w, h, font, short, out):
         "[V4+ Styles]",
         "Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, "
         "Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding",
-        f"Style: Main,{font},{body},&H00FFF4F0,&H00FFF4F0,&H00301408,&H00000000,1,0,0,0,100,100,0,0,1,0,0,5,{150 if not short else 90},{150 if not short else 90},0,1",
-        f"Style: Head,{font},{int(52*s) if not short else 56},&H00FFF4F0,&H00FFF4F0,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,0,0,7,{int(125*s) if not short else 125},40,{int(66*s) if not short else 66},1",
-        f"Style: Mark,{font},{int(38*s) if not short else 40},&H00C89C8C,&H00C89C8C,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,0,0,9,40,{int(90*s) if not short else 90},{int(80*s) if not short else 80},1",
+        f"Style: Main,{font},{body},&H00FFF4F0,&H00FFF4F0,&H00000000,&H64000000,1,0,0,0,100,100,0,0,1,{5 if footage else 0},{2 if footage else 0},5,{150 if not short else 90},{150 if not short else 90},0,1",
+        f"Style: Head,{font},{int(52*s) if not short else 56},&H00FFF4F0,&H00FFF4F0,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,{3 if footage else 0},0,7,{int(125*s) if not short else 125},40,{int(66*s) if not short else 66},1",
+        f"Style: Mark,{font},{int(38*s) if not short else 40},&H00E6D2C8,&H00E6D2C8,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,{2 if footage else 0},0,9,40,{int(90*s) if not short else 90},{int(80*s) if not short else 80},1",
         "", "[Events]", "Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text",
     ]
     total = times[-1][1]
     lines.append(f"Dialogue: 0,{ass_time(0)},{ass_time(total)},Mark,,0,0,0,,{CHANNEL}")
-    for (sec, text), (a, b) in zip(items, times):
+    for (sec, text, _q), (a, b) in zip(items, times):
         size = body if len(text) < 70 else int(body * 0.88) if len(text) < 120 else int(body * 0.76)
         if text.startswith("\x01"):
             text = text[1:]
@@ -122,6 +125,8 @@ def main():
     ap.add_argument("--font", default="Nirmala UI", help="Hindi font name installed on the PC")
     ap.add_argument("--test", action="store_true", help="silent test run without internet")
     ap.add_argument("--brand", default=None, help="watermark text (channel name)")
+    ap.add_argument("--default-query", default="city life", help="stock footage search words when the script has no @ line")
+    ap.add_argument("--plain", action="store_true", help="force the plain gradient background")
     a = ap.parse_args()
     global CHANNEL
     if a.brand:
@@ -134,12 +139,12 @@ def main():
     name = os.path.splitext(os.path.basename(a.script))[0]
     work = os.path.abspath(os.path.join("build", name)); os.makedirs(work, exist_ok=True)
     w, h = (1080, 1920) if a.short else (1920, 1080)
-    items = parse(a.script)
+    items = parse(a.script, a.default_query)
     print(f"{len(items)} sentences. Making voice...")
 
     run(["ffmpeg", "-y", "-f", "lavfi", "-i", "anullsrc=r=24000:cl=mono", "-t", str(GAP), "-c:a", "libmp3lame", "gap.mp3"], cwd=work)
     alist, times, t = [], [], 0.0
-    for i, (_, raw) in enumerate(items):
+    for i, (_, raw, _q) in enumerate(items):
         voice = EN_VOICE if raw.startswith("\x01") else VOICE
         text = raw.lstrip("\x01")
         key = hashlib.md5(f"{voice}|{RATE}|{text}".encode("utf-8")).hexdigest()[:10]
@@ -162,18 +167,41 @@ def main():
     print("\nJoining voice...")
     run(["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", "alist.txt", "-c:a", "aac", "-b:a", "160k", "voice.m4a"], cwd=work)
 
-    make_bg(w, h, os.path.join(work, "bg.png"))
-    write_ass(items, times, w, h, a.font, a.short, os.path.join(work, "subs.ass"))
-    print("Rendering video...")
+    import stock
+    footage = (stock.enabled() or os.environ.get("STOCK_TEST")) and not a.plain
+    fontsdir = f":fontsdir={os.environ['FONTS_DIR']}" if os.environ.get("FONTS_DIR") else ""
+    write_ass(items, times, w, h, a.font, a.short, os.path.join(work, "subs.ass"), footage=bool(footage))
     out_name = f"{name}.mp4"
-    run(["ffmpeg", "-y", "-loop", "1", "-framerate", "30", "-i", "bg.png", "-i", "voice.m4a",
-         "-vf", "ass=subs.ass" + (f":fontsdir={os.environ['FONTS_DIR']}" if os.environ.get("FONTS_DIR") else ""), "-c:v", "libx264", "-preset", "veryfast", "-tune", "stillimage", "-crf", "22",
-         "-pix_fmt", "yuv420p", "-c:a", "copy", "-shortest", "-movflags", "+faststart", out_name], cwd=work)
+    if footage:
+        # cut footage at sentence ends, a new clip roughly every 5-8 seconds or when the topic (@ query) changes
+        chunks, cur_q, cur_d = [], None, 0.0
+        for (_, _, q), (st, en) in zip(items, times):
+            d = en - st
+            if cur_q is not None and (q != cur_q or cur_d >= 5.0):
+                chunks.append((cur_q, cur_d)); cur_d = 0.0
+            cur_q = q; cur_d += d
+        chunks.append((cur_q, cur_d))
+        print(f"Fetching footage for {len(chunks)} scenes...")
+        foot = stock.build_footage(chunks, w, h, work, test=bool(os.environ.get("STOCK_TEST")))
+        stock.make_music(os.path.join(work, "music.wav"), seed=len(name))
+        print("Rendering video...")
+        run(["ffmpeg", "-y", "-i", "footage.mp4", "-i", "voice.m4a", "-stream_loop", "-1", "-i", "music.wav",
+             "-filter_complex",
+             f"[0:v]ass=subs.ass{fontsdir}[v];[2:a]volume=0.13,afade=t=in:d=2,afade=t=out:st={max(0, t - 3):.2f}:d=3[m];"
+             f"[1:a][m]amix=inputs=2:duration=first:normalize=0[a]",
+             "-map", "[v]", "-map", "[a]", "-t", f"{t:.3f}", "-c:v", "libx264", "-preset", "veryfast", "-crf", "21",
+             "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart", out_name], cwd=work)
+    else:
+        make_bg(w, h, os.path.join(work, "bg.png"))
+        print("Rendering video...")
+        run(["ffmpeg", "-y", "-loop", "1", "-framerate", "30", "-i", "bg.png", "-i", "voice.m4a",
+             "-vf", "ass=subs.ass" + fontsdir, "-c:v", "libx264", "-preset", "veryfast", "-tune", "stillimage", "-crf", "22",
+             "-pix_fmt", "yuv420p", "-c:a", "copy", "-shortest", "-movflags", "+faststart", out_name], cwd=work)
     os.makedirs("output", exist_ok=True)
     final = os.path.abspath(os.path.join("output", out_name))
     shutil.move(os.path.join(work, out_name), final)
     chap, last = [], None
-    for (sec, _), (st, _) in zip(items, times):
+    for (sec, _, _q), (st, _) in zip(items, times):
         if sec and sec != last:
             mm, ss = divmod(int(st), 60); chap.append(f"{mm}:{ss:02d} {sec}"); last = sec
     if chap and not a.short:

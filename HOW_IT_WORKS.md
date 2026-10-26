@@ -16,3 +16,9 @@ if the time is in the future the video is uploaded private and YouTube makes it 
 Script format: "# Section" lines; every sentence = one caption screen; numbers as words; no emoji in .txt.
 English channel: a line starting with "EN:" is spoken by the Indian-English voice and shown in yellow; explain in Hindi, model sentences in EN lines.
 json keys: day, channel, brand, publish_long, publish_short, title, short_title, thumb [big, sub], description (with "Chapters:\n{chapters}" if long), short_description, tags.
+
+## Real footage (free, Pexels)
+If the PEXELS_API_KEY secret exists, every video uses real HD stock footage instead of the plain background, plus soft generated music.
+In scripts put a line `@ english search words` before sentences to choose the footage (e.g. `@ indian student studying laptop`,
+`@ office team meeting`, `@ rupee notes counting`). Use concrete, visual English words (2–5 words), change it every 1–3 sentences
+so scenes follow the narration. Optional json keys: "stock_default" (fallback search), "thumb_query" (photo behind the thumbnail text).
