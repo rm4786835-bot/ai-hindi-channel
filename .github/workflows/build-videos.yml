@@ -3,7 +3,7 @@ name: Build videos
 on:
   push:
     branches: [main]
-    paths: ["scripts/**", "make_video.py", "build_all.py", "upload_youtube.py"]
+    paths: ["scripts/**", "make_video.py", "build_all.py", "upload_youtube.py", ".github/workflows/build-videos.yml"]
   workflow_dispatch:
     inputs:
       check_tokens:
