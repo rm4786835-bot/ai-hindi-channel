@@ -52,7 +52,7 @@ def thumb(lines, out):
         f"Dialogue: 0,0:00:00.00,0:00:05.00,Sub,,0,0,0,,{sub}",
     ])
     open(os.path.join(d, "t.ass"), "w", encoding="utf-8").write(ass)
-    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-loop", "1", "-i", "bg.png", "-vf", "ass=t.ass",
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-loop", "1", "-i", "bg.png", "-vf", "ass=t.ass" + (f":fontsdir={os.environ['FONTS_DIR']}" if os.environ.get("FONTS_DIR") else ""),
                     "-frames:v", "1", "-q:v", "2", os.path.abspath(out)], cwd=d, check=True)
 
 

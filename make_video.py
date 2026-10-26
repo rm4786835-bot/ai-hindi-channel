@@ -167,7 +167,7 @@ def main():
     print("Rendering video...")
     out_name = f"{name}.mp4"
     run(["ffmpeg", "-y", "-loop", "1", "-framerate", "30", "-i", "bg.png", "-i", "voice.m4a",
-         "-vf", "ass=subs.ass", "-c:v", "libx264", "-preset", "veryfast", "-tune", "stillimage", "-crf", "22",
+         "-vf", "ass=subs.ass" + (f":fontsdir={os.environ['FONTS_DIR']}" if os.environ.get("FONTS_DIR") else ""), "-c:v", "libx264", "-preset", "veryfast", "-tune", "stillimage", "-crf", "22",
          "-pix_fmt", "yuv420p", "-c:a", "copy", "-shortest", "-movflags", "+faststart", out_name], cwd=work)
     os.makedirs("output", exist_ok=True)
     final = os.path.abspath(os.path.join("output", out_name))
