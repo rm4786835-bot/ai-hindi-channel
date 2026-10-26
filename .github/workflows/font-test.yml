@@ -1,0 +1,42 @@
+name: Font test
+on:
+  push:
+    branches: [main]
+    paths: [".github/font-test.txt"]
+permissions:
+  contents: write
+jobs:
+  test:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install FFmpeg (static) and Hindi fonts
+        timeout-minutes: 8
+        run: |
+          set -e
+          curl -sSfL --retry 4 -o /tmp/ff.tar.xz https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-master-latest-linux64-gpl.tar.xz
+          tar -xf /tmp/ff.tar.xz -C /tmp
+          sudo cp /tmp/ffmpeg-master-latest-linux64-gpl/bin/ffmpeg /tmp/ffmpeg-master-latest-linux64-gpl/bin/ffprobe /usr/local/bin/
+          mkdir -p "$HOME/hfonts"
+          # Mukta has Hindi + English glyphs in one matched design, so both scripts render the same size
+          for f in Mukta-Regular.ttf Mukta-Bold.ttf Mukta-ExtraBold.ttf; do
+            curl -sSfL --retry 4 -o "$HOME/hfonts/$f" "https://github.com/google/fonts/raw/main/ofl/mukta/$f"
+          done
+          echo "FONTS_DIR=$HOME/hfonts" >> "$GITHUB_ENV"
+          echo "FONT=Mukta" >> "$GITHUB_ENV"
+          ffmpeg -version | head -1
+          ffmpeg -hide_banner -filters | grep -E " ass "
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pillow
+      - env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python make_video.py scripts/eng01_short.txt --short --test --font "$FONT" --brand "Roz Ki English"
+          python make_video.py scripts/money01_short.txt --short --test --font "$FONT" --brand "Paisa Psychology"
+          ffmpeg -loglevel error -y -ss 9 -i output/eng01_short.mp4 -frames:v 1 -vf scale=540:-1 eng.png
+          ffmpeg -loglevel error -y -ss 4 -i output/money01_short.mp4 -frames:v 1 -vf scale=540:-1 money.png
+          gh release view fonttest >/dev/null 2>&1 || gh release create fonttest --title "font test" --notes "test frames" --prerelease
+          gh release upload fonttest eng.png money.png --clobber

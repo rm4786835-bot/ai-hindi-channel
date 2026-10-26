@@ -32,11 +32,12 @@ jobs:
           tar -xf /tmp/ff.tar.xz -C /tmp
           sudo cp /tmp/ffmpeg-master-latest-linux64-gpl/bin/ffmpeg /tmp/ffmpeg-master-latest-linux64-gpl/bin/ffprobe /usr/local/bin/
           mkdir -p "$HOME/hfonts"
-          base=https://github.com/notofonts/notofonts.github.io/raw/main/fonts
-          for f in NotoSansDevanagari/hinted/ttf/NotoSansDevanagari-Regular.ttf NotoSansDevanagari/hinted/ttf/NotoSansDevanagari-Bold.ttf NotoSans/hinted/ttf/NotoSans-Regular.ttf NotoSans/hinted/ttf/NotoSans-Bold.ttf; do
-            curl -sSfL --retry 4 -o "$HOME/hfonts/$(basename $f)" "$base/$f"
+          # Mukta has Hindi + English glyphs in one matched design, so both scripts render the same size
+          for f in Mukta-Regular.ttf Mukta-Bold.ttf Mukta-ExtraBold.ttf; do
+            curl -sSfL --retry 4 -o "$HOME/hfonts/$f" "https://github.com/google/fonts/raw/main/ofl/mukta/$f"
           done
           echo "FONTS_DIR=$HOME/hfonts" >> "$GITHUB_ENV"
+          echo "FONT=Mukta" >> "$GITHUB_ENV"
           ffmpeg -version | head -1
           ffmpeg -hide_banner -filters | grep -E " ass "
       - uses: actions/setup-python@v5
