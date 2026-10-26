@@ -3,8 +3,13 @@ name: Build videos
 on:
   push:
     branches: [main]
-    paths: ["scripts/**", "make_video.py", "build_all.py"]
+    paths: ["scripts/**", "make_video.py", "build_all.py", "upload_youtube.py"]
   workflow_dispatch:
+    inputs:
+      check_tokens:
+        description: "Only check YouTube tokens"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -27,8 +32,23 @@ jobs:
         with:
           python-version: "3.12"
       - name: Install Python packages
-        run: pip install edge-tts pillow
-      - name: Build and publish new days
+        run: pip install edge-tts pillow requests
+      - name: Check YouTube tokens
+        if: ${{ inputs.check_tokens }}
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_TOKEN_TECH: ${{ secrets.YT_TOKEN_TECH }}
+          YT_TOKEN_ENGLISH: ${{ secrets.YT_TOKEN_ENGLISH }}
+          YT_TOKEN_MONEY: ${{ secrets.YT_TOKEN_MONEY }}
+        run: python upload_youtube.py --check
+      - name: Build, publish and upload new days
+        if: ${{ !inputs.check_tokens }}
         env:
           GH_TOKEN: ${{ github.token }}
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_TOKEN_TECH: ${{ secrets.YT_TOKEN_TECH }}
+          YT_TOKEN_ENGLISH: ${{ secrets.YT_TOKEN_ENGLISH }}
+          YT_TOKEN_MONEY: ${{ secrets.YT_TOKEN_MONEY }}
         run: python build_all.py

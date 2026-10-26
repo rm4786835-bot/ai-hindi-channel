@@ -44,7 +44,7 @@ def thumb(lines, out):
 def main():
     os.makedirs("output", exist_ok=True)
     built = []
-    for meta_path in sorted(glob.glob("scripts/day*.json")):
+    for meta_path in sorted(glob.glob("scripts/*.json")):
         meta = json.load(open(meta_path, encoding="utf-8"))
         day = meta["day"]
         if release_exists(day):
@@ -70,6 +70,9 @@ def main():
         if not NO_RELEASE:
             sh(["gh", "release", "create", day, *files, "--title", meta.get("title") or meta.get("short_title", day),
                 "--notes", f"Auto-built video for {day}"])
+            r = subprocess.run([sys.executable, "upload_youtube.py", day])
+            if r.returncode != 0:
+                print(f"::warning::{day}: YouTube upload failed (video is still in the release)")
         built.append(day)
     print("Built:", built or "nothing new")
 
