@@ -52,6 +52,9 @@ def upload(tok, path, title, desc, tags, category, publish_at):
             r = requests.put(url, headers={"Authorization": f"Bearer {tok}", "Content-Type": "video/mp4"}, data=f, timeout=1800)
         if r.status_code in (200, 201):
             v = r.json()
+            print(f"::notice::Uploaded {os.path.basename(path)}: https://youtu.be/{v['id']} publishAt={v['status'].get('publishAt')}")
+            with open("output/links.txt", "a", encoding="utf-8") as lf:
+                lf.write(f"{os.path.basename(path)} https://youtu.be/{v['id']} {v['status'].get('publishAt') or 'now'}\n")
             print(f"Uploaded {path}: https://youtu.be/{v['id']}  status={v['status'].get('privacyStatus')} "
                   f"publishAt={v['status'].get('publishAt')} uploadStatus={v['status'].get('uploadStatus')}")
             return v["id"]

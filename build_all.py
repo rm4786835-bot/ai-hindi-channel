@@ -29,7 +29,10 @@ def try_upload(day):
     """Upload to YouTube once; mark the release with uploaded.txt so it never uploads twice."""
     r = subprocess.run([sys.executable, "upload_youtube.py", day])
     if r.returncode == 0:
-        open("output/uploaded.txt", "w").write(day + " uploaded\n")
+        links = open("output/links.txt").read() if os.path.exists("output/links.txt") else ""
+        open("output/uploaded.txt", "w").write(day + " uploaded\n" + links)
+        if os.path.exists("output/links.txt"):
+            os.remove("output/links.txt")
         subprocess.run(["gh", "release", "upload", day, "output/uploaded.txt", "--clobber"])
     elif r.returncode != 2:
         print(f"::warning::{day}: YouTube upload failed (video is still in the release)")

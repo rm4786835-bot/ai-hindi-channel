@@ -89,7 +89,7 @@ def color_words(text):
 
 def write_ass(items, times, w, h, font, short, out):
     s = w / 1920 if not short else 1
-    body = 96 if short else 84
+    body = 112 if short else 92
     lines = [
         "[Script Info]", "ScriptType: v4.00+", f"PlayResX: {w}", f"PlayResY: {h}", "WrapStyle: 0", "",
         "[V4+ Styles]",
