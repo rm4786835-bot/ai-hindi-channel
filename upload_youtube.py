@@ -19,10 +19,15 @@ DONE_DIR = "uploaded"
 
 def access_token(channel):
     r = requests.post("https://oauth2.googleapis.com/token", data={
-        "client_id": os.environ["YT_CLIENT_ID"], "client_secret": os.environ["YT_CLIENT_SECRET"],
-        "refresh_token": os.environ[TOKEN_ENV[channel]], "grant_type": "refresh_token"}, timeout=60)
+        "client_id": os.environ["YT_CLIENT_ID"].strip(), "client_secret": os.environ["YT_CLIENT_SECRET"].strip(),
+        "refresh_token": os.environ[TOKEN_ENV[channel]].strip(), "grant_type": "refresh_token"}, timeout=60)
     if r.status_code != 200:
-        sys.exit(f"[{channel}] token refresh failed: {r.status_code} {r.text[:300]}")
+        try:
+            e = r.json(); msg = f"{e.get('error')}: {e.get('error_description', '')}"
+        except Exception:
+            msg = r.text[:200]
+        print(f"::error::[{channel}] token refresh failed ({r.status_code}) {msg}")
+        sys.exit(1)
     return r.json()["access_token"]
 
 
@@ -63,15 +68,18 @@ def set_thumb(tok, vid, path):
 
 def main():
     if "--check" in sys.argv:
+        print(f"::notice::client id length {len(os.environ.get('YT_CLIENT_ID',''))}, ends with googleusercontent.com: "
+              f"{os.environ.get('YT_CLIENT_ID','').strip().endswith('googleusercontent.com')}; secret length {len(os.environ.get('YT_CLIENT_SECRET',''))}, "
+              f"starts GOCSPX-: {os.environ.get('YT_CLIENT_SECRET','').strip().startswith('GOCSPX-')}")
         for ch, env in TOKEN_ENV.items():
             if os.environ.get(env):
                 tok = access_token(ch)
                 r = requests.get("https://www.googleapis.com/youtube/v3/channels?part=snippet&mine=true",
                                  headers={"Authorization": f"Bearer {tok}"}, timeout=60)
                 items = r.json().get("items", []) if r.ok else []
-                print(f"[{ch}] OK -> channel: {items[0]['snippet']['title'] if items else '(read not permitted with upload-only scope, token works)'}")
+                print(f"::notice::[{ch}] token OK")
             else:
-                print(f"[{ch}] secret {env} not set")
+                print(f"::notice::[{ch}] secret {env} not set yet")
         return
     day = sys.argv[1]
     meta = json.load(open(f"scripts/{day}.json", encoding="utf-8"))
