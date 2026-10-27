@@ -34,6 +34,7 @@ jobs:
       - env:
           GH_TOKEN: ${{ github.token }}
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
         run: |
           printf '# Footage test\n@ young indian student studying laptop\nये एक test है जिसमें असली video footage दिखनी चाहिए।\n@ money coins saving\nपैसा बचाना एक आदत है।\n' > /tmp/ft.txt
           python make_video.py /tmp/ft.txt --test --font "$FONT" --brand "AI Hindi"

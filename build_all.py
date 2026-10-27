@@ -44,7 +44,7 @@ def thumb(lines, out, query=None):
     import tempfile
     d = tempfile.mkdtemp()
     make_bg(1280, 720, os.path.join(d, "bg.png"))
-    if query and os.environ.get("PEXELS_API_KEY"):
+    if query and (os.environ.get("PIXABAY_API_KEY") or os.environ.get("PEXELS_API_KEY")):
         try:
             import stock
             ph = stock.photo(query, os.path.join(d, "photo.jpg"))
@@ -102,7 +102,9 @@ def main():
         if os.path.exists(f"output/{day}_chapters.txt"):
             chapters = open(f"output/{day}_chapters.txt", encoding="utf-8").read()
         desc = meta.get("description", "").replace("{chapters}", chapters)
-        if os.environ.get("PEXELS_API_KEY"):
+        if os.environ.get("PIXABAY_API_KEY"):
+            desc += "\n\nStock footage: Pixabay"
+        elif os.environ.get("PEXELS_API_KEY"):
             desc += "\n\nStock footage: Pexels"
         open(f"output/{day}_description.txt", "w", encoding="utf-8").write(desc)
         files.append(f"output/{day}_description.txt")

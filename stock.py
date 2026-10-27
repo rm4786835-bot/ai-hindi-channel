@@ -1,8 +1,8 @@
-"""Free real-footage backgrounds from Pexels (free API, footage free for commercial use) + generated background music.
+"""Free real-footage backgrounds from Pixabay or Pexels (free APIs, footage free for commercial use) + generated background music.
 
 Script lines starting with "@ " set the English search words for the following sentences, e.g.
     @ young student studying laptop
-If PEXELS_API_KEY is not set, callers fall back to the plain background.
+If neither PIXABAY_API_KEY nor PEXELS_API_KEY is set, callers fall back to the plain background.
 """
 import json, math, os, random, struct, subprocess, sys, wave
 
@@ -17,8 +17,67 @@ def _run(cmd, cwd=None):
     return r.stdout
 
 
+def provider():
+    if os.environ.get("PIXABAY_API_KEY", "").strip():
+        return "pixabay"
+    if os.environ.get("PEXELS_API_KEY", "").strip():
+        return "pexels"
+    return None
+
+
 def enabled():
-    return bool(os.environ.get("PEXELS_API_KEY"))
+    return provider() is not None
+
+
+def _pixabay(path, params):
+    import requests
+    params = dict(params, key=os.environ["PIXABAY_API_KEY"].strip(), safesearch="true")
+    params["q"] = params.get("q", "")[:95]
+    for attempt in range(3):
+        try:
+            r = requests.get("https://pixabay.com/api/" + path, params=params, timeout=30)
+            if r.status_code == 200:
+                return r.json()
+            print(f"pixabay {r.status_code}: {r.text[:200]}")
+        except Exception as e:
+            print("pixabay error:", e)
+    return {}
+
+
+def _video_candidates(q, portrait, used):
+    """Returns [(id, url)] of suitable clips for a search phrase from the active provider."""
+    out = []
+    if provider() == "pixabay":
+        data = _pixabay("videos/", {"q": q, "per_page": 30, "video_type": "film"})
+        for v in data.get("hits", []):
+            if v["id"] in used or v.get("duration", 0) < 4:
+                continue
+            best = None
+            for size in ("large", "medium", "small"):
+                f = (v.get("videos") or {}).get(size) or {}
+                if not f.get("url") or not f.get("width"):
+                    continue
+                side = f["width"] if portrait else f["height"]
+                if 700 <= side <= 2200 and (best is None or abs(side - 1080) < abs(best[0] - 1080)):
+                    best = (side, f["url"])
+            if best:
+                out.append((v["id"], best[1]))
+    else:
+        data = _get("/videos/search", {"query": q, "per_page": 20, "size": "medium",
+                                      "orientation": "portrait" if portrait else "landscape"})
+        for v in data.get("videos", []):
+            if v["id"] in used or v.get("duration", 0) < 4:
+                continue
+            best = None
+            for f in v.get("video_files", []):
+                if f.get("file_type") != "video/mp4" or not f.get("width") or not f.get("height"):
+                    continue
+                side = f["width"] if portrait else f["height"]
+                if 700 <= side <= 1920 and (best is None or abs(side - 1080) < abs(best[0] - 1080)):
+                    best = (side, f["link"])
+            if best:
+                out.append((v["id"], best[1]))
+    return out
 
 
 def _get(path, params):
@@ -63,20 +122,7 @@ class ClipPool:
             files = [("test", i) for i in range(6)]
         else:
             for q in (query, " ".join(query.split()[:2]), query.split()[0] if query.split() else "city"):
-                data = _get("/videos/search", {"query": q, "per_page": 20, "size": "medium",
-                                              "orientation": "portrait" if self.portrait else "landscape"})
-                for v in data.get("videos", []):
-                    if v["id"] in self.used or v.get("duration", 0) < 4:
-                        continue
-                    best = None
-                    for f in v.get("video_files", []):
-                        if f.get("file_type") != "video/mp4" or not f.get("width") or not f.get("height"):
-                            continue
-                        side = f["width"] if self.portrait else f["height"]
-                        if 700 <= side <= 1920 and (best is None or abs(side - 1080) < abs(best[0] - 1080)):
-                            best = (side, f["link"])
-                    if best:
-                        files.append((v["id"], best[1]))
+                files += [f for f in _video_candidates(q, self.portrait, self.used) if f not in files]
                 if len(files) >= 4:
                     break
             random.Random(query).shuffle(files)
@@ -170,6 +216,13 @@ def make_music(out, seed=0, seconds=16.0):
 
 
 def photo(query, out, landscape=True):
+    if provider() == "pixabay":
+        hits = _pixabay("", {"q": query, "image_type": "photo", "per_page": 20,
+                             "orientation": "horizontal" if landscape else "vertical"}).get("hits", [])
+        if not hits:
+            return None
+        p = hits[random.Random(query).randrange(min(len(hits), 8))]
+        return _download(p.get("largeImageURL") or p["webformatURL"], out)
     data = _get("/v1/search", {"query": query, "per_page": 10, "orientation": "landscape" if landscape else "portrait"})
     photos = data.get("photos", [])
     if not photos:
