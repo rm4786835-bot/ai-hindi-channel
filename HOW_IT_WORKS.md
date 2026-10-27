@@ -22,3 +22,8 @@ If the PIXABAY_API_KEY (preferred) or PEXELS_API_KEY secret exists, every video 
 In scripts put a line `@ english search words` before sentences to choose the footage (e.g. `@ indian student studying laptop`,
 `@ office team meeting`, `@ rupee notes counting`). Use concrete, visual English words (2–5 words), change it every 1–3 sentences
 so scenes follow the narration. Optional json keys: "stock_default" (fallback search), "thumb_query" (photo behind the thumbnail text).
+
+## Story films (Money channel, every Wednesday and Sunday)
+On Wednesdays and Sundays the money long video is a "कहानी फिल्म": a 15–20 minute fictional Indian family/life story (about 2500–3200 spoken words)
+whose ending teaches a money lesson. json gets "voice": "hi-IN-MadhurNeural" (male storyteller) and "story": true; the Short is a teaser of the story.
+Footage lines follow the mood and setting of each scene (village, rain, hospital, office, family dinner). Add "यह कहानी काल्पनिक है" in description.

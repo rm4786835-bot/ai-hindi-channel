@@ -89,7 +89,7 @@ def main():
         extra = ["--font", FONT, "--default-query", dq] + (["--test"] if TEST else []) + (["--brand", meta["brand"]] if meta.get("brand") else [])
         files = []
         if os.path.exists(f"scripts/{day}.txt"):
-            sh([sys.executable, "make_video.py", f"scripts/{day}.txt"] + extra)
+            sh([sys.executable, "make_video.py", f"scripts/{day}.txt"] + extra + (["--voice", meta["voice"]] if meta.get("voice") else []))
             files.append(f"output/{day}.mp4")
         if os.path.exists(f"scripts/{day}_short.txt"):
             sh([sys.executable, "make_video.py", f"scripts/{day}_short.txt", "--short"] + extra)
