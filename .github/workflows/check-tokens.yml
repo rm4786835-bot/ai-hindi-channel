@@ -16,4 +16,5 @@ jobs:
           YT_TOKEN_TECH: ${{ secrets.YT_TOKEN_TECH }}
           YT_TOKEN_ENGLISH: ${{ secrets.YT_TOKEN_ENGLISH }}
           YT_TOKEN_MONEY: ${{ secrets.YT_TOKEN_MONEY }}
+          YT_TOKEN_ACTION: ${{ secrets.YT_TOKEN_ACTION }}
         run: python upload_youtube.py --check

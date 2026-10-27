@@ -5,6 +5,7 @@
 | Tech + AI (rm4786835) | dayNN | 2026-10-25 | tech | AI Hindi | 18:00 IST | 19:00 IST |
 | English (mouryarahul37, "the end of life") | engNN | 2026-10-26 | english | Roz Ki English | 08:00 IST | 13:00 IST |
 | Money + Mind (rm0199482) | moneyNN | 2026-10-26 | money | Paisa Psychology | 20:00 IST | 21:00 IST |
+| Action stories (new 4th channel) | actNN (NN = 01, 02, … per episode) | first episode once YT_TOKEN_ACTION exists | action | Action Kahani | 21:30 IST (Mon/Wed/Fri) | 22:30 IST |
 
 Plans: plan.json (tech, long only on days that have "long"), plan_english.json (long + short every day), plan_money.json (long + short every day).
 
@@ -28,3 +29,11 @@ Every day the money long video is a "कहानी फिल्म": a 12–16
 that teaches that day's plan_money.json topic through the characters' lives. json gets "voice": "hi-IN-MadhurNeural" (male storyteller)
 and "story": true; the Short is a teaser of the story's most gripping moment. Footage lines follow each scene's mood and setting
 (village, rain, hospital, office, family dinner). Description says "यह कहानी काल्पनिक है" and lists the money lesson.
+
+## Action story films (4th channel, Mon/Wed/Fri)
+Original survival / battle-royale-style action thrillers (island, 100 strangers, only one survives; betrayal, alliances, twist after twist).
+15–20 minutes (2500–3200 words), male storyteller voice hi-IN-MadhurNeural, json "channel": "action", "brand": "Action Kahani", "voice", "story": true.
+NEVER use the names, logos, maps, weapons names, characters or footage of BGMI/PUBG/Free Fire or any real game, film or brand — fully original
+world and characters. No gore or glorified real-world violence; keep it cinematic and suitable for a general audience (no graphic injury detail).
+Footage "@" lines: forest night, soldiers silhouette, helicopter, explosion distant, rain storm, abandoned building, running feet, sunrise.
+Description: "यह कहानी काल्पनिक है". Episodes may continue a story arc ("भाग 1, भाग 2") to bring viewers back.

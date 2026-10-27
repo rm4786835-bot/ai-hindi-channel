@@ -12,8 +12,8 @@ If a publish time is in the future the video is uploaded private and YouTube mak
 import datetime as dt, json, os, sys, time
 import requests
 
-TOKEN_ENV = {"tech": "YT_TOKEN_TECH", "english": "YT_TOKEN_ENGLISH", "money": "YT_TOKEN_MONEY"}
-CATEGORY = {"tech": "28", "english": "27", "money": "27"}  # 28 Science & Tech, 27 Education
+TOKEN_ENV = {"tech": "YT_TOKEN_TECH", "english": "YT_TOKEN_ENGLISH", "money": "YT_TOKEN_MONEY", "action": "YT_TOKEN_ACTION"}
+CATEGORY = {"tech": "28", "english": "27", "money": "27", "action": "24"}  # 24 Entertainment  # 28 Science & Tech, 27 Education
 DONE_DIR = "uploaded"
 
 

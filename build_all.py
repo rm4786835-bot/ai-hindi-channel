@@ -6,7 +6,7 @@ import glob, json, os, subprocess, sys
 FONT = os.environ.get("FONT", "Noto Sans Devanagari")
 REPO = os.environ.get("GITHUB_REPOSITORY", "")
 TEST = "--test" in sys.argv
-DEFAULT_QUERY = {"tech": "technology laptop", "english": "people talking conversation", "money": "money finance"}
+DEFAULT_QUERY = {"tech": "technology laptop", "english": "people talking conversation", "money": "money finance", "action": "dark forest night soldier"}
 NO_RELEASE = "--no-release" in sys.argv
 
 
