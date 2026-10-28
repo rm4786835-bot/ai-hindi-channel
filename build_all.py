@@ -90,6 +90,8 @@ def main():
         files = []
         if os.path.exists(f"scripts/{day}.txt"):
             sh([sys.executable, "make_video.py", f"scripts/{day}.txt"] + extra + (["--voice", meta["voice"]] if meta.get("voice") else []))
+            import fit_length
+            fit_length.fit(f"output/{day}.mp4")
             files.append(f"output/{day}.mp4")
         if os.path.exists(f"scripts/{day}_short.txt"):
             sh([sys.executable, "make_video.py", f"scripts/{day}_short.txt", "--short"] + extra)

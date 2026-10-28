@@ -1,0 +1,32 @@
+name: Re-upload long videos
+on:
+  push:
+    branches: [main]
+    paths: [".github/reupload.txt"]
+permissions:
+  contents: write
+jobs:
+  reupload:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install FFmpeg (static)
+        timeout-minutes: 8
+        run: |
+          curl -sSfL --retry 4 -o /tmp/ff.tar.xz https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-master-latest-linux64-gpl.tar.xz
+          tar -xf /tmp/ff.tar.xz -C /tmp
+          sudo cp /tmp/ffmpeg-master-latest-linux64-gpl/bin/ffmpeg /tmp/ffmpeg-master-latest-linux64-gpl/bin/ffprobe /usr/local/bin/
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - env:
+          GH_TOKEN: ${{ github.token }}
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_TOKEN_TECH: ${{ secrets.YT_TOKEN_TECH }}
+          YT_TOKEN_ENGLISH: ${{ secrets.YT_TOKEN_ENGLISH }}
+          YT_TOKEN_MONEY: ${{ secrets.YT_TOKEN_MONEY }}
+          YT_TOKEN_ACTION: ${{ secrets.YT_TOKEN_ACTION }}
+        run: python reupload.py $(cat .github/reupload.txt)
