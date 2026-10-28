@@ -1,8 +1,13 @@
 """Re-upload the LONG video of given ids (e.g. after 'Video too long'). Usage: python reupload.py money02 money03"""
 import datetime as dt, json, os, subprocess, sys
-import fit_length, upload_youtube as U
+args = sys.argv[1:]
+if "full" in args:  # channel is phone-verified: keep the original length
+    os.environ["MAX_VIDEO_SECONDS"] = "3600"
+    args = [a for a in args if a != "full"]
+import importlib, fit_length, upload_youtube as U
+importlib.reload(fit_length)
 
-for day in sys.argv[1:]:
+for day in args:
     meta = json.load(open(f"scripts/{day}.json", encoding="utf-8"))
     os.makedirs("output", exist_ok=True)
     subprocess.run(["gh", "release", "download", day, "-D", "output", "--clobber", "-p", f"{day}.mp4",
