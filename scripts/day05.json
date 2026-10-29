@@ -1,0 +1,32 @@
+{
+ "day": "day05",
+ "channel": "tech",
+ "brand": "AI Hindi",
+ "stock_default": "computer technology data screen",
+ "thumb_query": "artificial intelligence robot laptop",
+ "publish_long": "2026-10-29T18:00:00+05:30",
+ "publish_short": "2026-10-29T19:00:00+05:30",
+ "title": "AI कैसे काम करता है? | 10 मिनट में पूरी कहानी, Simple Hindi में",
+ "short_title": "AI ‘सोचता’ कैसे है? 40 सेकंड में #shorts",
+ "thumb": [
+  "AI कैसे सोचता है?",
+  "पूरी कहानी Simple Hindi में"
+ ],
+ "description": "ChatGPT, Gemini और Claude जैसे AI chatbots असल में कैसे काम करते हैं? Data, training, parameters, tokens और अगला शब्द पहचानने का खेल, सब कुछ बिना मुश्किल गणित के, simple Hindi में।\n\nChapters:\n{chapters}\nइस video के बाद आप समझ जाएँगे कि AI जवाब कैसे बनाता है, वो भरोसे से गलत क्यों बोल सकता है (hallucination), और उसे समझदारी से कैसे use करें। साथ में पाँच कदम का action plan।\n\nध्यान रखें: AI की जानकारी हमेशा check करें, और उसमें अपनी निजी जानकारी कभी न डालें।\n\nComment में बताइए आप AI से सबसे ज़्यादा क्या काम करवाते हैं!\n\n#AI #HowAIWorks #ChatGPT #ArtificialIntelligence #AIHindi",
+ "short_description": "AI सोचता नहीं, अगला शब्द अंदाज़ा लगाता है। इसलिए facts हमेशा check कीजिए।\n\n#shorts #AI #ChatGPT #AIHindi",
+ "tags": [
+  "AI kaise kaam karta hai",
+  "how AI works Hindi",
+  "artificial intelligence Hindi",
+  "ChatGPT kaise kaam karta hai",
+  "LLM Hindi",
+  "machine learning Hindi",
+  "AI explained Hindi",
+  "AI hallucination",
+  "tokens kya hote hai",
+  "AI for beginners Hindi",
+  "Gemini AI Hindi",
+  "Claude AI Hindi",
+  "AI Hindi"
+ ]
+}

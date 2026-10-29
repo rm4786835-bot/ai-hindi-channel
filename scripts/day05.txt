@@ -1,0 +1,136 @@
+# AI सच में सोचता है क्या?
+@ young man using phone chatbot
+आप phone पर AI से एक सवाल पूछते हैं। और दो सेकंड में वो पूरा जवाब लिख देता है। Essay, email, code, सब कुछ।
+@ student surprised looking laptop
+पर क्या आपने कभी सोचा है, ये मशीन ये सब करती कैसे है? क्या इसके अंदर कोई दिमाग बैठा है?
+@ teacher explaining whiteboard
+आज की video के end तक आप AI की पूरी कहानी समझ जाएँगे। Data से training तक, और training से जवाब तक। बिल्कुल simple Hindi में, बिना किसी मुश्किल गणित के।
+@ friends talking cafe
+और सबसे ज़रूरी बात, आप ये भी जान जाएँगे कि AI कब गलत होता है, और उसे समझदारी से कैसे use करना है।
+
+# ये जानना ज़रूरी क्यों है
+@ indian office workers computers
+आज AI school, college, office, हर जगह पहुँच चुका है। Notes बनाना हो, resume लिखना हो, या कोई नया topic समझना हो।
+@ confused man reading phone
+पर जो इंसान ये नहीं जानता कि AI कैसे काम करता है, वो दो में से एक गलती करता है।
+@ man trusting phone blindly
+पहली गलती, वो AI की हर बात को सच मान लेता है। और गलत जानकारी assignment या interview तक पहुँच जाती है।
+@ man ignoring computer frustrated
+दूसरी गलती, वो AI से डरकर उसे use ही नहीं करता। और बाकी लोग उससे आगे निकल जाते हैं।
+@ young woman confident laptop
+जो इंसान इसकी असलियत समझता है, वही इसे सही औज़ार की तरह use कर पाता है। तो चलिए, शुरू से शुरू करते हैं।
+
+# पहला कदम: पुराने computer और AI में फर्क
+@ calculator buttons closeup
+एक calculator सोचिए। आप दो और दो डालते हैं, वो चार बताता है। क्योंकि किसी इंसान ने उसके अंदर जोड़ने का साफ rule लिख दिया है।
+@ programmer writing code screen
+पुराने software ऐसे ही बनते थे। हर काम के लिए इंसान rule लिखता था। अगर ऐसा हो, तो ये करो।
+@ cat photo phone screen
+पर अब सोचिए, एक photo में बिल्ली है या कुत्ता, इसका rule आप कैसे लिखेंगे? कान कैसे हैं? मूँछ कैसी है? लाखों तरह की बिल्लियाँ हैं।
+@ child looking picture book
+यहाँ AI का तरीका अलग है। उसे rule नहीं दिए जाते। उसे बहुत सारे examples दिखाए जाते हैं। और वो खुद pattern पकड़ना सीखता है।
+@ small child learning mother
+बिल्कुल वैसे, जैसे एक छोटा बच्चा सीखता है। माँ बार बार बिल्ली दिखाकर कहती है, ये बिल्ली है। कुछ समय बाद बच्चा नई बिल्ली भी पहचान लेता है। इसे Machine Learning कहते हैं।
+
+# दूसरा कदम: Data, AI का खाना
+@ library books shelves
+AI को सीखने के लिए चाहिए data। ChatGPT, Gemini या Claude जैसे chatbots के पीछे जो models हैं, उन्हें बहुत बड़ी मात्रा में text पर train किया जाता है।
+@ person reading articles laptop
+इसमें किताबें, articles, websites और बहुत तरह की लिखी हुई चीज़ें होती हैं। इतना text कि एक इंसान पूरी ज़िंदगी में भी नहीं पढ़ सकता।
+@ kitchen cooking ingredients
+Data को AI का खाना समझिए। खाना अच्छा हो, तो सेहत अच्छी। Data में गलतियाँ या एकतरफ़ा बातें हों, तो AI के जवाब में भी वो गलतियाँ आ सकती हैं।
+@ students group study table
+इसलिए AI की समझ उतनी ही अच्छी होती है, जितना अच्छा उसका data और उसकी training।
+
+# तीसरा कदम: Training, अगला शब्द पहचानने का खेल
+@ man playing word puzzle
+अब असली जादू समझिए। ये chatbots जिन models पर चलते हैं, उन्हें Large Language Model या LLM कहते हैं।
+@ notebook sentence writing
+इनकी training एक बहुत सीधे खेल से शुरू होती है। एक sentence का आधा हिस्सा दिखाओ, और पूछो, अगला शब्द क्या होगा?
+@ indian tea cup morning
+जैसे, सुबह सुबह एक कप गरम। आप तुरंत सोचेंगे, चाय। क्योंकि आपने ये बात हज़ारों बार सुनी है।
+@ computer screen data flowing
+Model भी अरबों बार ये खेल खेलता है। हर बार अंदाज़ा लगाता है। गलत हो, तो अपने अंदर के छोटे छोटे settings थोड़ा बदलता है। इन settings को parameters कहते हैं।
+@ radio knobs turning hands
+इन्हें radio के knobs की तरह समझिए। बहुत सारे knobs, जिन्हें धीरे धीरे घुमाकर सही आवाज़ तक पहुँचते हैं। बड़े models में ऐसे अरबों parameters होते हैं।
+@ server room lights
+ये training बहुत ताकतवर computers पर होती है, जिनमें खास chips लगी होती हैं, जिन्हें GPU कहते हैं। इसमें बहुत समय, बिजली और पैसा लगता है।
+
+# चौथा कदम: Model बात करना कैसे सीखता है
+@ teacher correcting student notebook
+सिर्फ अगला शब्द पहचानना काफ़ी नहीं। ऐसा model कुछ भी लिख देगा। इसलिए दूसरे चरण में उसे सिखाया जाता है कि सवाल का जवाब कैसे दें।
+@ people reviewing documents office
+इसमें इंसान अच्छे और बुरे जवाबों के examples देते हैं। कौन सा जवाब मददगार है, कौन सा गलत या नुकसानदेह। Model इन्हीं से सीखता है कि कैसा जवाब पसंद किया जाता है।
+@ young man chatting laptop smiling
+इसी वजह से आज के chatbots इंसान की तरह बात करते लगते हैं। पर अंदर से वो अब भी pattern के हिसाब से एक एक शब्द जोड़ रहे होते हैं।
+
+# पाँचवाँ कदम: आपके सवाल पर जवाब कैसे बनता है
+@ hand typing phone keyboard
+अब आपने लिखा, मुझे दिल्ली में एक दिन घूमने का plan बताओ।
+@ puzzle pieces table
+Model पहले आपके text को छोटे छोटे टुकड़ों में तोड़ता है। इन्हें tokens कहते हैं। एक token एक शब्द भी हो सकता है, या शब्द का एक हिस्सा।
+@ man thinking window
+फिर वो देखता है कि कौन सा शब्द किस शब्द से जुड़ा है। दिल्ली, घूमना, एक दिन। इस तरह वो आपकी बात का मतलब पकड़ता है।
+@ typing text appearing screen
+और फिर जवाब का पहला token चुनता है। फिर दूसरा। फिर तीसरा। इसीलिए जवाब screen पर एक एक शब्द करके आता हुआ दिखता है।
+@ delhi india gate tourists
+हर बार वो सबसे सही लगने वाला अगला शब्द चुनता है। उसे ये याद नहीं होता कि India Gate कहाँ है, जैसे किसी किताब के पन्ने में। वो patterns से जवाब बनाता है।
+
+# तीन असली examples
+@ indian student writing notes
+पहला example। पटना की प्रिया का कल biology का test है। वो AI से कहती है, photosynthesis को दस lines में आसान भाषा में समझाओ। AI ने ये topic बहुत बार पढ़ा है, तो जवाब अच्छा और साफ आता है। प्रिया अपनी book से मिलाकर notes पक्के कर लेती है।
+@ young man laptop project
+दूसरा example। इंदौर का अमन अपने project report में AI से एक research paper का नाम और साल पूछता है। AI पूरे भरोसे से एक नाम बता देता है। पर जब अमन उसे search करता है, तो ऐसा कोई paper मिलता ही नहीं।
+@ man searching internet surprised
+इसे hallucination कहते हैं। AI को सच और झूठ का पता नहीं होता। उसे बस वो शब्द पता होते हैं, जो सही लगते हैं। इसलिए नाम, तारीख और numbers हमेशा check कीजिए।
+@ shop owner smartphone
+तीसरा example। जयपुर में कपड़ों की दुकान चलाने वाले रमेश जी AI से कहते हैं, दिवाली sale के लिए ग्राहकों को भेजने वाला एक छोटा message लिखो। दो मिनट में तीन अलग message तैयार। रमेश जी अपनी दुकान का नाम और सही discount डालकर भेज देते हैं।
+@ happy customers shop
+यहाँ AI ने लिखने का काम किया, पर सही जानकारी रमेश जी ने खुद डाली। यही सही तरीका है।
+
+# लोग कौन सी गलतियाँ करते हैं
+@ man copying homework
+पहली गलती। AI के जवाब को बिना पढ़े copy paste करना। पहले खुद पढ़िए, समझिए, और जहाँ ज़रूरी हो वहाँ बदलिए।
+@ woman worried phone privacy
+दूसरी गलती। AI में अपना Aadhaar number, bank details, password या OTP डालना। ऐसी निजी जानकारी कभी मत डालिए।
+@ person short message phone
+तीसरी गलती। एक लाइन का अधूरा सवाल पूछना, और फिर कहना कि AI बेकार है। जितनी साफ बात आप लिखेंगे, उतना अच्छा जवाब आएगा।
+@ news paper reading man
+चौथी गलती। ये मान लेना कि AI को आज की हर खबर पता है। हर model की जानकारी एक तारीख तक के data पर बनी होती है। कुछ tools internet search भी करते हैं, पर तब भी source खुद देखना अच्छा है।
+
+# आज से शुरू करने का plan
+@ young man notebook planning
+अब एक आसान plan। पहला कदम, कोई भी एक free AI chatbot खोलिए।
+@ typing laptop focused
+दूसरा कदम, उससे वो topic समझाने को कहिए, जो आपको पहले से थोड़ा आता है। ताकि आप उसकी गलती पकड़ सकें।
+@ hand writing checklist
+तीसरा कदम, अपने सवाल में तीन चीज़ें लिखिए। आप कौन हैं, क्या चाहिए, और किस format में चाहिए। जैसे, मैं class दस का student हूँ, मुझे ये topic पाँच points में समझाओ।
+@ books and laptop desk
+चौथा कदम, जवाब में से एक fact चुनिए, और उसे अपनी किताब या किसी भरोसेमंद website से मिलाइए।
+@ girl thinking smiling
+पाँचवाँ कदम, AI से पूछिए, इस जवाब में क्या गलत हो सकता है? आप देखेंगे, कई बार वो खुद अपनी कमी बता देता है।
+
+# Video रोकिए और सोचिए
+@ man pausing video phone
+अब एक छोटा quiz। Video रोकिए और सोचिए।
+@ question mark notebook
+AI ने आपको एक किताब का नाम और उसके लेखक बताए। आप सबसे पहले क्या करेंगे? उसे सीधे assignment में लिखेंगे, या पहले search करके check करेंगे?
+@ student smiling thumbs up
+सही जवाब है, पहले check करना। क्योंकि अब आप जानते हैं कि AI अगला सही लगने वाला शब्द चुनता है, सच की गारंटी नहीं देता।
+
+# Recap और अगली video
+@ notebook summary points
+AI rules से नहीं, examples से सीखता है।
+@ library books shelves
+उसकी समझ उसके data जितनी ही अच्छी होती है।
+@ typing text appearing screen
+LLM अगला शब्द अंदाज़ा लगाकर जवाब बनाता है।
+@ man searching internet surprised
+वो भरोसे से गलत भी बोल सकता है, इसलिए facts check कीजिए।
+@ young woman confident laptop
+साफ सवाल पूछिए, और निजी जानकारी कभी मत डालिए।
+
+@ young man smiling camera
+अगर आज AI की कहानी समझ आई, तो video को like कीजिए और AI Hindi को subscribe कीजिए।
+@ person writing prompt laptop
+अगली videos में हम सीखेंगे कि अच्छा prompt कैसे लिखते हैं, ताकि AI से हर बार काम का जवाब मिले। Comment में बताइए, आप AI से सबसे ज़्यादा क्या काम करवाते हैं।
