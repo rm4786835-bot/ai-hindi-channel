@@ -1,0 +1,15 @@
+# AI का जवाब बेकार आता है?
+@ young man frustrated laptop
+AI से पूछा, और जवाब बिल्कुल बेकार आया? गलती AI की नहीं, prompt की है। याद रखिए एक rule। Role, Task, Format।
+# Role
+@ teacher explaining student
+पहले AI को बताइए वो कौन है। जैसे, तुम एक अनुभवी Science teacher हो।
+# Task
+@ indian student studying laptop
+फिर साफ़ बताइए काम क्या है। Class दस के बच्चे को photosynthesis आसान भाषा में समझाओ।
+# Format
+@ notebook bullet points writing
+अब बताइए जवाब किस रूप में चाहिए। पाँच छोटे points में, और आख़िर में दो quiz सवाल।
+# फर्क देखिए
+@ happy student phone smiling
+बस इतना जोड़ने से जवाब साफ़, छोटा और काम का बन जाता है। फिर भी AI की बातें एक बार किताब से ज़रूर मिलाइए। ऐसी AI tricks के लिए subscribe कीजिए।
