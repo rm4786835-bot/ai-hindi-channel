@@ -99,12 +99,17 @@ def main():
         vid = upload(tok, f"output/{day}.mp4", meta["title"], desc, meta.get("tags", []), cat, meta.get("publish_long"))
         if os.path.exists(f"output/{day}_thumb.jpg"):
             set_thumb(tok, vid, f"output/{day}_thumb.jpg")
-    if os.path.exists(f"output/{day}_short.mp4"):
-        title = meta.get("short_title") or meta["title"]
+    shorts = [("", meta.get("short_title") or meta["title"], meta.get("short_description", ""), meta.get("publish_short"))]
+    for i, ex in enumerate(meta.get("extra_shorts", []), start=2):
+        shorts.append((str(i), ex.get("title") or meta.get("short_title") or meta["title"],
+                       ex.get("description", meta.get("short_description", "")), ex.get("publish")))
+    for suffix, title, desc, pub in shorts:
+        path = f"output/{day}_short{suffix}.mp4"
+        if not os.path.exists(path):
+            continue
         if "#shorts" not in title.lower():
             title = (title[:90] + " #shorts")
-        upload(tok, f"output/{day}_short.mp4", title, meta.get("short_description", ""), meta.get("tags", []), cat,
-               meta.get("publish_short"))
+        upload(tok, path, title, desc, meta.get("tags", []), cat, pub)
 
 
 if __name__ == "__main__":

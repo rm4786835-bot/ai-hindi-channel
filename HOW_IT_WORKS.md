@@ -37,3 +37,9 @@ NEVER use the names, logos, maps, weapons names, characters or footage of BGMI/P
 world and characters. No gore or glorified real-world violence; keep it cinematic and suitable for a general audience (no graphic injury detail).
 Footage "@" lines: forest night, soldiers silhouette, helicopter, explosion distant, rain storm, abandoned building, running feet, sunrise.
 Description: "यह कहानी काल्पनिक है". Episodes may continue a story arc ("भाग 1, भाग 2") to bring viewers back.
+
+## Growth mode: 3 Shorts per id
+Besides <id>_short.txt you can add <id>_short2.txt and <id>_short3.txt. Their titles/descriptions/publish times go in json
+"extra_shorts": [{"title": ..., "description": ..., "publish": ISO}, {...}] (index 0 → _short2, 1 → _short3). Shorts are rendered at +12% speed.
+Viral Short rules: 25–40 seconds (60–90 words), the first sentence is the hook and must create curiosity or emotion within 2 seconds,
+one idea only, no intro/greeting, end with a line that loops back to the start or a cliffhanger ("भाग 2 में…").

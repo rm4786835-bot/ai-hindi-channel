@@ -127,9 +127,12 @@ def main():
     ap.add_argument("--brand", default=None, help="watermark text (channel name)")
     ap.add_argument("--default-query", default="city life", help="stock footage search words when the script has no @ line")
     ap.add_argument("--plain", action="store_true", help="force the plain gradient background")
+    ap.add_argument("--rate", default=None, help="speech speed, e.g. +12%%")
     ap.add_argument("--voice", default=None, help="Hindi narrator voice, e.g. hi-IN-MadhurNeural for stories")
     a = ap.parse_args()
-    global CHANNEL, VOICE
+    global CHANNEL, VOICE, RATE
+    if a.rate:
+        RATE = a.rate
     if a.voice:
         VOICE = a.voice
     if a.brand:

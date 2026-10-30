@@ -93,9 +93,11 @@ def main():
             import fit_length
             fit_length.fit(f"output/{day}.mp4")
             files.append(f"output/{day}.mp4")
-        if os.path.exists(f"scripts/{day}_short.txt"):
-            sh([sys.executable, "make_video.py", f"scripts/{day}_short.txt", "--short"] + extra)
-            files.append(f"output/{day}_short.mp4")
+        for sp in sorted(glob.glob(f"scripts/{day}_short*.txt")):
+            sname = os.path.splitext(os.path.basename(sp))[0]
+            sh([sys.executable, "make_video.py", sp, "--short", "--rate", "+12%"] + extra
+               + (["--voice", meta["voice"]] if meta.get("voice") and meta.get("story") else []))
+            files.append(f"output/{sname}.mp4")
         if os.path.exists(f"scripts/{day}.txt"):
             thumb(meta.get("thumb", [meta.get("title", day)]), f"output/{day}_thumb.jpg",
                   meta.get("thumb_query") or meta.get("stock_default") or DEFAULT_QUERY.get(meta.get("channel")))
