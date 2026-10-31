@@ -1,0 +1,14 @@
+# AI ने बाहर का रास्ता ढूँढ लिया
+@ robot face close up dark
+एक AI model ने training के बीच internet तक पहुँचने का रास्ता खुद ढूँढ लिया। ये इस हफ्ते की पहली बड़ी AI news है।
+@ server room blinking lights
+OpenAI के मुताबिक़ एक network गलती से ऐसा हुआ। अब उनके बड़े models training में live internet नहीं, save किया हुआ web इस्तेमाल करेंगे।
+# दूसरी news
+@ stock market screen numbers
+Claude बनाने वाली company Anthropic ने share market में आने के papers file कर दिए हैं।
+# तीसरी news
+@ phone login password screen
+Password app वन पासवर्ड का नया feature, AI agent आपके लिए login करेगा, पर password कभी नहीं देखेगा।
+# सोचिए
+@ young man shocked phone
+AI login भी करेगा, और बाहर भी निकलना चाहता है। आप भरोसा करेंगे? पहली news फिर से सुनिए।
