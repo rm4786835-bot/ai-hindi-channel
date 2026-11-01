@@ -1,0 +1,168 @@
+# एक photo जो गाना गाती है
+@ old photo frame close up
+सोचिए, दीवार पर टँगी आपकी एक पुरानी photo अचानक होंठ हिलाकर गाना गाने लगे।
+@ surprised young woman phone
+और ये कोई film का special effect नहीं है। ये काम आज आपका phone कर सकता है।
+@ young man editing phone
+आज की video में मैं आपको step by step बताऊँगा कि अपनी photo से singing video कैसे बनती है, free में।
+@ person recording voice phone
+साथ में ये भी बताऊँगा कि गाना कहाँ से लाएँ, ताकि copyright की मुसीबत न आए।
+@ worried man looking phone
+और आख़िर में वो safety बातें, जो ज़्यादातर tutorial नहीं बताते। Video पूरा देखिए, क्योंकि गलत step पर आपका video हट भी सकता है।
+
+# ये सीखना काम का क्यों है
+@ friends laughing watching phone
+आज Reels और Shorts पर सबसे ज़्यादा share होने वाली चीज़ें वो हैं, जो लोगों को चौंका दें।
+@ grandmother smiling family
+जन्मदिन पर दादी की photo से उनका पसंदीदा भजन गवाना, शादी की anniversary पर मम्मी पापा की photo से उनका गाना। ऐसे videos दिल छू लेते हैं।
+@ young creator laptop desk
+और अगर आप creator बनना चाहते हैं, तो ये skill आपके content को बाकी लोगों से अलग कर देती है।
+@ student learning laptop night
+सबसे बड़ी बात, इसे सीखते हुए आप समझ जाते हैं कि AI videos बनते कैसे हैं। और यही समझ आपको नकली videos पहचानने में भी मदद करती है।
+
+# ये जादू असल में होता कैसे है
+@ face close up smiling
+पहले थोड़ा समझ लेते हैं कि पीछे क्या चल रहा है। इसे lip sync कहते हैं, यानी होंठों को आवाज़ के साथ मिलाना।
+@ sound wave screen
+AI पहले आपकी audio सुनता है। हर पल कौन सी आवाज़ निकल रही है, आ, ओ, म, प।
+@ mouth speaking close up
+फिर वो सीखे हुए लाखों चेहरों के हिसाब से अंदाज़ा लगाता है कि इस आवाज़ पर होंठ, गाल और आँखें कैसे हिलती हैं।
+@ computer screen face animation
+और फिर आपकी photo को हर frame में थोड़ा थोड़ा बदलकर एक video बना देता है। यानी photo असल में गा नहीं रही, AI हर पल एक नया चेहरा बना रहा है।
+@ man thinking idea
+इसीलिए photo और audio जितनी साफ़ होगी, result उतना ही असली लगेगा। ये बात याद रखिए, आगे हर step इसी पर टिका है।
+
+# Step एक: सही photo चुनिए
+@ portrait photo smiling woman
+पहला step है photo। सबसे अच्छी photo वो है, जिसमें चेहरा सामने की तरफ हो, और साफ़ दिख रहा हो।
+@ bright window light face
+रोशनी अच्छी हो, चेहरे पर परछाईं न हो, और मुँह के सामने हाथ, mic या चश्मे की चमक न हो।
+@ blurry photo phone screen
+धुँधली, बहुत दूर से ली गई, या side से ली गई photo में AI को होंठ ठीक से नहीं मिलते, और चेहरा अजीब तरह से टेढ़ा हो जाता है।
+@ young man selfie camera
+अगर आपके पास अच्छी photo नहीं है, तो खिड़की के पास खड़े होकर एक नई selfie ले लीजिए। सीधा देखिए, हल्का सा मुस्कुराइए, बस।
+@ old photograph scanning phone
+पुरानी printed photo है, तो उसे सीधा रखकर, बिना चमक के, phone से साफ़ खींच लीजिए।
+
+# Step दो: गाना कहाँ से लाएँ
+@ person singing into phone
+अब सबसे ज़रूरी सवाल। गाना कहाँ से लाएँ? यहाँ ज़्यादातर लोग गलती करते हैं।
+@ music headphones close up
+किसी film या famous singer का गाना उठाकर लगा दिया, तो YouTube या Instagram उस video पर copyright claim डाल सकता है। Video की आवाज़ बंद हो सकती है, या video हट भी सकता है।
+@ man recording voice phone room
+सबसे safe और free तरीका है, अपनी खुद की आवाज़। Phone का voice recorder खोलिए, और एक छोटा सा गाना, कविता या लोरी खुद गाइए।
+@ quiet room recording microphone
+पंखा बंद कीजिए, शांत कमरे में phone को मुँह से एक हाथ की दूरी पर रखिए। तीस से पचास सेकंड काफ़ी हैं।
+@ people listening music app
+दूसरा रास्ता है AI से गाना बनाना। Suno जैसे apps में आप lyrics लिखकर गाना बनवा सकते हैं, और free account में रोज़ कुछ credits मिलते हैं।
+@ man reading phone carefully
+पर ध्यान दीजिए, अब free account में गाने download करने की सुविधा बहुत सीमित कर दी गई है, और free में बने गानों को कमाई के लिए इस्तेमाल करने की इजाज़त नहीं है। इसलिए शुरुआत अपनी आवाज़ से ही कीजिए।
+@ grandfather singing happy
+और सच कहूँ, आपकी अपनी आवाज़ वाला video लोगों को ज़्यादा पसंद आता है, क्योंकि उसमें अपनापन होता है।
+
+# Step तीन: photo को गवाइए
+@ young woman using laptop website
+अब तीसरा step। आपको एक lip sync tool चाहिए, जो photo और audio लेकर video बना दे।
+@ phone browser website screen
+ऐसे कई tools हैं। उदाहरण के लिए Hedra जैसे tools में free plan पर थोड़े credits मिलते हैं, जिनसे छोटे clips बन जाते हैं। Free video पर उनका watermark आता है, जो ठीक है।
+@ hand tapping phone screen
+तरीका लगभग हर tool में एक जैसा है। Account बनाइए, photo upload कीजिए, फिर अपनी audio file upload कीजिए।
+@ loading screen waiting
+फिर generate दबाइए, और एक दो मिनट रुकिए। AI आपकी photo को audio के साथ मिलाकर video बना देगा।
+@ man watching phone smiling
+बन जाए, तो पहले पूरा देखिए। होंठ आवाज़ से मिल रहे हैं? आँखें natural झपक रही हैं? कहीं चेहरा पिघलता तो नहीं दिख रहा?
+@ person deleting photo phone
+अगर result अजीब है, तो credits बर्बाद करने से पहले photo बदलिए। ज़्यादातर गड़बड़ी photo की वजह से ही होती है।
+@ phone screen app menu
+एक बात और। ये websites अपना design और free limit बदलती रहती हैं, इसलिए buttons के नाम थोड़े अलग दिख सकते हैं। पर तीन चीज़ें वही रहेंगी, photo, audio, generate।
+
+# Step चार: video को share लायक बनाइए
+@ video editing phone app
+अब इस clip को अपने phone के किसी भी free video editor में डालिए।
+@ subtitles text screen
+नीचे गाने के बोल text में लिख दीजिए। बहुत लोग बिना आवाज़ के video देखते हैं, और text उन्हें रोक लेता है।
+@ birthday cake family
+शुरुआत में एक line जोड़िए, जैसे, दादी के अस्सीवें जन्मदिन पर उनका पसंदीदा भजन।
+@ phone vertical video screen
+Reels और Shorts के लिए video को खड़ा, यानी vertical रखिए। और video छोटा रखिए, तीस से पचास सेकंड।
+@ person typing caption phone
+और caption में साफ़ लिखिए कि ये AI से बना है। ये ज़रूरी है, इसका कारण अभी बताता हूँ।
+
+# Result को असली जैसा बनाने की चार tricks
+@ man singing emotional close up
+पहली trick। गाते समय भाव डालिए। AI सिर्फ़ होंठ नहीं, आवाज़ के उतार चढ़ाव से चेहरे का expression भी बनाता है। सपाट आवाज़ में गाएँगे, तो चेहरा भी सपाट लगेगा।
+@ sound wave screen
+दूसरी trick। Audio की शुरुआत और आख़िर में आधा सेकंड की चुप्पी छोड़िए। इससे video अचानक शुरू या खत्म नहीं लगता।
+@ portrait plain background
+तीसरी trick। Photo में पीछे का background सादा हो, तो चेहरा ज़्यादा साफ़ उभरता है। भीड़ वाली photo में से सिर्फ़ एक चेहरा crop कर लीजिए।
+@ phone gallery crop photo
+Crop करते समय सिर और कंधे दोनों आने दीजिए। बहुत tight crop में ठोड़ी कट जाती है, और गाते हुए मुँह अजीब दिखता है।
+@ short clip timer phone
+चौथी trick। पहले दस सेकंड का छोटा test बनाइए। ठीक लगे, तभी पूरा गाना डालिए। इससे आपके free credits बचेंगे।
+@ young woman happy result phone
+ये छोटी छोटी बातें ही एक साधारण video और एक ऐसे video में फर्क करती हैं, जिसे लोग बार बार देखते हैं और आगे भेजते हैं।
+@ friends sharing phone laughing
+और अगर पहली बार में perfect न बने, तो परेशान मत होइए। दो तीन बार में आपको समझ आ जाएगा कि कौन सी photo और कैसी आवाज़ सबसे अच्छी चलती है।
+
+# तीन असली उदाहरण
+@ indian family celebration home
+पहला उदाहरण। लखनऊ की नेहा ने अपने दादा जी की पुरानी black and white photo ली, और अपनी आवाज़ में उनका पसंदीदा पुराना लोकगीत record किया। परिवार के group में भेजा, तो सब रो पड़े।
+@ young man video editing room
+दूसरा। पटना का रोहित एक छोटा creator है। उसने अपनी ही photo से अपनी लिखी rap की चार lines गवाईं, साथ में लिखा, AI से बनाया। Comments में लोग पूछने लगे, कैसे बनाया?
+@ teacher classroom smiling students
+तीसरा। जयपुर की एक teacher ने बच्चों के बनाए एक cartoon चित्र से पहाड़े वाला गाना गवाया। बच्चों ने वो पहाड़े पूरे हफ्ते गुनगुनाए।
+@ happy people watching phone together
+तीनों में एक बात common है। अपनी photo या परिवार की इजाज़त वाली photo, अपनी आवाज़, और एक सच्चा emotion।
+
+# आम गलतियाँ और safety
+@ angry man phone warning
+अब वो बात जो सबसे ज़रूरी है। किसी और की photo, बिना उसकी इजाज़त के, कभी मत गवाइए। खासकर किसी लड़की, किसी नेता या किसी celebrity की।
+@ courtroom gavel close up
+किसी को बदनाम करने, मज़ाक उड़ाने या धोखा देने वाला नकली video बनाना कानूनी मुसीबत में डाल सकता है।
+@ social media phone scrolling
+India के नए IT rules में platforms के लिए AI से बने content पर label लगाना ज़रूरी किया गया है। YouTube भी असली दिखने वाले AI content को upload करते समय बताने को कहता है। इसलिए हमेशा लिखिए, ये AI से बना है।
+@ copyright warning screen
+दूसरी गलती, film के गाने लगाना। तीसरी, धुँधली photo। चौथी, बहुत लंबा video, लोग बीच में छोड़ देते हैं।
+@ person reading terms phone
+पाँचवीं गलती, किसी भी अनजान app को अपनी gallery और contacts की पूरी permission दे देना। सिर्फ़ वही permission दीजिए जो ज़रूरी हो।
+@ man locking phone screen
+और याद रखिए, जो चीज़ आप अपनी photo से कर सकते हैं, वही कोई और आपकी photo से भी कर सकता है। इसलिए अपनी profile photo को public रखने से पहले एक बार सोचिए।
+
+# Action plan और एक quiz
+@ checklist notebook pen
+तो आज के लिए आपका action plan है, पाँच कदम।
+@ selfie window light
+एक, खिड़की की रोशनी में एक साफ़, सामने वाली photo लीजिए।
+@ recording voice phone
+दो, अपनी आवाज़ में तीस सेकंड का कोई गाना या कविता record कीजिए।
+@ laptop website upload
+तीन, किसी free lip sync tool में photo और audio डालकर video बनाइए।
+@ phone video editing text
+चार, नीचे बोल लिखिए और caption में AI से बना लिखिए।
+@ family group chat phone
+पाँच, पहले परिवार को भेजिए, उनकी reaction देखिए, फिर post कीजिए।
+
+@ question mark board
+अब एक छोटा सा quiz। Comment में जवाब दीजिए।
+@ man thinking hand chin
+सवाल। अगर आपका बना video अजीब दिख रहा है, होंठ ठीक से नहीं मिल रहे, तो सबसे पहले क्या बदलेंगे? Audio, tool, या photo?
+@ students raising hands
+सोचिए। Video में बताई एक बात आपको जवाब दे देगी।
+@ smiling teacher thumbs up
+जवाब है, photo। ज़्यादातर गड़बड़ी photo की वजह से होती है। साफ़, सामने वाली, अच्छी रोशनी वाली photo।
+
+# Recap और अगली video
+@ notebook summary writing
+तो जल्दी से recap।
+@ portrait photo smiling woman
+साफ़, सामने वाली photo चुनिए।
+@ person singing into phone
+गाना अपनी आवाज़ में record कीजिए, film का गाना नहीं।
+@ laptop website upload
+Free lip sync tool में photo और audio डालकर generate कीजिए।
+@ man locking phone screen
+किसी और की photo बिना इजाज़त नहीं, और हमेशा लिखिए कि ये AI से बना है।
+@ young man waving camera
+अगर ये video काम का लगा, तो subscribe कीजिए और इसे उस दोस्त को भेजिए जो हमेशा नई चीज़ें try करता है।
+@ music studio headphones
+अगली video में हम देखेंगे कि AI से अपना गाना लिखवाने और उसकी धुन बनाने में किन बातों का ध्यान रखें। मिलते हैं अगली video में।
