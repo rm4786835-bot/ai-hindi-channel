@@ -1,0 +1,16 @@
+name: Diagnose videos
+on:
+  push:
+    branches: [main]
+    paths: [".github/diagnose.txt", "diagnose.py"]
+permissions:
+  contents: read
+jobs:
+  d:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install requests
+      - env:
+          GH_TOKEN: ${{ github.token }}
+        run: python diagnose.py
