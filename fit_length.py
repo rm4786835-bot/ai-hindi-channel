@@ -11,12 +11,13 @@ def duration(p):
                                 capture_output=True, text=True).stdout.strip())
 
 
-def fit(path):
+def fit(path, max_s=None):
+    MAX_ = float(max_s) if max_s else MAX
     d = duration(path)
-    if d <= MAX:
+    if d <= MAX_:
         return d
-    f = d / MAX
-    print(f"{path}: {d:.0f}s > {MAX:.0f}s, speeding up x{f:.3f}")
+    f = d / MAX_
+    print(f"{path}: {d:.0f}s > {MAX_:.0f}s, speeding up x{f:.3f}")
     tmp = path + ".fit.mp4"
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", path, "-filter_complex",
                     f"[0:v]setpts=PTS/{f:.5f}[v];[0:a]atempo={f:.5f}[a]", "-map", "[v]", "-map", "[a]",

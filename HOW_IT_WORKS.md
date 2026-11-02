@@ -43,3 +43,7 @@ Besides <id>_short.txt you can add <id>_short2.txt and <id>_short3.txt. Their ti
 "extra_shorts": [{"title": ..., "description": ..., "publish": ISO}, {...}] (index 0 → _short2, 1 → _short3). Shorts are rendered at +12% speed.
 Viral Short rules: 25–40 seconds (60–90 words), the first sentence is the hook and must create curiosity or emotion within 2 seconds,
 one idea only, no intro/greeting, end with a line that loops back to the start or a cliffhanger ("भाग 2 में…").
+
+## Big emotional story films (Paisa Psychology is phone-verified)
+Since 2 Nov 2026 the money channel's long video is a BIG emotional family story: 20–25 minutes (about 3000–3700 spoken words),
+json "max_seconds": 3000 so the length cap does not shorten it. Money lesson stays light, only in a short closing section.

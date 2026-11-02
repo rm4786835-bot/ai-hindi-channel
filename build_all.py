@@ -91,7 +91,7 @@ def main():
         if os.path.exists(f"scripts/{day}.txt"):
             sh([sys.executable, "make_video.py", f"scripts/{day}.txt"] + extra + (["--voice", meta["voice"]] if meta.get("voice") else []))
             import fit_length
-            fit_length.fit(f"output/{day}.mp4")
+            fit_length.fit(f"output/{day}.mp4", meta.get("max_seconds"))
             files.append(f"output/{day}.mp4")
         for sp in sorted(glob.glob(f"scripts/{day}_short*.txt")):
             sname = os.path.splitext(os.path.basename(sp))[0]
