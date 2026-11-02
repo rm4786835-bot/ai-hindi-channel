@@ -54,3 +54,12 @@ Two English voices: lines starting "EN:" = female character (en-IN-NeerjaNeural,
 through a real everyday English conversation (chai stall, office, doctor, shop, phone call, interview, train, family dinner, friends),
 then the key phrases and grammar are explained in Hindi, then a speaking drill. Character names stay the same across episodes
 (Priya = EN, Rahul = EN2) so viewers follow them like a series.
+
+## Real-life success stories (money channel, daily at 14:00 IST, id successNN)
+12–13 minute documentary-style biographies of real people who built something big through struggle (founders, sportspeople,
+scientists, social entrepreneurs; Indian and global). About 1700–1900 spoken words, MadhurNeural voice, max_seconds 3000.
+STRICT ACCURACY: research with web search first and only state facts found in reliable sources (Britannica, official sites, major
+newspapers); mark anecdotes with "कहा जाता है / बताया जाता है"; never invent quotes, numbers or dialogue; mention criticism or
+controversies briefly and fairly. Footage is generic stock — never claim it shows the real person. Description cites the sources
+and says scenes are stock footage. Structure: hook, childhood, early struggle, turning point, the big risk, setbacks, rise,
+criticism (if any), legacy, 5 lessons, comment prompt asking whose story is next. Never repeat a person; keep a list in success_done.txt.
