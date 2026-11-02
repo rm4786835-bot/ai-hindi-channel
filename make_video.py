@@ -15,6 +15,7 @@ import argparse, asyncio, hashlib, os, re, shutil, subprocess, sys
 
 VOICE = "hi-IN-SwaraNeural"      # Hindi female. Male option: hi-IN-MadhurNeural
 EN_VOICE = "en-IN-NeerjaNeural"  # lines starting with "EN:" are spoken in Indian-English female voice
+EN2_VOICE = "en-IN-PrakashNeural"  # lines starting with "EN2:" are spoken in Indian-English male voice (2nd character)
 RATE = "+5%"                     # speed: "+0%" normal, "+10%" faster
 CHANNEL = "AI Hindi"             # watermark text, top-right
 GAP = 0.25                       # seconds of silence between sentences
@@ -44,12 +45,15 @@ def parse(path, default_query="city life"):
         if line.startswith("@"):
             query = line[1:].strip() or default_query
             continue
-        en = line.startswith("EN:")
-        if en:
-            line = line[3:].strip()
+        mark = ""
+        if line.startswith("EN2:"):
+            mark, line = "\x02", line[4:].strip()
+        elif line.startswith("EN:"):
+            mark, line = "\x01", line[3:].strip()
+        en = bool(mark)
         for s in re.split(r"(?<=[।?!.])\s+" if en else r"(?<=[।?!])\s+", line):
             if s.strip():
-                items.append((sec, ("\x01" if en else "") + s.strip(), query))
+                items.append((sec, mark + s.strip(), query))
     if not items:
         sys.exit("Script is empty.")
     return items
@@ -107,9 +111,10 @@ def write_ass(items, times, w, h, font, short, out, footage=False):
     lines.append(f"Dialogue: 0,{ass_time(0)},{ass_time(total)},Mark,,0,0,0,,{CHANNEL}")
     for (sec, text, _q), (a, b) in zip(items, times):
         size = body if len(text) < 70 else int(body * 0.88) if len(text) < 120 else int(body * 0.76)
-        if text.startswith("\x01"):
+        if text[:1] in ("\x01", "\x02"):
+            colour = "&H3BD4FF&" if text[0] == "\x01" else "&HFFD27A&"
             text = text[1:]
-            body_txt = "{\\c&H3BD4FF&}" + text.replace("{", "(").replace("}", ")")
+            body_txt = "{\\c" + colour + "}" + text.replace("{", "(").replace("}", ")")
         else:
             body_txt = color_words(text)
         lines.append(f"Dialogue: 0,{ass_time(a)},{ass_time(b)},Main,,0,0,0,,{{\\fs{size}\\fad(120,80)}}{body_txt}")
@@ -151,8 +156,8 @@ def main():
     run(["ffmpeg", "-y", "-f", "lavfi", "-i", "anullsrc=r=24000:cl=mono", "-t", str(GAP), "-c:a", "libmp3lame", "gap.mp3"], cwd=work)
     alist, times, t = [], [], 0.0
     for i, (_, raw, _q) in enumerate(items):
-        voice = EN_VOICE if raw.startswith("\x01") else VOICE
-        text = raw.lstrip("\x01")
+        voice = EN_VOICE if raw.startswith("\x01") else EN2_VOICE if raw.startswith("\x02") else VOICE
+        text = raw.lstrip("\x01\x02")
         key = hashlib.md5(f"{voice}|{RATE}|{text}".encode("utf-8")).hexdigest()[:10]
         fn = f"v_{key}.mp3"; p = os.path.join(work, fn)
         if not os.path.exists(p) or a.test:

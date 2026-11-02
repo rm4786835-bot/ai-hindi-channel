@@ -47,3 +47,10 @@ one idea only, no intro/greeting, end with a line that loops back to the start o
 ## Big emotional story films (Paisa Psychology is phone-verified)
 Since 2 Nov 2026 the money channel's long video is a BIG emotional family story: 20–25 minutes (about 3000–3700 spoken words),
 json "max_seconds": 3000 so the length cap does not shorten it. Money lesson stays light, only in a short closing section.
+
+## English channel = daily-life conversation stories (from 3 Nov 2026)
+Two English voices: lines starting "EN:" = female character (en-IN-NeerjaNeural, yellow caption), "EN2:" = male character
+(en-IN-PrakashNeural, light-blue caption). Hindi narrator (default voice) sets scenes and explains. Each long video is a story told
+through a real everyday English conversation (chai stall, office, doctor, shop, phone call, interview, train, family dinner, friends),
+then the key phrases and grammar are explained in Hindi, then a speaking drill. Character names stay the same across episodes
+(Priya = EN, Rahul = EN2) so viewers follow them like a series.
