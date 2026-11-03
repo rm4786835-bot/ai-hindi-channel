@@ -63,3 +63,9 @@ newspapers); mark anecdotes with "कहा जाता है / बताय�
 controversies briefly and fairly. Footage is generic stock — never claim it shows the real person. Description cites the sources
 and says scenes are stock footage. Structure: hook, childhood, early struggle, turning point, the big risk, setbacks, rise,
 criticism (if any), legacy, 5 lessons, comment prompt asking whose story is next. Never repeat a person; keep a list in success_done.txt.
+
+## Measured pace (3 Nov 2026)
+Real rendered lengths: day10 = about 1550 spoken words → about 13 min; eng09 = about 1700 words (78 EN/EN2 lines, slower English voices) → about 16 min
+(then sped up to the 14:45 cap); money09 = about 3300 words → about 26 min. So aim lower than the word ranges in the daily prompt:
+tech long ≤ about 1400 words, English conversation episode ≤ about 1250 words (count EN lines too), money story about 3200 words.
+en-IN-PrakashNeural (EN2) returns "No audio" from edge-tts; make_video.py now falls back to hi-IN-MadhurNeural for EN2 lines.
