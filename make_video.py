@@ -134,6 +134,7 @@ def main():
     ap.add_argument("--brand", default=None, help="watermark text (channel name)")
     ap.add_argument("--default-query", default="city life", help="stock footage search words when the script has no @ line")
     ap.add_argument("--plain", action="store_true", help="force the plain gradient background")
+    ap.add_argument("--cartoon", default=None, help="cartoon style with a talking character: narrator | dadi | teacher")
     ap.add_argument("--rate", default=None, help="speech speed, e.g. +12%%")
     ap.add_argument("--voice", default=None, help="Hindi narrator voice, e.g. hi-IN-MadhurNeural for stories")
     a = ap.parse_args()
@@ -190,9 +191,33 @@ def main():
     import stock
     footage = (stock.enabled() or os.environ.get("STOCK_TEST")) and not a.plain
     fontsdir = f":fontsdir={os.environ['FONTS_DIR']}" if os.environ.get("FONTS_DIR") else ""
-    write_ass(items, times, w, h, a.font, a.short, os.path.join(work, "subs.ass"), footage=bool(footage))
+    write_ass(items, times, w, h, a.font, a.short, os.path.join(work, "subs.ass"), footage=bool(footage) or bool(a.cartoon))
     out_name = f"{name}.mp4"
-    if footage:
+    if a.cartoon:
+        import cartoon
+        chunks, cur_q, cur_d = [], None, 0.0
+        for (_, _, q), (st, en) in zip(items, times):
+            d = en - st
+            if cur_q is not None and (q != cur_q or cur_d >= 7.0):
+                chunks.append((cur_q, cur_d)); cur_d = 0.0
+            cur_q = q; cur_d += d
+        chunks.append((cur_q, cur_d))
+        print(f"Drawing {len(chunks)} cartoon scenes...")
+        cartoon.build_scenes(chunks, w, h, work, test=bool(os.environ.get("STOCK_TEST")) or not stock.enabled())
+        size = 420 if not a.short else 520
+        print("Animating the talking character...")
+        cartoon.character_track(os.path.join(work, "voice.m4a"), work, a.cartoon, size)
+        stock.make_music(os.path.join(work, "music.wav"), seed=len(name))
+        ox, oy = (30, h - size + 10) if not a.short else ((w - size) // 2, h - size - 40)
+        print("Rendering video...")
+        run(["ffmpeg", "-y", "-i", "scenes.mp4", "-i", "voice.m4a", "-stream_loop", "-1", "-i", "music.wav", "-i", "avatar.mov",
+             "-filter_complex",
+             f"[0:v][3:v]overlay={ox}:{oy}:shortest=1[b];[b]ass=subs.ass{fontsdir}[v];"
+             f"[2:a]volume=0.13,afade=t=in:d=2,afade=t=out:st={max(0, t - 3):.2f}:d=3[m];"
+             f"[1:a][m]amix=inputs=2:duration=first:normalize=0[a]",
+             "-map", "[v]", "-map", "[a]", "-t", f"{t:.3f}", "-c:v", "libx264", "-preset", "veryfast", "-crf", "21",
+             "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart", out_name], cwd=work)
+    elif footage:
         # cut footage at sentence ends, a new clip roughly every 5-8 seconds or when the topic (@ query) changes
         chunks, cur_q, cur_d = [], None, 0.0
         for (_, _, q), (st, en) in zip(items, times):

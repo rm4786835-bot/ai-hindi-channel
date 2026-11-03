@@ -229,3 +229,20 @@ def photo(query, out, landscape=True):
         return None
     p = photos[random.Random(query).randrange(len(photos))]
     return _download(p["src"].get("large2x") or p["src"]["large"], out)
+
+
+def illustration(query, out, landscape=True, used=None):
+    """A cartoon / flat illustration for a scene (Pixabay illustrations & vectors, free for commercial use)."""
+    if provider() != "pixabay":
+        return None
+    used = used if used is not None else set()
+    for q in (query + " cartoon", query, " ".join(query.split()[:2]) + " cartoon illustration"):
+        for kind in ("illustration", "vector"):
+            hits = _pixabay("", {"q": q, "image_type": kind, "per_page": 30,
+                                 "orientation": "horizontal" if landscape else "vertical"}).get("hits", [])
+            hits = [h for h in hits if h["id"] not in used]
+            if hits:
+                p = hits[random.Random(q).randrange(min(len(hits), 6))]
+                used.add(p["id"])
+                return _download(p.get("largeImageURL") or p["webformatURL"], out)
+    return None
