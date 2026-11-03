@@ -16,7 +16,9 @@ import argparse, asyncio, hashlib, os, re, shutil, subprocess, sys
 VOICE = "hi-IN-SwaraNeural"      # Hindi female. Male option: hi-IN-MadhurNeural
 EN_VOICE = "en-IN-NeerjaNeural"  # lines starting with "EN:" are spoken in Indian-English female voice
 EN2_VOICE = "en-IN-PrakashNeural"  # lines starting with "EN2:" are spoken in Indian-English male voice (2nd character)
-RATE = "+5%"                     # speed: "+0%" normal, "+10%" faster
+EN2_FALLBACK = "hi-IN-MadhurNeural"  # used for EN2 lines if EN2_VOICE fails
+DEAD_VOICES = set()
+RATE = "+5%"                    # speed: "+0%" normal, "+10%" faster
 CHANNEL = "AI Hindi"             # watermark text, top-right
 GAP = 0.25                       # seconds of silence between sentences
 
@@ -164,12 +166,19 @@ def main():
             if a.test:
                 fake_tts(text, p)
             else:
-                for attempt in range(3):
+                # if a voice is not served (e.g. en-IN-PrakashNeural), fall back to another male voice
+                if voice in DEAD_VOICES:
+                    voice = EN2_FALLBACK
+                tries = [voice] * 3 + ([EN2_FALLBACK] * 3 if voice == EN2_VOICE else [])
+                for attempt, v in enumerate(tries):
                     try:
-                        asyncio.run(tts(text, p, voice)); break
+                        asyncio.run(tts(text, p, v)); break
                     except Exception as e:
-                        if attempt == 2:
+                        if attempt == len(tries) - 1:
                             sys.exit(f"Voice failed on sentence {i+1}: {e}")
+                        if v != tries[attempt + 1]:
+                            DEAD_VOICES.add(v)
+                            print(f"::warning::Voice {v} failed ({e}); using {tries[attempt + 1]} instead")
         d = duration(p)
         times.append((t, t + d + GAP)); t += d + GAP
         alist += [f"file '{fn}'", "file 'gap.mp3'"]
