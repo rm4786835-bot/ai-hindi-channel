@@ -1,0 +1,153 @@
+# एक लाइन, एक पूरा video
+@ young man surprised looking phone
+एक लाइन लिखी, और phone पर एक पूरा cinematic video बन गया। बारिश, चाय की भाप, और कैमरा धीरे धीरे पास आता हुआ।
+@ rain window cinematic close up
+ना कैमरा लगा, ना actor, ना shooting। बस एक prompt।
+@ young woman typing phone night
+पर सच ये है कि ज़्यादातर लोग AI video बनाते हैं, और उन्हें मिलता है एक अजीब, धुंधला, बेमतलब सा clip।
+@ confused young man face
+फ़र्क tool का नहीं, prompt का होता है। और आज मैं आपको वही prompt formula दूँगा, जिससे एक ही बार में अच्छा video निकलने के chance बहुत बढ़ जाते हैं।
+@ person writing notebook ideas
+Video के end में एक छोटा सा quiz भी है, और एक ग़लती जो आपका पूरा video बेकार कर सकती है। तो आख़िर तक रुकिए।
+
+# ये skill अभी सीखना क्यों ज़रूरी है
+@ friends watching phone laughing
+आज Reels और Shorts पर लोग सबसे ज़्यादा वो चीज़ देखते हैं, जो पहले दो सेकंड में आँखें रोक दे।
+@ young creator laptop desk
+पहले ऐसे shots के लिए कैमरा, drone, lights और पूरी team चाहिए होती थी। अब एक साधारण phone और सही शब्द काफ़ी हैं।
+@ student learning laptop night
+और ये skill सिर्फ़ creators के लिए नहीं है। छोटी दुकान का ad, शादी का invitation video, school project, या कहानी वाला channel, हर जगह काम आती है।
+@ thinking young man window
+सबसे बड़ी बात, जो इंसान AI से सही काम करवाना जानता है, वो आने वाले सालों में बहुत आगे रहेगा। क्योंकि tool सबके पास है, पर उसे चलाना कम लोगों को आता है।
+
+# पहले समझिए, AI video सोचता कैसे है
+@ computer screen code dark
+AI video tool ने लाखों videos और उनके descriptions देखकर सीखा है कि शब्दों का मतलब तस्वीर में कैसा दिखता है।
+@ blurry city street night
+अब अगर आप लिखेंगे, एक लड़का, तो AI को अंदाज़ा लगाना पड़ेगा। कौन सा लड़का? कहाँ? दिन या रात? खुश या उदास?
+@ man shrugging confused
+जितना अंदाज़ा AI लगाएगा, उतना ही video आपकी सोच से दूर जाएगा।
+@ film director camera set
+इसलिए prompt को ऐसे लिखिए, जैसे आप एक film director हैं और cameraman को समझा रहे हैं कि shot कैसा चाहिए।
+@ storyboard sketches table
+एक बात और याद रखिए। ज़्यादातर AI video tools एक बार में कुछ ही सेकंड का छोटा clip बनाते हैं। इसलिए एक prompt में एक ही scene सोचिए, पूरी film नहीं।
+
+# Prompt formula: सात हिस्से
+@ notebook checklist pen
+अब असली formula। इसे लिख लीजिए। एक अच्छे video prompt में सात हिस्से होते हैं।
+@ old man face close up
+पहला, कौन। यानी subject। सिर्फ़ आदमी नहीं, बल्कि सफ़ेद मूँछों वाला एक बूढ़ा चाय वाला, जिसके चेहरे पर झुर्रियाँ हैं।
+@ man pouring tea glass
+दूसरा, क्या कर रहा है। यानी action। जैसे, वो ऊँचाई से कुल्हड़ में चाय डाल रहा है।
+@ roadside tea stall rain
+तीसरा, कहाँ और कब। जैसे, बारिश वाली शाम, सड़क किनारे छोटी सी चाय की दुकान।
+@ camera slow motion close up
+चौथा, कैमरा। Close up, wide shot, या धीरे धीरे पास आता कैमरा। English में लिखिए, slow push in, ये AI अच्छे से समझता है।
+@ golden sunset light street
+पाँचवाँ, रोशनी और style। जैसे, golden hour light, cinematic, या cartoon style।
+@ steam rising tea cup
+छठा, mood और छोटी details। भाप उठ रही है, बारिश की बूँदें, गरम पीली रोशनी, सुकून वाला माहौल।
+@ phone vertical screen hand
+और सातवाँ, format। Shorts और Reels के लिए vertical, यानी नौ बटा सोलह। कुछ tools में ये अलग से option होता है, कुछ में prompt में लिखना पड़ता है।
+
+# पूरा prompt एक साथ
+@ young woman reading phone screen
+अब इन सातों को जोड़िए। Prompt कुछ ऐसा बनेगा।
+@ old tea seller smiling
+Cinematic close up of an old Indian tea seller with white moustache, pouring tea into a clay cup from a height, small roadside tea stall on a rainy evening, steam rising, warm golden light, slow push in, vertical nine by sixteen।
+@ man typing laptop focused
+देखिए, इसमें हर सवाल का जवाब पहले से है। AI को अंदाज़ा नहीं लगाना पड़ेगा।
+@ girl thinking idea
+आप prompt Hindi में सोचिए, पर लिखिए आसान English में। ज़्यादातर tools English prompt को सबसे अच्छे से समझते हैं। ज़रूरत हो तो किसी भी free AI chat app से कहिए, मेरे इस Hindi idea को video prompt में बदलो।
+
+# Step by step: phone पर video बनाइए
+@ smartphone app store search
+Step एक। Play Store या App Store में text to video AI ढूँढिए। ऐसा app चुनिए जिसकी rating अच्छी हो और जो फ़ालतू permissions न माँगे।
+@ young man reading phone carefully
+ज़्यादातर apps free में कुछ credits देते हैं। ये credits और limits समय समय पर बदलती रहती हैं, इसलिए app के अंदर ही check कीजिए।
+@ hand typing phone close up
+Step दो। अपना सात हिस्सों वाला prompt paste कीजिए। अगर app में ratio का option है, तो vertical चुनिए।
+@ loading screen waiting
+Step तीन। Generate दबाइए और थोड़ा इंतज़ार कीजिए। Video बनने में कुछ सेकंड से लेकर कुछ मिनट लग सकते हैं।
+@ person watching video phone critical
+Step चार। Video को ध्यान से देखिए। हाथ ठीक हैं? चेहरा बिगड़ा तो नहीं? Background में कुछ अजीब तो नहीं बदल रहा?
+@ person editing phone app
+Step पाँच। सुधार कीजिए, पर एक बार में सिर्फ़ एक चीज़ बदलिए। अगर कैमरा पसंद नहीं आया, तो सिर्फ़ कैमरा वाला हिस्सा बदलिए। सब कुछ एक साथ बदलेंगे, तो पता ही नहीं चलेगा कि क्या काम किया।
+@ video editing timeline phone
+Step छह। अगर लंबी कहानी बनानी है, तो तीन चार छोटे clips बनाइए, और किसी free video editor app में जोड़ दीजिए। वहीं ऊपर अपना text, आवाज़ और music डालिए।
+
+# Clip को viral लायक कैसे बनाएँ
+@ person scrolling phone fast
+अच्छा clip बन गया, पर इतना काफ़ी नहीं। लोग scroll करते हुए सिर्फ़ एक दो सेकंड देते हैं। उसी में उन्हें रोकना है।
+@ eye close up dramatic
+पहली trick, सबसे दमदार shot सबसे पहले। अगर आपकी कहानी में बारिश में भीगता बच्चा है, तो video उसी चेहरे से शुरू कीजिए, कहानी बाद में।
+@ hand writing text screen
+दूसरी trick, पहले सेकंड में एक सवाल या चौंकाने वाली लाइन, text में। जैसे, इस दादी ने साठ साल बाद क्या देखा? सवाल अधूरा हो, तो इंसान जवाब के लिए रुकता है।
+@ headphones music phone
+तीसरी trick, आवाज़। बिना आवाज़ का AI clip अक्सर फीका लगता है। अपनी आवाज़ में दो लाइन बोलिए, या editor app की free music library से कोई धुन लगाइए। Film के गाने मत लगाइए, वरना copyright claim आ सकता है।
+@ three photos story sequence
+चौथी trick, तीन clips की छोटी कहानी। पहला clip सवाल खड़ा करे, दूसरा clip उलझन बढ़ाए, तीसरा clip जवाब दे। हर clip का prompt अलग लिखिए, पर किरदार का description हर बार बिल्कुल वही रखिए, ताकि चेहरा और कपड़े बदलें नहीं।
+@ looping circle animation
+और पाँचवीं trick, end को start से जोड़ दीजिए। आख़िरी frame ऐसा हो कि video फिर से शुरू हो तो अधूरा न लगे। इससे लोग video दोबारा देखते हैं, और YouTube को लगता है कि video अच्छा है।
+@ smiling young creator phone
+याद रखिए, AI shot देता है, कहानी आप देते हैं।
+
+# तीन Indian examples
+@ village grandmother diya diwali
+पहला example, दादी की याद। Prompt: an old Indian grandmother lighting clay lamps on Diwali night in a village courtyard, soft warm light, gentle smile, slow camera move। साथ में अपनी आवाज़ में दो लाइन, और video सीधा दिल तक।
+@ small shop owner smiling
+दूसरा example, छोटी दुकान का ad। मान लीजिए आपकी मिठाई की दुकान है। Prompt: close up of fresh jalebi being fried in a large pan, golden syrup dripping, busy Indian sweet shop in the morning, cinematic। ऊपर text डालिए, ताज़ी जलेबी, सुबह सात बजे से।
+@ student studying lamp night
+तीसरा example, motivation वाला clip। Prompt: a young Indian student studying late at night under a single lamp, rain outside the window, determined face, slow push in। नीचे एक मज़बूत लाइन लिखिए, सपने रात में जागकर पूरे होते हैं।
+@ happy young creator phone
+तीनों में formula वही है। कौन, क्या, कहाँ, कैमरा, रोशनी, mood, format।
+
+# पाँच ग़लतियाँ जो video बिगाड़ देती हैं
+@ frustrated young man phone
+पहली ग़लती, बहुत छोटा prompt। A boy in rain। इससे AI सिर्फ़ अंदाज़ा लगाएगा।
+@ crowded busy street chaos
+दूसरी ग़लती, एक prompt में बहुत सारे scenes। लड़का घर से निकला, bus पकड़ी, office गया, boss से लड़ा। ये चार clips हैं, एक नहीं।
+@ blank signboard street
+तीसरी ग़लती, video के अंदर लिखा हुआ text माँगना। AI अक्सर शब्दों को बिगाड़ देता है। Text हमेशा बाद में editor में डालिए।
+@ warning sign caution
+चौथी ग़लती, और ये सबसे ख़तरनाक है। किसी असली इंसान का चेहरा या किसी celebrity का नाम डालना, या किसी company का logo। इससे आपका video हट सकता है, और किसी की इज़्ज़त से खेलना कानूनी मुसीबत भी बन सकता है।
+@ person reading rules screen
+पाँचवीं ग़लती, ये न बताना कि video AI से बना है। YouTube पर अगर video असली जैसा दिखता है और AI से बना या बदला गया है, तो upload करते समय ये बताना ज़रूरी है। Caption में भी लिख दीजिए, AI से बना।
+
+# Quiz time
+@ quiz question mark board
+अब छोटा सा quiz। इन दोनों में से कौन सा prompt बेहतर video देगा?
+@ girl thinking hard
+पहला: beautiful video of India।
+@ train station sunrise
+दूसरा: wide shot of an old train arriving at a small Indian railway station at sunrise, people waiting with tea, soft mist, cinematic, slow camera pan।
+@ timer clock countdown
+तीन सेकंड सोचिए।
+@ thumbs up smiling man
+जवाब है, दूसरा। क्योंकि उसमें कौन, क्या, कहाँ, कब, कैमरा और mood, सब है। Comment में अपना जवाब लिखिए, और बताइए कि पहले prompt में आप क्या जोड़ते।
+
+# आज का action plan
+@ calendar planner desk
+आज रात सिर्फ़ पंद्रह मिनट दीजिए।
+@ person writing idea notebook
+पहले, एक ऐसा scene सोचिए जो आपके दिल के क़रीब हो। गाँव, माँ, बारिश, आपका शहर।
+@ hand typing phone
+फिर सात हिस्सों वाला prompt लिखिए, और एक clip बनाइए।
+@ person comparing two screens
+फिर उसी prompt में सिर्फ़ कैमरा बदलकर दूसरा clip बनाइए, और दोनों की तुलना कीजिए। यहीं से असली सीख शुरू होती है।
+@ notebook writing prompts list
+अपने हर अच्छे prompt को phone के notes में save कर लीजिए। धीरे धीरे आपकी अपनी prompt diary बन जाएगी, और अगली बार बस नाम और जगह बदलनी होगी।
+@ calendar week plan
+और एक हफ़्ते तक रोज़ एक clip बनाइए। सात दिन बाद आप ख़ुद देखेंगे कि आपके prompts कितने बेहतर हो गए।
+@ friends sharing phone smiling
+सबसे अच्छा clip अपने परिवार के WhatsApp group में भेजिए, और देखिए लोग क्या कहते हैं।
+
+# Recap और अगली video
+@ notebook summary checklist
+तो याद रखिए। AI को अंदाज़ा मत लगाने दीजिए। कौन, क्या, कहाँ, कैमरा, रोशनी, mood और format।
+@ person editing video phone
+एक prompt में एक scene। एक बार में एक बदलाव। Text बाद में। असली चेहरे और logos नहीं। और हमेशा बताइए कि video AI से बना है।
+@ young man smiling confident
+अगर ये formula काम का लगा, तो channel को subscribe कर लीजिए, ताकि अगली ऐसी trick छूट न जाए।
+@ mysterious phone screen dark
+और अगली video में मैं बताऊँगा कि AI से बना नकली video कैसे पहचानें, ताकि कोई आपको या आपके घरवालों को उससे बेवकूफ़ न बना सके। मिलते हैं अगली video में।
