@@ -69,3 +69,9 @@ Real rendered lengths: day10 = about 1550 spoken words → about 13 min; eng09 =
 (then sped up to the 14:45 cap); money09 = about 3300 words → about 26 min. So aim lower than the word ranges in the daily prompt:
 tech long ≤ about 1400 words, English conversation episode ≤ about 1250 words (count EN lines too), money story about 3200 words.
 en-IN-PrakashNeural (EN2) returns "No audio" from edge-tts; make_video.py now falls back to hi-IN-MadhurNeural for EN2 lines.
+
+## High-volume Shorts (from 5 Nov 2026)
+Shorts per day: money 8 (<id>_short.txt … <id>_short8.txt), english 5, tech 5. extra_shorts in json lists Shorts 2..N in order.
+Proven viral Shorts formats to rotate: complete 30-second emotional mini-stories with a twist (money); "क्या आप जानते हैं?" money/life facts;
+"इसे English में कैसे बोलेंगे?", "Spot the mistake", "1 word 3 meanings" (english); phone/AI tricks to try now, scam alerts (tech).
+15–35 seconds, first 2 seconds = strongest line + strongest visual, end loops back or twists. Never duplicate an earlier Short.
