@@ -37,6 +37,10 @@ def try_upload(day):
         subprocess.run(["gh", "release", "upload", day, "output/uploaded.txt", "--clobber"])
     elif r.returncode != 2:
         print(f"::warning::{day}: YouTube upload failed (video is still in the release)")
+        if os.path.exists("output/links.txt"):
+            # keep links of this day's partly uploaded files out of the next day's uploaded.txt
+            print(f"::warning::{day} partly uploaded: " + open("output/links.txt").read().replace("\n", " | "))
+            os.remove("output/links.txt")
 
 
 def thumb(lines, out, query=None):
@@ -95,8 +99,14 @@ def main():
             files.append(f"output/{day}.mp4")
         for sp in sorted(glob.glob(f"scripts/{day}_short*.txt")):
             sname = os.path.splitext(os.path.basename(sp))[0]
-            sh([sys.executable, "make_video.py", sp, "--short", "--rate", "+12%"] + extra
-               + (["--voice", meta["voice"]] if meta.get("voice") and meta.get("story") else []))
+            r = sh([sys.executable, "make_video.py", sp, "--short", "--rate", "+12%"] + extra
+                   + (["--voice", meta["voice"]] if meta.get("voice") and meta.get("story") else []), check=False)
+            if r.returncode != 0 or not os.path.exists(f"output/{sname}.mp4"):
+                # one broken Short must not stop the whole day's build
+                print(f"::warning::{sname}: render failed, skipped")
+                if os.path.exists(f"output/{sname}.mp4"):
+                    os.remove(f"output/{sname}.mp4")
+                continue
             files.append(f"output/{sname}.mp4")
         if os.path.exists(f"scripts/{day}.txt"):
             thumb(meta.get("thumb", [meta.get("title", day)]), f"output/{day}_thumb.jpg",

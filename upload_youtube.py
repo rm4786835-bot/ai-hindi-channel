@@ -36,6 +36,9 @@ def upload(tok, path, title, desc, tags, category, publish_at):
     if publish_at and dt.datetime.fromisoformat(publish_at) > dt.datetime.now(dt.timezone.utc) + dt.timedelta(minutes=10):
         status["privacyStatus"] = "private"
         status["publishAt"] = dt.datetime.fromisoformat(publish_at).astimezone(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    # YouTube rejects "<" and ">" in titles/descriptions (invalidTitle/invalidDescription)
+    title = title.replace("<", "‹").replace(">", "→")
+    desc = desc.replace("<", "‹").replace(">", "→")
     meta = {"snippet": {"title": title[:100], "description": desc[:4900], "tags": tags,
                         "categoryId": category, "defaultLanguage": "hi", "defaultAudioLanguage": "hi"},
             "status": status}
@@ -94,7 +97,8 @@ def main():
     os.makedirs(DONE_DIR, exist_ok=True)
     tok = access_token(ch)
     cat = CATEGORY[ch]
-    if os.path.exists(f"output/{day}.mp4"):
+    skip = set(meta.get("already_uploaded", []))  # files uploaded by an earlier, partly failed run
+    if os.path.exists(f"output/{day}.mp4") and f"{day}.mp4" not in skip:
         desc = open(f"output/{day}_description.txt", encoding="utf-8").read()
         vid = upload(tok, f"output/{day}.mp4", meta["title"], desc, meta.get("tags", []), cat, meta.get("publish_long"))
         if os.path.exists(f"output/{day}_thumb.jpg"):
@@ -105,7 +109,7 @@ def main():
                        ex.get("description", meta.get("short_description", "")), ex.get("publish")))
     for suffix, title, desc, pub in shorts:
         path = f"output/{day}_short{suffix}.mp4"
-        if not os.path.exists(path):
+        if not os.path.exists(path) or os.path.basename(path) in skip:
             continue
         if "#shorts" not in title.lower():
             title = (title[:90] + " #shorts")

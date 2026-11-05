@@ -14,7 +14,7 @@
   },
   {
    "title": "कल किस app ने आपका mic चालू किया? 😳 #shorts",
-   "description": "Android 12 या नए phone में Settings > Privacy > Privacy dashboard खोलिए: वहाँ दिखता है कि किस app ने कब camera, microphone और location इस्तेमाल की। शक हो तो permission हटाइए। Screen के ऊपर हरा dot = अभी camera या mic चालू है। (कुछ phones में menu का नाम थोड़ा अलग हो सकता है।)\n\n#shorts #PrivacyDashboard #AndroidTips #PhoneTricks #AIHindi",
+   "description": "Android 12 या नए phone में Settings → Privacy → Privacy dashboard खोलिए: वहाँ दिखता है कि किस app ने कब camera, microphone और location इस्तेमाल की। शक हो तो permission हटाइए। Screen के ऊपर हरा dot = अभी camera या mic चालू है। (कुछ phones में menu का नाम थोड़ा अलग हो सकता है।)\n\n#shorts #PrivacyDashboard #AndroidTips #PhoneTricks #AIHindi",
    "publish": "2026-11-05T15:30:00+05:30"
   },
   {
@@ -24,7 +24,7 @@
   },
   {
    "title": "ये 1 setting खुली है, तो fake app घुस सकता है 😱 #shorts",
-   "description": "Settings > Apps > Special app access > Install unknown apps: WhatsApp, Chrome और file manager के लिए Allowed बंद रखिए। (कुछ phones में नाम अलग है, Settings search में 'unknown apps' लिखिए।) इससे fake APK चुपके से install नहीं होगा।\n\n#shorts #AndroidSecurity #UnknownApps #CyberSafety #AIHindi",
+   "description": "Settings → Apps → Special app access → Install unknown apps: WhatsApp, Chrome और file manager के लिए Allowed बंद रखिए। (कुछ phones में नाम अलग है, Settings search में 'unknown apps' लिखिए।) इससे fake APK चुपके से install नहीं होगा।\n\n#shorts #AndroidSecurity #UnknownApps #CyberSafety #AIHindi",
    "publish": "2026-11-05T22:30:00+05:30"
   }
  ],
@@ -51,5 +51,10 @@
   "privacy dashboard Android",
   "install unknown apps setting",
   "AI Hindi"
+ ],
+ "already_uploaded": [
+  "day12.mp4",
+  "day12_short.mp4",
+  "day12_short2.mp4"
  ]
 }
