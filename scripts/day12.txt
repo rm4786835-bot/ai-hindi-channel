@@ -1,0 +1,123 @@
+# दो मिनट में घर का नक्शा
+@ young indian couple looking house plan
+शर्मा जी ने अपने तीस बाय चालीस के plot का नक्शा पूछा, तो किसी ने कहा, पहले ही पचास हज़ार लगेंगे।
+@ young man surprised looking phone
+और उनके बेटे ने phone उठाया, एक free AI chatbot खोला, और दो मिनट में पूरे two BHK घर का पहला layout सामने था। कौन सा कमरा कहाँ, कितना बड़ा, रसोई किस तरफ़।
+@ empty land plot india
+आज मैं आपको यही तरीक़ा step by step सिखाऊँगा। बिना AutoCAD, बिना कोई software ख़रीदे, सिर्फ़ phone से।
+@ person thinking notebook
+पर एक सच भी बताऊँगा, जो ज़्यादातर videos नहीं बताते। AI का नक्शा कहाँ तक भरोसे लायक है, और कहाँ उस पर भरोसा करना आपको लाखों का नुक़सान करा सकता है। तो आख़िर तक रुकिए, बीच में एक quiz भी है।
+
+# ये तरीक़ा काम का क्यों है
+@ family discussing home plan table
+घर ज़िंदगी में अक्सर एक ही बार बनता है। और सबसे बड़ी ग़लतियाँ नक्शे के स्तर पर ही होती हैं।
+@ small dark room window
+कमरा छोटा पड़ गया, रसोई में धूप नहीं आती, bathroom ठीक dining के सामने खुलता है। ये बातें दीवार बनने के बाद ठीक करना बहुत महँगा पड़ता है।
+@ couple arguing about plan
+और सबसे बड़ी परेशानी, घरवाले आपस में समझा ही नहीं पाते कि उन्हें चाहिए क्या।
+@ architect meeting client office
+AI यहीं मदद करता है। आप architect के पास जाने से पहले ही अपनी ज़रूरत साफ़ कर लेते हैं। तीन चार layout देख लेते हैं, और meeting में सीधी बात करते हैं। इससे समय भी बचता है, और बार बार नक्शा बदलवाने का झंझट भी।
+@ old father mother smiling home
+और सबसे अच्छी बात, घर के बड़े भी इसमें शामिल हो जाते हैं। पापा कहें कि पूजा का कमरा पूरब की तरफ़ चाहिए, माँ कहें कि रसोई से आँगन दिखना चाहिए, तो आप वहीं बैठे बैठे AI से नया layout बनवा कर दिखा सकते हैं। हर किसी की बात नक्शे में आ जाती है, और घर सच में सबका बनता है।
+
+# पहले ये सच समझ लीजिए
+@ warning sign caution
+AI का नक्शा सिर्फ़ एक idea है। Final नक्शा नहीं।
+@ engineer checking blueprint
+घर की नींव, कॉलम, बीम, सरिया, ये सब एक licensed structural engineer तय करता है। AI को आपकी ज़मीन की मिट्टी नहीं पता।
+@ government office documents stamp
+और हर शहर में नगर निगम या development authority के अपने नियम होते हैं। आगे पीछे कितनी जगह छोड़नी है, कितनी मंज़िल बन सकती है। Building बनाने से पहले वहाँ से नक्शा पास कराना पड़ता है।
+@ man nodding understanding
+तो AI से सोचिए, plan कीजिए, घरवालों को दिखाइए। पर बनवाइए हमेशा एक licensed architect या engineer की जाँच के बाद।
+
+# Step एक: अपनी ज़रूरत लिखिए
+@ man writing list notebook
+सबसे पहले एक काग़ज़ पर पाँच बातें लिखिए।
+@ measuring tape land plot
+पहली, plot का साइज़। जैसे तीस फ़ुट चौड़ा और चालीस फ़ुट लंबा।
+@ compass direction map
+दूसरी, सड़क किस दिशा में है। पूरब, पश्चिम, उत्तर या दक्षिण। ये बहुत ज़रूरी है, क्योंकि धूप और हवा इसी से तय होती है।
+@ family members living room
+तीसरी, घर में कितने लोग रहेंगे। बुज़ुर्ग हैं, तो उनके लिए नीचे वाला कमरा चाहिए।
+@ bike parked outside house
+चौथी, ज़रूरी चीज़ें। Parking, पूजा की जगह, बालकनी, सीढ़ी, पानी की टंकी।
+@ notebook checklist pen
+और पाँचवीं, आपकी पसंद। जैसे बड़ी रसोई, या वास्तु के हिसाब से दिशाएँ। ये list जितनी साफ़ होगी, AI का जवाब उतना अच्छा होगा।
+
+# Step दो: AI से सही सवाल पूछिए
+@ hand typing phone close up
+अब किसी भी free AI chatbot app को खोलिए, जैसे ChatGPT या Gemini। और सिर्फ़ ये मत लिखिए, मेरा नक्शा बना दो। ऐसे लिखिए।
+@ young woman reading phone screen
+आप एक अनुभवी architect हैं। मेरा plot तीस बाय चालीस फ़ुट है, सड़क पूरब की तरफ़ है। मुझे ground floor पर two BHK चाहिए, एक kitchen, दो bathroom, बैठक, एक bike की parking, और सीढ़ी। हर कमरे का साइज़ फ़ुट में table में बताइए, और समझाइए कि कौन सा कमरा कहाँ रखा और क्यों।
+@ man looking phone smiling
+देखिए, यहाँ हमने AI को role दिया, पूरी जानकारी दी, और जवाब का format भी बताया। Table में हर कमरे का साइज़ मिलेगा, और हर फ़ैसले की वजह भी।
+@ person reading carefully
+अब इस जवाब को ध्यान से पढ़िए। सारे कमरों का क्षेत्रफल जोड़िए। अगर कुल जोड़ plot से बड़ा निकल रहा है, तो AI ने गलती की है। ये बहुत बार होता है, इसलिए हिसाब ख़ुद जाँचिए।
+
+# Step तीन: नक्शा देखिए, सुधारिए
+@ graph paper drawing pencil
+अब इस table को देखकर एक graph paper पर नक्शा बनाइए। एक खाना, एक फ़ुट। दस मिनट लगेंगे, पर सब कुछ आँखों के सामने आ जाएगा।
+@ laptop floor plan software
+या फिर free floor plan बनाने वाली कोई website या app इस्तेमाल कीजिए, जहाँ आप दीवारें खींचकर कमरे बना सकते हैं। ज़्यादातर के free plan में कुछ limits होती हैं, वो app के अंदर ही देख लीजिए।
+@ person taking photo of drawing
+फिर अपने नक्शे की photo लेकर उसी AI chatbot को भेजिए, और पूछिए, इस नक्शे में धूप, हवा और privacy की क्या कमियाँ हैं?
+@ man thinking window light
+यहीं AI सबसे काम का है। वो बताएगा कि bedroom में cross ventilation नहीं है, या मेहमान को bathroom जाने के लिए bedroom से गुज़रना पड़ेगा।
+@ ai generated house image
+एक बात याद रखिए। AI से बनी नक्शे की तस्वीरें सुंदर दिखती हैं, पर उनमें नाप अक्सर गलत होते हैं और शब्द बिगड़े हुए। उन्हें सिर्फ़ look के idea के लिए देखिए।
+@ couple discussing phone sofa
+अब सुधार कीजिए, पर एक बार में एक बदलाव। जैसे लिखिए, रसोई को उत्तर पूरब की तरफ़ ले जाइए, बाक़ी सब वैसा ही रखिए। फिर लिखिए, बैठक थोड़ी बड़ी कीजिए, और एक bedroom थोड़ा छोटा।
+@ person comparing two screens
+हर बार पूछिए कि इस बदलाव से क्या फ़ायदा हुआ और क्या नुक़सान। ऐसे पाँच छह बार बात करने के बाद आपके पास एक ऐसा layout होगा, जो आपके परिवार के हिसाब से सोचा गया है।
+
+# तीन Indian examples
+@ small town house india
+पहला example, लखनऊ के रमेश। बीस बाय पचास का लंबा और पतला plot। AI ने सुझाया कि बीच में एक छोटा open आँगन या skylight रखिए, ताकि बीच के कमरों तक भी रोशनी पहुँचे।
+@ old couple sitting home
+दूसरा example, जयपुर की सुनीता जी। माता पिता साथ रहते हैं। उन्होंने AI को बताया कि बुज़ुर्गों को सीढ़ी नहीं चढ़नी, तो AI ने ground floor पर एक bedroom के साथ जुड़ा हुआ bathroom रखा।
+@ village house courtyard
+तीसरा example, बिहार के गाँव के अमित। बड़ी ज़मीन, पर बजट कम। उन्होंने AI से पूछा, आज दो कमरे बनाऊँ, और दस साल बाद ऊपर मंज़िल, तो सीढ़ी कहाँ रखूँ? AI ने सीढ़ी बाहर की तरफ़ रखने का सुझाव दिया, ताकि बाद में ऊपर का हिस्सा अलग भी इस्तेमाल हो सके।
+@ engineer signing documents
+और तीनों ने यही किया। AI से idea लिया, और final नक्शा engineer से बनवाकर पास कराया।
+
+# चार बड़ी ग़लतियाँ
+@ frustrated man looking papers
+पहली ग़लती, plot का गलत नाप। काग़ज़ों वाला नाप और ज़मीन का असली नाप कई बार अलग होता है। पहले ज़मीन नपवाइए।
+@ wall crack building
+दूसरी ग़लती, AI से कॉलम और सरिया का design पूछकर वैसा ही बनवा देना। ये ख़तरनाक है। ये काम सिर्फ़ engineer का है।
+@ dark kitchen no window
+तीसरी ग़लती, धूप और हवा भूल जाना। Kitchen और bathroom में खिड़की या exhaust की जगह ज़रूर रखिए।
+@ government building office
+और चौथी ग़लती, नक्शा पास कराए बिना काम शुरू कर देना। बाद में notice आया, तो बना हुआ हिस्सा तोड़ना भी पड़ सकता है।
+@ man reading phone doubtful
+और एक बोनस ग़लती। AI जो भी कहे, उसे आख़िरी सच मान लेना। AI बहुत भरोसे से गलत बात भी बोल सकता है। इसलिए हर ज़रूरी बात, ख़ासकर नियम और नाप, किसी जानकार से दोबारा पूछिए।
+
+# Quiz time
+@ quiz question mark board
+अब छोटा सा quiz। AI ने आपको एक layout दिया, और उसमें सारे कमरों का कुल क्षेत्रफल तेरह सौ वर्ग फ़ुट निकला। पर आपका plot तीस बाय चालीस का है। क्या ये layout सही है?
+@ timer clock countdown
+तीन सेकंड सोचिए।
+@ thumbs up smiling man
+जवाब है, नहीं। तीस गुणा चालीस यानी बारह सौ वर्ग फ़ुट। और नियमों के हिसाब से कुछ जगह खुली भी छोड़नी पड़ती है। यानी कमरे इससे भी कम जगह में आएँगे। Comment में बताइए, आपने सही जवाब दिया या नहीं।
+
+# आज का action plan
+@ calendar planner desk
+आज बस आधा घंटा दीजिए।
+@ man writing list notebook
+पहले अपनी पाँच बातों वाली list बनाइए।
+@ hand typing phone
+फिर ऊपर वाला prompt अपने plot के हिसाब से बदलकर AI से पूछिए। और एक नहीं, तीन अलग layout माँगिए।
+@ family looking phone together
+तीनों को graph paper पर उतारिए, और रात के खाने पर घरवालों को दिखाइए। देखिए, किसे कौन सा पसंद आता है।
+@ architect meeting client office
+फिर वही नक्शा लेकर architect के पास जाइए। आपकी meeting आधे समय में ख़त्म होगी।
+
+# Recap और अगली video
+@ notebook summary checklist
+तो याद रखिए। पहले पाँच बातों की list। फिर AI को role, पूरी जानकारी और table वाला format। हिसाब ख़ुद जाँचिए। Graph paper पर नक्शा। फिर AI से कमियाँ पूछिए।
+@ engineer checking blueprint
+और final नक्शा हमेशा licensed engineer या architect से, नगर निगम से पास कराकर।
+@ young man smiling confident
+अगर ये video काम की लगी, तो channel subscribe कर लीजिए, और जिसका घर बनने वाला है, उसे ये video ज़रूर भेजिए।
+@ youtube thumbnail design laptop
+अगली video में मैं बताऊँगा कि AI से सिर्फ़ दो मिनट में YouTube thumbnail कैसे बनाएँ, जिस पर लोग click करने से ख़ुद को रोक न पाएँ। मिलते हैं अगली video में।

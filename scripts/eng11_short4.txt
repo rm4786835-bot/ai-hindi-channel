@@ -1,0 +1,14 @@
+# इस sentence में गलती है
+@ boss looking surprised office
+Boss ने पूछा, report कब भेजी? और जवाब में एक छोटी सी गलती हो गई।
+EN: I have sent it yesterday.
+# गलती पकड़िए
+@ confused woman thinking office
+गलती कहाँ है? Yesterday देखिए।
+# सही
+@ woman smiling laptop office
+जब समय बता दिया, जैसे yesterday, last week, या two days ago, तो have नहीं लगता। सीधा past tense।
+EN: I sent it yesterday.
+# याद रखिए
+@ teacher pointing board
+Have sent तब, जब समय न बताएँ। I have sent it। तो बताइए, कल आपने क्या किया? Comment में past tense में लिखिए।

@@ -1,0 +1,12 @@
+# कौन सा app आपकी बातें सुन रहा था?
+@ shocked young woman phone close up
+आपके phone को पता है कि कल किस app ने आपका microphone चालू किया। बस आपने कभी देखा नहीं।
+# यहाँ देखिए
+@ hand opening settings phone
+Android बारह या नए phone में Settings खोलिए, Privacy में जाइए, और Privacy dashboard दबाइए।
+# सच सामने
+@ person reading phone surprised
+यहाँ दिखेगा कि किस app ने कब camera, microphone और location इस्तेमाल की। Torch app को microphone क्यों चाहिए?
+# अभी कीजिए
+@ finger tapping phone screen
+शक हो तो वहीं से permission हटाइए। और ऊपर कोने में हरा dot दिखे, तो समझिए अभी camera या mic चल रहा है।
