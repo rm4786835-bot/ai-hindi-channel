@@ -1,0 +1,12 @@
+# phone छीना, पर खुला नहीं
+@ thief snatching phone street
+सड़क पर किसी ने हाथ से phone छीना और bike पर भाग गया। पर कुछ ही second में phone की screen ख़ुद lock हो गई।
+# ये कैसे हुआ
+@ hand opening settings phone
+Android दस या नए phones में Google की एक setting है, Theft Detection Lock। अचानक झपटकर भागने जैसी हरकत पहचानकर, ये screen lock कर देती है।
+# कहाँ है
+@ finger switching toggle phone
+Settings में Google खोलिए, फिर All services, फिर Theft protection। कुछ phones में नाम थोड़ा अलग है, तो Settings search में theft लिखिए। वहीं Offline device lock भी चालू कीजिए।
+# अभी कीजिए
+@ relieved young woman phone
+दो मिनट का काम है, आज ही कीजिए। वरना अगली बार phone के साथ आपकी UPI भी भाग सकती है।
