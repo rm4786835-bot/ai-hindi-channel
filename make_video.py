@@ -135,6 +135,8 @@ def main():
     ap.add_argument("--default-query", default="city life", help="stock footage search words when the script has no @ line")
     ap.add_argument("--plain", action="store_true", help="force the plain gradient background")
     ap.add_argument("--cartoon", default=None, help="cartoon style with a talking character: narrator | dadi | teacher")
+    ap.add_argument("--anim2d", action="store_true", help="2D animated cartoon scenes (free image service)")
+    ap.add_argument("--characters", default="", help="fixed look of the main characters, for 2D mode")
     ap.add_argument("--rate", default=None, help="speech speed, e.g. +12%%")
     ap.add_argument("--voice", default=None, help="Hindi narrator voice, e.g. hi-IN-MadhurNeural for stories")
     a = ap.parse_args()
@@ -191,9 +193,29 @@ def main():
     import stock
     footage = (stock.enabled() or os.environ.get("STOCK_TEST")) and not a.plain
     fontsdir = f":fontsdir={os.environ['FONTS_DIR']}" if os.environ.get("FONTS_DIR") else ""
-    write_ass(items, times, w, h, a.font, a.short, os.path.join(work, "subs.ass"), footage=bool(footage) or bool(a.cartoon))
+    write_ass(items, times, w, h, a.font, a.short, os.path.join(work, "subs.ass"), footage=bool(footage) or bool(a.cartoon) or a.anim2d)
     out_name = f"{name}.mp4"
-    if a.cartoon:
+    if a.anim2d:
+        import anim2d
+        step = 4.5 if a.short else 9.0
+        chunks, cur_q, cur_d = [], None, 0.0
+        for (_, _, q), (st, en) in zip(items, times):
+            d = en - st
+            if cur_q is not None and (q != cur_q or cur_d >= step):
+                chunks.append((cur_q, cur_d)); cur_d = 0.0
+            cur_q = q; cur_d += d
+        chunks.append((cur_q, cur_d))
+        print(f"Drawing {len(chunks)} 2D animated scenes...")
+        anim2d.build_scenes(chunks, w, h, work, characters=a.characters, seed0=len(name) + sum(map(ord, name)))
+        stock.make_music(os.path.join(work, "music.wav"), seed=len(name))
+        print("Rendering video...")
+        run(["ffmpeg", "-y", "-i", "scenes.mp4", "-i", "voice.m4a", "-stream_loop", "-1", "-i", "music.wav",
+             "-filter_complex",
+             f"[0:v]tpad=stop_mode=clone:stop_duration=30,ass=subs.ass{fontsdir}[v];[2:a]volume=0.13,afade=t=in:d=2,afade=t=out:st={max(0, t - 3):.2f}:d=3[m];"
+             f"[1:a][m]amix=inputs=2:duration=first:normalize=0[a]",
+             "-map", "[v]", "-map", "[a]", "-t", f"{t:.3f}", "-c:v", "libx264", "-preset", "veryfast", "-crf", "21",
+             "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart", out_name], cwd=work)
+    elif a.cartoon:
         import cartoon
         chunks, cur_q, cur_d = [], None, 0.0
         for (_, _, q), (st, en) in zip(items, times):
