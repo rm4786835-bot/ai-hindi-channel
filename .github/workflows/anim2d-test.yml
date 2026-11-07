@@ -35,6 +35,8 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
           PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
         run: |
           set -e
           CH="wife: Indian woman about 30, simple green saree, long black braid, small bindi; husband: Indian man about 35, thin mustache, blue checked shirt"

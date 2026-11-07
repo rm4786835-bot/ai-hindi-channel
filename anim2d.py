@@ -17,22 +17,58 @@ def _run(cmd, cwd=None):
         raise RuntimeError("ffmpeg failed: " + " ".join(cmd[:4]))
 
 
-def draw(query, out, w, h, seed, characters=""):
-    """Ask the free image service for one 2D scene. Returns path or None."""
-    prompt = f"{STYLE}. Scene: {query}." + (f" Characters: {characters}." if characters else "")
+_DEAD = set()
+
+
+def _cloudflare(prompt, out, seed):
+    """Cloudflare Workers AI (free 10,000 neurons a day ~ 170 images). Needs CF_ACCOUNT_ID + CF_API_TOKEN."""
+    acc, tok = os.environ.get("CF_ACCOUNT_ID"), os.environ.get("CF_API_TOKEN")
+    if not acc or not tok or "cf" in _DEAD:
+        return None
+    import base64
+    for attempt in range(3):
+        try:
+            r = requests.post(f"https://api.cloudflare.com/client/v4/accounts/{acc}/ai/run/@cf/black-forest-labs/flux-1-schnell",
+                              headers={"Authorization": f"Bearer {tok}"},
+                              json={"prompt": prompt[:2000], "steps": 4, "seed": seed}, timeout=120)
+            if r.status_code == 200:
+                img = (r.json().get("result") or {}).get("image")
+                if img:
+                    open(out, "wb").write(base64.b64decode(img))
+                    return out
+            print(f"  cloudflare {r.status_code} {r.text[:160]}")
+            if r.status_code in (401, 403) or "neurons" in r.text.lower() or r.status_code == 429:
+                _DEAD.add("cf"); print("::warning::Cloudflare free daily image limit reached or token problem")
+                return None
+        except Exception as e:
+            print(f"  cloudflare error {e}")
+        time.sleep(4)
+    return None
+
+
+def _pollinations(prompt, out, w, h, seed):
+    if "pol" in _DEAD:
+        return None
     url = API + urllib.parse.quote(prompt) + "?" + urllib.parse.urlencode(
         {"width": w, "height": h, "seed": seed, "model": "flux", "nologo": "true", "private": "true"})
-    for attempt in range(4):
+    for attempt in range(2):
         try:
             r = requests.get(url, timeout=120)
             if r.status_code == 200 and r.headers.get("content-type", "").startswith("image") and len(r.content) > 20000:
                 open(out, "wb").write(r.content)
                 return out
-            print(f"  image service {r.status_code}, retry {attempt + 1}")
+            if r.status_code == 402:      # anonymous free tier exhausted -> stop asking
+                _DEAD.add("pol"); return None
         except Exception as e:
-            print(f"  image service error {e}, retry {attempt + 1}")
-        time.sleep(6 + attempt * 8)
+            print(f"  image service error {e}")
+        time.sleep(5)
     return None
+
+
+def draw(query, out, w, h, seed, characters=""):
+    """One 2D cartoon scene from a free image service. Returns path or None."""
+    prompt = f"{STYLE}. Scene: {query}." + (f" Characters: {characters}." if characters else "")
+    return _cloudflare(prompt, out, seed) or _pollinations(prompt, out, w, h, seed)
 
 
 def build_scenes(chunks, w, h, work, characters="", seed0=1):
