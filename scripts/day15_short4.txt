@@ -1,0 +1,12 @@
+# उसके Gmail में कोई और भी था
+@ shocked young woman phone close up
+उसका Gmail एक ऐसे phone में भी खुला था, जो उसने दो साल पहले बेच दिया था।
+# कैसे पता चला
+@ phone settings google account
+Google account में जाइए। Security, फिर Your devices। यहाँ हर वो phone और computer दिखता है, जहाँ आपका account login है।
+# क्या करें
+@ finger tapping sign out phone
+जो device आपका नहीं, या पहचान में नहीं आता, उस पर tap कीजिए और Sign out कीजिए। फिर password बदलिए।
+# और
+@ person enabling security setting
+Two Step Verification भी चालू कर दीजिए। पुराना phone बेचने से पहले हमेशा account हटाइए। कहीं आपका Gmail भी किसी अनजान phone में तो नहीं?
