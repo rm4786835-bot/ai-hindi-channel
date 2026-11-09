@@ -1,0 +1,53 @@
+{
+ "day": "day16",
+ "channel": "tech",
+ "brand": "AI Hindi",
+ "stock_default": "young woman laptop office",
+ "thumb_query": "stressed indian young woman laptop excel close up",
+ "publish_short": "2026-11-09T09:00:00+05:30",
+ "extra_shorts": [
+  {
+   "title": "पापा को आया ₹5000 credit का SMS, फिर 1 call… 😱 #shorts",
+   "description": "'गलती से पैसे भेज दिए, लौटा दो' scam: पहले नक़ली credit SMS आता है, फिर रोने वाली call। पैसे सच में आए या नहीं, हमेशा bank app/passbook में balance देखिए, SMS पर भरोसा मत कीजिए। ठगी हो तो तुरंत 1930 या cybercrime.gov.in।\n\n#shorts #ScamAlert #UPIScam #CyberSafety #AIHindi",
+   "publish": "2026-11-09T12:30:00+05:30"
+  },
+  {
+   "title": "Cycle बेच रहा था, buyer ने QR भेजा, फिर… 😱 #shorts",
+   "description": "Online सामान बेचते समय 'पैसे लेने के लिए QR scan करो' वाला scam। याद रखिए: पैसे लेने के लिए कभी QR scan या UPI PIN डालना नहीं पड़ता, PIN सिर्फ़ पैसे भेजने के लिए होता है। ठगी हो तो 1930 या cybercrime.gov.in।\n\n#shorts #QRCodeScam #UPI #ScamAlert #AIHindi",
+   "publish": "2026-11-09T15:30:00+05:30"
+  },
+  {
+   "title": "बच्चे को cartoon के लिए phone दिया, उसने boss को… 😳 #shorts",
+   "description": "Android की App pinning (कुछ phones में 'Pin app' / 'Pin windows'): Settings में search करके चालू कीजिए, फिर app pin कर दीजिए। बच्चा उस app से बाहर नहीं निकल पाएगा जब तक आप unlock न करें। Menu का नाम phone company के हिसाब से अलग हो सकता है।\n\n#shorts #AppPinning #PhoneTricks #AndroidTips #AIHindi",
+   "publish": "2026-11-09T19:00:00+05:30"
+  },
+  {
+   "title": "दादी को रोज़ अनजान video call, फिर 1 setting… 😱 #shorts",
+   "description": "WhatsApp → Settings → Privacy → Calls → Silence unknown callers चालू कीजिए। अनजान numbers की call बजेगी नहीं, बस call list में दिखेगी; आपके contacts की call पहले जैसी आएगी। घर के बड़ों के phone में आज ही चालू कीजिए।\n\n#shorts #WhatsAppTips #Privacy #CyberSafety #AIHindi",
+   "publish": "2026-11-09T22:30:00+05:30"
+  }
+ ],
+ "title": "2000 नामों का Excel, AI से 5 मिनट में… 😳 #shorts",
+ "short_title": "2000 नामों का Excel, AI से 5 मिनट में… 😳 #shorts",
+ "thumb": [
+  "Excel 5 मिनट में",
+  "AI वाली trick"
+ ],
+ "description": "Excel का 1 घंटे का काम AI से 5 मिनट में: किसी भी free AI chatbot में साफ़ लिखिए कि किस column में क्या है और आपको क्या चाहिए (जैसे 'Column A में पूरा नाम, column B में सिर्फ़ first name का formula दो, और समझाओ')। Formula पहली cell में डालिए, नीचे तक खींचिए, और भेजने से पहले 10 rows ख़ुद जाँचिए। AI गलती कर सकता है। Office का गोपनीय data AI में डालने से पहले company की policy देखिए।\n\n#shorts #ExcelTips #AITools #AIHindi #OfficeHacks",
+ "short_description": "Excel में 2000 नामों से first name निकालना? AI chatbot से formula और उसका मतलब पूछिए, नीचे तक खींचिए, और 10 rows ख़ुद जाँचिए। गोपनीय data डालने से पहले company policy देखिए।\n\n#shorts #ExcelTips #AIHindi",
+ "tags": [
+  "excel AI formula",
+  "excel tips Hindi",
+  "AI se excel",
+  "excel first name formula",
+  "fake credit SMS scam",
+  "UPI scam",
+  "QR code scam",
+  "OLX scam",
+  "app pinning android",
+  "WhatsApp silence unknown callers",
+  "phone tricks Hindi",
+  "cyber safety Hindi",
+  "AI Hindi"
+ ]
+}
