@@ -172,11 +172,14 @@ def main():
                 # if a voice is not served (e.g. en-IN-PrakashNeural), fall back to another male voice
                 if voice in DEAD_VOICES:
                     voice = EN2_FALLBACK
-                tries = [voice] * 3 + ([EN2_FALLBACK] * 3 if voice == EN2_VOICE else [])
+                tries = [voice] * (3 if voice == EN2_VOICE else 6) + ([EN2_FALLBACK] * 3 if voice == EN2_VOICE else [])
                 for attempt, v in enumerate(tries):
                     try:
                         asyncio.run(tts(text, p, v)); break
                     except Exception as e:
+                        import time as _time
+                        if v != EN2_VOICE and attempt < len(tries) - 1:
+                            _time.sleep(min(60, 5 * (attempt + 1) ** 2))  # edge-tts sometimes drops a request; back off and retry
                         if attempt == len(tries) - 1:
                             sys.exit(f"Voice failed on sentence {i+1}: {e}")
                         if v != tries[attempt + 1]:
