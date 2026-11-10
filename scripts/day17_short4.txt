@@ -1,0 +1,12 @@
+# दोस्त ने बस एक OTP माँगा था
+@ young man reading whatsapp message worried close up
+"भाई, गलती से तेरे number पर मेरा OTP चला गया, भेज दे ना।" Message दोस्त के number से था। Rohit ने भेज दिया।
+# पाँच मिनट बाद
+@ phone logged out whatsapp screen
+पाँच मिनट बाद Rohit का WhatsApp बंद। अब उसके नाम से सबको message जा रहे थे, पैसे भेजो, emergency है।
+# असल में
+@ hacker silhouette laptop dark
+दोस्त का account पहले ही hack हो चुका था। वो OTP Rohit के अपने WhatsApp का था।
+# बचाव
+@ hand phone settings security pin
+WhatsApp में Settings, फिर Account, फिर Two-step verification चालू कीजिए, और छह अंकों का PIN बनाइए। अब OTP चोरी भी हो, तो बिना PIN account नहीं खुलेगा। और WhatsApp का OTP कभी किसी को मत भेजिए।

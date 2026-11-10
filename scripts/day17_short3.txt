@@ -1,0 +1,12 @@
+# दीदी का Instagram एक रात में hack
+@ shocked young indian woman phone night close up
+सुबह उठीं, तो दीदी का Instagram किसी और के कब्ज़े में था। Password बदल चुका था।
+# वजह
+@ old website login screen laptop
+वजह थी एक पुराना password। वही password उन्होंने एक पुरानी shopping site पर भी डाला था, और वो site का data leak हो चुका था।
+# एक free check
+@ person checking passwords laptop screen
+अगर आपके passwords Google Password Manager में save हैं, तो passwords dot google dot com खोलिए, और Password Checkup चलाइए। ये बताता है कि कौन से passwords leak हुए हैं, कमज़ोर हैं, या कई जगह दोहराए गए हैं।
+# आख़िरी लाइन
+@ woman relieved changing password
+हर ज़रूरी account का अलग password रखिए। दीदी ने ये सबक़ अपना account खोकर सीखा, आप दो मिनट में सीख लीजिए।
