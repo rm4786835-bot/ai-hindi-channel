@@ -1,0 +1,119 @@
+# दो लोग, एक जैसी degree, पर एक आगे निकल गया
+@ two young indian men office desks close up
+एक ही office, एक जैसी degree, एक जैसी salary। पर एक साल बाद, एक को promotion मिला, और दूसरा वहीं का वहीं।
+@ young man working laptop focused
+फ़र्क़ सिर्फ़ इतना था, कि पहले वाले ने AI से काम करवाना सीख लिया था। AI से डरना नहीं, AI को चलाना।
+@ notebook list five points
+आज मैं आपको दो हज़ार छब्बीस की पाँच ऐसी AI skills बताऊँगा, जो आप अपने phone पर, बिल्कुल free में, आज से सीख सकते हैं।
+@ warning sign caution road
+पर पहले एक साफ़ बात। कोई skill salary की guarantee नहीं देती। Skill आपको मौक़ा देती है, नतीजा आपकी मेहनत तय करती है। आख़िर में एक quiz भी है, तो अंत तक रुकिए।
+
+# ये क्यों ज़रूरी है
+@ busy indian office people computers
+आज लगभग हर office में कोई न कोई AI tool आ चुका है। Email लिखने में, report बनाने में, data समझने में।
+@ manager looking at reports
+Company को ऐसे लोग चाहिए, जो काम जल्दी करें, पर गलती न करें। AI जल्दी करता है, और इंसान गलती पकड़ता है। दोनों मिलें, तो काम सबसे अच्छा होता है।
+@ young woman learning phone bus
+और अच्छी बात ये है, कि इन skills के लिए coding ज़रूरी नहीं। बस एक phone, कोई free AI chatbot, और रोज़ बीस मिनट।
+
+# Skill एक, सही prompt लिखना
+@ person typing chatbot phone close up
+पहली और सबसे आसान skill है, prompt लिखना। Prompt यानी AI को दिया गया आपका निर्देश।
+@ confused man looking screen
+ज़्यादातर लोग लिखते हैं, email लिखो। और फिर कहते हैं, AI तो बेकार है।
+@ checklist four boxes
+अच्छे prompt में चार चीज़ें होती हैं। पहली, भूमिका, यानी AI कौन बने। दूसरी, पूरी जानकारी। तीसरी, काम साफ़ साफ़। और चौथी, जवाब किस रूप में चाहिए।
+@ woman reading phone smiling
+जैसे, तुम एक अनुभवी HR हो। मेरी company ने मेरी छुट्टी दो बार reject की है। मुझे manager के लिए एक polite email चाहिए, पाँच lines में, आसान English में।
+@ man nodding understanding
+यही चार चीज़ें, और जवाब पहले से कई गुना बेहतर। क्यों? क्योंकि AI आपके दिमाग़ में नहीं झाँक सकता। जितना साफ़ आप बताएँगे, उतना साफ़ वो लौटाएगा।
+
+# Skill दो, AI के जवाब को जाँचना
+@ person checking documents magnifying glass
+दूसरी skill सबसे ज़्यादा ज़रूरी है, और सबसे कम लोग सीखते हैं। AI के जवाब को जाँचना।
+@ man surprised reading screen
+AI कई बार पूरे भरोसे से गलत बात बोल देता है। गलत तारीख़, गलत नियम, या ऐसी किताब का नाम, जो है ही नहीं।
+@ woman comparing two screens
+इसलिए हर ज़रूरी fact, जैसे नियम, क़ानून, दवा या पैसे की बात, किसी official website या भरोसेमंद source से मिलाइए।
+@ person typing question
+एक आसान तरीक़ा। AI से ही पूछिए, इस जवाब में कौन सी बातें गलत हो सकती हैं, और इन्हें मैं कहाँ से check करूँ? फिर ख़ुद check कीजिए।
+@ manager trusting employee
+जो इंसान AI का काम आँख मूँदकर आगे भेज देता है, उस पर भरोसा घटता है। और जो उसे जाँचकर भेजता है, वही team का भरोसेमंद इंसान बनता है।
+
+# Skill तीन, AI के साथ Excel और Sheets
+@ spreadsheet numbers laptop screen
+तीसरी skill, AI के साथ Excel या Google Sheets। ये office की सबसे काम की skill है।
+@ confused woman spreadsheet formula
+आपको formula याद रखने की ज़रूरत नहीं। AI को बताइए, मेरे column B में नाम हैं और column C में salary है, मुझे पचास हज़ार से ज़्यादा वाले लोगों की गिनती का formula चाहिए।
+@ woman smiling formula works
+AI formula देगा, और ये भी बताएगा कि वो काम कैसे करता है। फिर पहले दस rows पर हाथ से check कीजिए, कि जवाब सही आ रहा है।
+@ messy data list paper
+गंदा data साफ़ करना, नाम एक जैसे करना, duplicate हटाना, ये सब काम, जो पहले घंटों लेते थे, अब मिनटों में हो सकते हैं।
+@ warning lock data
+पर ध्यान रहे, company का गुप्त data, लोगों के phone number या account details, किसी public AI chatbot में मत डालिए। पहले company की policy पूछिए, या नक़ली sample data से formula बनवाइए।
+
+# Skill चार, AI से बेहतर लिखना और बोलना
+@ person writing email laptop
+चौथी skill, AI को अपना writing coach बनाना। Email, report, application, या interview के जवाब।
+@ young man reading improved text
+अपना लिखा हुआ draft AI को दीजिए, और कहिए, इसे polite और साफ़ बनाओ, पर मेरी बात मत बदलो। और बताओ, तुमने क्या बदला और क्यों।
+@ man learning notes
+यही आख़िरी line सबसे ज़रूरी है। क्योंकि तब आप सिर्फ़ copy नहीं करते, आप सीखते हैं। अगली बार वही गलती आप ख़ुद नहीं करेंगे।
+@ person practicing speaking phone
+आप AI से बोलकर practice भी कर सकते हैं। कहिए, तुम client हो, मुझसे नाराज़ होकर बात करो, और मैं शांति से जवाब दूँगा।
+
+# Skill पाँच, अपने काम का छोटा AI system बनाना
+@ calendar planner desk tasks
+पाँचवीं skill, अपने रोज़ के दोहराने वाले काम पहचानना, और उनके लिए अपना छोटा system बनाना।
+@ woman writing template notebook
+जैसे, आप हर हफ़्ते एक जैसी report बनाते हैं। तो एक पक्का prompt लिखकर phone के notes में save कर लीजिए। हर बार बस नई जानकारी जोड़िए।
+@ team meeting notes summary
+Meeting के notes से summary, customer के सवालों के तैयार जवाब, हफ़्ते का plan। ये छोटे छोटे systems रोज़ आधा घंटा तक बचा सकते हैं।
+@ man relaxed finishing work
+और जो समय बचे, उसे ऐसे काम में लगाइए, जो सिर्फ़ इंसान कर सकता है। लोगों से बात, नए ideas, और फ़ैसले।
+
+# तीन भारतीय उदाहरण
+@ young indian woman office clerk desk
+पहला उदाहरण, Kanpur की Neha, एक छोटी company में accounts संभालती है। हर महीने bills मिलाने में दो दिन लगते थे। AI से formulas बनवाना सीखा, हर formula ख़ुद check किया, और अब वही काम कम समय में होता है।
+@ young man sales phone call
+दूसरा, Surat का Arjun, sales में है। उसकी English कमज़ोर थी, तो clients को email भेजने से डरता था। अब वो अपना draft AI से सुधरवाता है, और पूछता है कि क्या बदला। छह महीने में उसकी अपनी English भी बेहतर हुई।
+@ teacher classroom smiling
+तीसरी, Bhopal की Fatima, एक school teacher। AI से हर chapter के quiz के सवाल बनवाती है, फिर हर सवाल किताब से मिलाती है। बचे हुए समय में वो कमज़ोर बच्चों को अलग से पढ़ाती है।
+@ person thinking calm window
+तीनों में एक बात common है। AI ने काम किया, पर जाँच इंसान ने की।
+
+# आम गलतियाँ
+@ man frustrated many apps phone
+पहली गलती, पचास tools के पीछे भागना। एक chatbot चुनिए, और उसे गहराई से सीखिए। Skill tool से बड़ी होती है।
+@ person copy paste laptop
+दूसरी, AI का जवाब बिना पढ़े copy paste करना। Boss एक नज़र में पहचान लेता है।
+@ phone private data lock
+तीसरी, निजी या company का गुप्त data AI में डालना।
+@ certificate paper desk
+चौथी, सिर्फ़ certificate इकट्ठे करना। Interview में certificate नहीं, आपका काम बोलता है। अपने बनाए तीन नमूने, जैसे एक sheet, एक report, एक presentation, संभालकर रखिए।
+
+# सात दिन का plan
+@ calendar seven days marking
+अब आपका सात दिन का plan। पहले दिन, एक free AI chatbot चुनिए। दूसरे दिन, चार हिस्सों वाले पाँच prompts लिखिए।
+@ person working spreadsheet evening
+तीसरे और चौथे दिन, एक छोटी Google Sheet में AI से तीन formulas बनवाइए, और हर एक को check कीजिए।
+@ young woman writing email phone
+पाँचवें दिन, अपना एक पुराना email AI से सुधरवाइए, और बदलाव समझिए। छठे दिन, अपना एक दोहराने वाला काम चुनकर उसका पक्का prompt बनाइए।
+@ student laptop online course
+सातवें दिन, कोई free course देखिए। जैसे, सरकार ने नवंबर दो हज़ार पच्चीस में IndiaAI Mission के तहत YUVA AI for ALL नाम का एक free AI course शुरू किया था। उसकी जानकारी official websites पर देखिए।
+
+# Quiz का समय
+@ quiz question mark board
+अब quiz। AI ने आपको एक सरकारी नियम बताया, और आप उसे अपनी report में डालने वाले हैं। सबसे पहले क्या करेंगे?
+@ person thinking answer
+A, सीधे report में डाल देंगे। B, official website पर नियम check करेंगे। C, AI से दोबारा पूछेंगे, क्या तुम्हें पक्का पता है।
+@ correct answer tick
+सही जवाब है B। C अकेला काफ़ी नहीं, क्योंकि AI फिर से भरोसे से गलत बोल सकता है। Comment में अपना जवाब लिखिए।
+
+# Recap, और अगला video
+@ notebook five points summary
+तो याद रखिए, पाँच skills। सही prompt, जवाब की जाँच, AI के साथ Sheets, AI से बेहतर writing, और अपना छोटा AI system।
+@ two young men office smiling
+उस पहले वाले लड़के के पास कोई जादू नहीं था। उसने बस हर रोज़ बीस मिनट सीखा। आप भी आज से शुरू कीजिए।
+@ people watching phone comment
+Comment में बताइए, इन पाँच में से आप कौन सी skill आज से शुरू करेंगे। और channel subscribe कर लीजिए, क्योंकि अगले बड़े video में हम नए AI video tools की टक्कर करवाएँगे, कौन free है, और कौन सच में काम का।
