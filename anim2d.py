@@ -5,8 +5,8 @@ import os, random, subprocess, time, urllib.parse
 import requests
 
 FPS = 30
-STYLE = ("2D animated cartoon illustration, Indian animated moral story style, clean bold outlines, flat vibrant colors, "
-         "soft cel shading, expressive faces, detailed Indian background, cinematic composition, high quality, no text, no watermark")
+STYLE = ("3D animated cartoon movie still, Pixar and Disney style 3D render, cute expressive Indian characters with big eyes, "
+         "soft global illumination, vibrant colors, detailed Indian setting, cinematic depth of field, high quality, no text, no watermark")
 API = "https://image.pollinations.ai/prompt/"
 
 
