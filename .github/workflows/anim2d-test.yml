@@ -42,7 +42,8 @@ jobs:
           CH="wife: Indian woman about 30, simple green saree, long black braid, small bindi; husband: Indian man about 35, thin mustache, blue checked shirt"
           awk 'NR<=40' scripts/money13.txt > /tmp/anim_long.txt
           time python make_video.py scripts/money13_short.txt --short --anim2d --characters "$CH" --font "$FONT" --brand "Paisa Psychology" --voice hi-IN-MadhurNeural --rate +12%
-          time python make_video.py /tmp/anim_long.txt --anim2d --characters "$CH" --font "$FONT" --brand "Paisa Psychology" --voice hi-IN-MadhurNeural
+          echo "CF secrets present: ${CF_ACCOUNT_ID:+yes}"
+          [ -n "$CF_ACCOUNT_ID" ] && time python make_video.py /tmp/anim_long.txt --anim2d --characters "$CH" --font "$FONT" --brand "Paisa Psychology" --voice hi-IN-MadhurNeural
           for s in 2 8 14 20; do ffmpeg -loglevel error -y -ss $s -i output/money13_short.mp4 -frames:v 1 -vf scale=360:-1 s$s.png; done
           for s in 10 40 70; do ffmpeg -loglevel error -y -ss $s -i output/anim_long.mp4 -frames:v 1 -vf scale=960:-1 l$s.png; done
           cp output/money13_short.mp4 anim2d_short_sample.mp4; cp output/anim_long.mp4 anim2d_long_sample.mp4
