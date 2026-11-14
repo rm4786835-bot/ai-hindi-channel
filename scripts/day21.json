@@ -1,0 +1,54 @@
+{
+ "day": "day21",
+ "channel": "tech",
+ "brand": "AI Hindi",
+ "stock_default": "young indian man phone ai",
+ "thumb_query": "surprised young indian man phone close up",
+ "publish_short": "2026-11-14T09:00:00+05:30",
+ "extra_shorts": [
+  {
+   "title": "मम्मी को आया scholarship का call, 5 मिनट बाद… 😱 #shorts",
+   "description": "'आपकी बेटी को scholarship मिली है, बस QR scan कीजिए' — ये scam है। पैसे पाने के लिए कभी QR scan या UPI PIN नहीं डालना पड़ता। Scholarship की जानकारी सिर्फ़ school या सरकारी portal (जैसे scholarships.gov.in) से जाँचिए। ठगी हो तो तुरंत 1930 या cybercrime.gov.in।\n\n#shorts #ScamAlert #ScholarshipScam #UPI #AIHindi",
+   "publish": "2026-11-14T12:30:00+05:30"
+  },
+  {
+   "title": "दादी को सुनाई नहीं देता था, फिर 1 free app… 😢 #shorts",
+   "description": "Google का free app Live Transcribe बोली गई बातों को phone की screen पर लाइव text में लिख देता है, Hindi समेत कई भाषाओं में। कम सुनने वाले बुज़ुर्गों के लिए बहुत काम का। Play Store से 'Live Transcribe' खोजिए।\n\n#shorts #PhoneTips #LiveTranscribe #Accessibility #AIHindi",
+   "publish": "2026-11-14T15:30:00+05:30"
+  },
+  {
+   "title": "Torch app उसके contacts पढ़ रहा था 😱 #shorts",
+   "description": "Android के नए phones में Settings → Security & privacy → Privacy → Privacy dashboard (नाम phone के हिसाब से अलग हो सकता है) में दिखता है कि किस app ने camera, mic, location कब इस्तेमाल किया। ग़ैरज़रूरी permissions 'Don't allow' कीजिए।\n\n#shorts #Privacy #AppPermissions #PhoneTips #AIHindi",
+   "publish": "2026-11-14T19:00:00+05:30"
+  },
+  {
+   "title": "मेहमान ने Wi-Fi password माँगा, उसने बस 1 QR… 😳 #shorts",
+   "description": "Android में Settings → Wi-Fi → अपने network पर tap → Share दबाइए, QR code आ जाएगा (कुछ phones lock/PIN माँगते हैं)। मेहमान camera से scan करे और Wi-Fi जुड़ जाए। Menu का नाम phone के हिसाब से अलग हो सकता है।\n\n#shorts #WiFiTips #PhoneTricks #AndroidTips #AIHindi",
+   "publish": "2026-11-14T22:30:00+05:30"
+  }
+ ],
+ "title": "Phone ख़ुद काम करेगा? इस हफ़्ते की 3 बड़ी AI News 😳 #shorts",
+ "short_title": "Phone ख़ुद काम करेगा? इस हफ़्ते की 3 बड़ी AI News 😳 #shorts",
+ "thumb": [
+  "AI News 😳",
+  "इस हफ़्ते"
+ ],
+ "description": "इस हफ़्ते की 3 बड़ी AI News: (1) 10 नवंबर के Pixel Drop के बाद Pixel 10 phones पर Gemini कई steps वाले काम (जैसे सामान मँगाना, ride book करना) संभाल सकता है; Google के मुताबिक़ ये India, UK और Japan में उपलब्ध है (features phone और देश के हिसाब से अलग हो सकते हैं)। (2) Google Vids में अब हर महीने तीन छोटे (15 second तक) AI videos बिना अतिरिक्त ख़र्च के बन सकते हैं, Google account से, desktop पर vids.new। (3) Anthropic ने 9 नवंबर को दो नए AI models, Claude Fable 5.2 और Mythos 5.2, launch किए।\n\nस्रोत: blog.google (November 2026 Pixel Drop), Beebom, MIXED, Constellation Research।\n\n#shorts #AINews #Gemini #GoogleVids #AIHindi",
+ "short_description": "Pixel 10 पर Gemini अब कई steps वाले काम संभाल सकता है, Google Vids में हर महीने 3 free AI videos, और Anthropic के 2 नए models।\n\n#shorts #AINews #AIHindi",
+ "tags": [
+  "AI news Hindi",
+  "AI news this week",
+  "Pixel drop November 2026",
+  "Gemini Intelligence India",
+  "Google Vids free AI video",
+  "Claude Fable 5.2",
+  "scholarship scam",
+  "QR code scam",
+  "Live Transcribe Hindi",
+  "privacy dashboard android",
+  "app permissions",
+  "wifi password QR share",
+  "phone tricks Hindi",
+  "AI Hindi"
+ ]
+}

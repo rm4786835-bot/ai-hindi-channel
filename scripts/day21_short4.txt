@@ -1,0 +1,12 @@
+# Torch app को contacts क्यों चाहिए?
+@ shocked young indian woman phone settings close up
+उसने एक मुफ़्त torch app डाला था। Settings खोलीं, तो पता चला, वो app उसके contacts और location भी पढ़ रहा था।
+# कैसे पता चला?
+@ hand scrolling phone settings privacy
+Android के नए phones में Settings में Privacy dashboard होता है। वहाँ दिखता है, किस app ने camera, mic और location कब इस्तेमाल किया।
+# एक मिनट का काम
+@ woman tapping permission off phone
+जिस app को किसी permission की ज़रूरत नहीं, उसे Don't allow कर दीजिए। Torch को contacts की क्या ज़रूरत?
+# आख़िरी लाइन
+@ relieved woman smiling phone
+आज ही अपना Privacy dashboard खोलिए। हो सकता है, आपके phone में भी कोई torch app, अँधेरे में आपकी बातें सुन रहा हो।
