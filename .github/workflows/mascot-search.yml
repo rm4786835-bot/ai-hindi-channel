@@ -1,0 +1,19 @@
+name: Mascot search
+on:
+  push:
+    branches: [main]
+    paths: [".github/mascot-search.txt"]
+permissions:
+  contents: write
+jobs:
+  m:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install requests pillow
+      - env:
+          GH_TOKEN: ${{ github.token }}
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+        run: |
+          python tools_mascot_search.py
+          gh release upload fonttest mascots.jpg mascot_candidates.txt --clobber
