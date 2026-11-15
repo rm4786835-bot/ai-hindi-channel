@@ -7,6 +7,9 @@ permissions:
   contents: write
 jobs:
   test:
+    strategy:
+      matrix:
+        pid: [8946463, 8635685]
     runs-on: ubuntu-24.04
     timeout-minutes: 150
     steps:
@@ -33,18 +36,25 @@ jobs:
           sed -i 's/torchvision.transforms.functional_tensor/torchvision.transforms.functional/' "$f"
           cd SadTalker && mkdir -p checkpoints gfpgan/weights
           B=https://github.com/OpenTalker/SadTalker/releases/download/v0.0.2-rc
-          for m in mapping_00109-model.pth.tar mapping_00229-model.pth.tar SadTalker_V0.0.2_256.safetensors SadTalker_V0.0.2_512.safetensors; do curl -sSfL --retry 4 -o checkpoints/$m $B/$m; done
+          for m in mapping_00109-model.pth.tar mapping_00229-model.pth.tar SadTalker_V0.0.2_256.safetensors; do curl -sSfL --retry 4 -o checkpoints/$m $B/$m; done
           curl -sSfL --retry 4 -o gfpgan/weights/alignment_WFLW_4HG.pth https://github.com/xinntao/facexlib/releases/download/v0.1.0/alignment_WFLW_4HG.pth
           curl -sSfL --retry 4 -o gfpgan/weights/detection_Resnet50_Final.pth https://github.com/xinntao/facexlib/releases/download/v0.1.0/detection_Resnet50_Final.pth
           ls -la checkpoints
       - name: Make sample
         env:
           GH_TOKEN: ${{ github.token }}
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
         run: |
           set -e
           export SADTALKER_DIR=$PWD/SadTalker
-          time python avatar_video.py --photo avatar/face1.jpg --script avatar/sample_script.txt --out output/avatar_sample.mp4 --brand "Paisa Psychology"
-          for s in 1 6 12; do ffmpeg -loglevel error -y -ss $s -i output/avatar_sample.mp4 -frames:v 1 -vf scale=540:-1 av$s.png; done
-          cp output/avatar_sample.mp4 avatar_sample.mp4
-          gh release view fonttest >/dev/null 2>&1 || gh release create fonttest --title "font test" --notes "test frames" --prerelease
-          gh release upload fonttest av1.png av6.png av12.png avatar_sample.mp4 --clobber
+          python - <<'PY'
+          import os, requests
+          h = requests.get("https://pixabay.com/api/", params={"key": os.environ["PIXABAY_API_KEY"], "id": "${{ matrix.pid }}"}, timeout=30).json()["hits"][0]
+          open("mascot.png", "wb").write(requests.get(h["largeImageURL"], timeout=60).content)
+          from PIL import Image
+          im = Image.open("mascot.png").convert("RGB"); im.save("mascot.jpg", quality=92); print(im.size)
+          PY
+          time python avatar_video.py --photo mascot.jpg --script avatar/sample_script.txt --out output/m${{ matrix.pid }}.mp4 --brand "Paisa Psychology"
+          ffmpeg -loglevel error -y -i output/m${{ matrix.pid }}.mp4 -vf "fps=1,scale=270:-1,tile=6x2" -frames:v 1 strip${{ matrix.pid }}.png
+          cp output/m${{ matrix.pid }}.mp4 mascot_${{ matrix.pid }}.mp4
+          gh release upload fonttest strip${{ matrix.pid }}.png mascot_${{ matrix.pid }}.mp4 --clobber
