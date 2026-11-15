@@ -1,0 +1,12 @@
+# Bike वाले ने phone छीना
+@ shocked young indian woman street phone snatched close up
+सड़क पर चलते हुए bike वाले ने उसके हाथ से phone छीना, और भाग गया। पर तीन second में उस phone की screen ख़ुद lock हो गई।
+# कैसे?
+@ android phone lock screen close
+Android का एक feature है, Theft Detection Lock। Phone अचानक झटके से छीनकर भागने जैसी हरकत पहचान ले, तो screen ख़ुद lock कर देता है।
+# चालू कैसे करें
+@ hand opening phone settings
+Settings में जाइए, Google, फिर All services, फिर Theft protection। वहाँ Theft Detection Lock चालू कीजिए। Phone पर screen lock होना ज़रूरी है।
+# आख़िरी लाइन
+@ woman relieved checking phone settings
+ये Android दस और उसके बाद के ज़्यादातर phones में आता है, पर हर phone में नहीं। आज ही चालू कीजिए।

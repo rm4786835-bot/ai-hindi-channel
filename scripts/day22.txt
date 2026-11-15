@@ -1,0 +1,117 @@
+# पाँच हज़ार रुपये, या एक prompt?
+@ young indian woman surprised laptop close up
+दीदी की शादी का video invitation बनवाना था। Editor ने कहा, पाँच हज़ार रुपये लगेंगे। छोटी बहन नेहा ने laptop खोला, और कहा, रुको, पहले मैं free में try करती हूँ।
+@ young woman typing prompt laptop night
+उसने एक line लिखी। कुछ मिनट बाद screen पर एक छोटा सा clip था। गेंदे के फूल, जलते दीये, और धीरे से खुलता हुआ एक दरवाज़ा।
+@ family watching laptop amazed
+पर सवाल ये है, आज कौन से AI video tools सच में free हैं? कौन से बंद हो गए, कौन से अब पैसे माँगते हैं, और India में कौन सा चलता ही नहीं?
+@ checklist notebook pen
+आज मैं आपको नवंबर दो हज़ार छब्बीस की सच्ची तस्वीर दिखाऊँगा। हर tool की free limit, उसकी कमी, और आख़िर में एक quiz। तो अंत तक रुकिए।
+
+# ये क्यों ज़रूरी है
+@ small shop owner filming phone
+आज हर छोटी दुकान, हर teacher, हर creator को video चाहिए। Instagram reel, WhatsApp status, YouTube Short।
+@ young man worried money wallet
+और हर बार editor या camera पर पैसे ख़र्च करना हर किसी के बस का नहीं।
+@ phone screen ai video generating
+AI video tools यहीं काम आते हैं। आप लिखकर बताते हैं कि क्या चाहिए, और AI कुछ second का video बना देता है।
+@ person reading fine print screen
+पर एक बात शुरू में ही समझ लीजिए। Free वाले plans में limit होती है, कई बार watermark होता है, और ये limits बदलती रहती हैं। इसलिए जो भी मैं बताऊँ, उसे इस्तेमाल से पहले उस tool के अपने page पर एक बार ज़रूर देख लीजिए।
+
+# सबसे पहले, जो अब काम के नहीं
+@ closed shop shutter sign
+पहले उन नामों की बात, जिनके पीछे अब मत भागिए।
+@ phone app deleted screen
+पहला, OpenAI का Sora app। मार्च दो हज़ार छब्बीस में OpenAI ने इसे बंद करने का ऐलान किया था। तो Sora के नाम पर कोई app या link मिले, तो सावधान रहिए।
+@ locked padlock screen
+दूसरा, Grok Imagine। ख़बरों के मुताबिक़, ग्यारह नवंबर से इसके free users को video बनाने का option नहीं मिल रहा। Video के लिए अब paid plan चाहिए।
+@ banned app phone red cross
+तीसरा, CapCut। ये app दो हज़ार बीस से India में बंद है। इसलिए इसकी कोई apk download मत कीजिए। ऐसी files में virus का ख़तरा रहता है।
+@ man reading phone thinking
+और चौथा, Gemini app। उसमें video बनाना अभी मुख्य रूप से paid plans का feature है। अगस्त तक कुछ free videos का offer था, पर वो ख़त्म हो चुका है।
+
+# नंबर एक: Google Vids
+@ person using laptop browser google
+अब बात उनकी, जो आज भी free में काम आते हैं। सबसे पहला और सबसे भरोसेमंद नाम है Google Vids।
+@ laptop screen video editor
+तेईस सितंबर दो हज़ार छब्बीस को Google ने बताया, कि अब कोई भी Google account वाला Vids में free में AI video बना सकता है। इसके पीछे Google का Gemini Omni model है, और video ten eighty p quality तक बनता है।
+@ hand typing website address keyboard
+कैसे? Computer पर browser खोलिए, vids dot new लिखिए, और Create AI videos चुनिए। फिर अपना prompt लिखिए।
+@ calendar month planner
+Free में हर महीने की एक limit है। Google ने उसका पक्का number हर जगह साफ़ नहीं लिखा, तो app में ही देख लीजिए कितने बचे हैं।
+@ woman smiling laptop success
+क्यों पहला नंबर? क्योंकि ये Google का अपना, official tool है, कोई अजीब app download नहीं करनी पड़ती, और quality अच्छी है। इसकी कमी, ये मुख्य रूप से computer पर चलता है।
+
+# नंबर दो: Meta AI
+@ young man phone whatsapp chat
+दूसरा नाम, जो शायद आपके phone में पहले से है। Meta AI। WhatsApp, Instagram और Facebook में जो नीला गोल निशान दिखता है, वही।
+@ phone screen short video feed
+Meta ने Vibes नाम से AI videos की एक feed और remix का feature शुरू किया है, और इसे फ़िलहाल free बताया है। Meta AI के अलग app में ये दिखता है।
+@ person scrolling phone reels
+इसकी ख़ूबी, phone से, बिना computer के, छोटे fun videos बनाना और remix करना। इसकी कमी, कौन सा feature आपके account में दिखेगा, ये देश और account के हिसाब से अलग हो सकता है।
+
+# नंबर तीन और चार: Kling और Hailuo
+@ young creator laptop editing night
+तीसरा नाम, Kling AI। इसमें रोज़ कुछ free credits मिलते हैं, जिनसे कुछ छोटे clips बन जाते हैं। पर free videos पर watermark आता है, और credits अगले दिन तक जमा नहीं होते।
+@ phone app creating video clip
+चौथा, Hailuo। इसमें भी रोज़ के free credits हैं। Clips छोटे होते हैं, लगभग छह second के, quality seven twenty p, और watermark के साथ। Free वाले videos का commercial इस्तेमाल मना है।
+@ man reading terms screen
+इन दोनों के साथ एक सावधानी। ये विदेशी services हैं। Sign up से पहले उनकी privacy policy पढ़िए, और अपनी या परिवार की निजी photos upload करने से पहले दो बार सोचिए।
+
+# नंबर पाँच: Adobe Firefly, और Canva
+@ designer working computer studio
+पाँचवाँ, Adobe Firefly। Adobe के official page के मुताबिक़, free plan में रोज़ कुछ सीमित generations मिलते हैं, जिनसे पाँच second के छोटे video clips बनते हैं।
+@ woman designing poster laptop
+और Canva? Canva का बड़ा AI video feature paid plans में है। Free plan में बहुत छोटे AI clips ही बन पाते हैं, और महीने के AI uses भी सीमित हैं।
+@ scoreboard winner trophy
+तो मेरी राय में, आज के लिए free में सबसे अच्छी शुरुआत, computer पर Google Vids, और phone पर मज़े के लिए Meta AI। Kling और Hailuo, अगर watermark से दिक़्क़त नहीं।
+
+# अच्छा video prompt कैसे लिखें
+@ person writing notes prompt
+अब सबसे ज़रूरी बात। Tool कोई भी हो, video उतना ही अच्छा बनेगा, जितना अच्छा आपका prompt होगा।
+@ checklist six items
+अच्छे video prompt में छह चीज़ें लिखिए। कौन या क्या दिख रहा है। वो क्या कर रहा है। जगह कौन सी है। Camera कैसे चल रहा है। रोशनी और mood कैसा है। और अगर tool आवाज़ बनाता है, तो कौन सी आवाज़।
+@ indian wedding marigold diya
+जैसे, गेंदे के फूलों से सजा एक पुराना लकड़ी का दरवाज़ा, शाम की सुनहरी रोशनी, दरवाज़ा धीरे से खुलता है, camera धीरे धीरे अंदर जाता है, पीछे शहनाई की हल्की धुन।
+@ man nodding understanding
+क्यों काम करता है? क्योंकि AI आपके दिमाग़ की फ़िल्म नहीं देख सकता। जितना साफ़ आप scene बताएँगे, उतना सही clip बनेगा। और एक clip कुछ second का ही होता है, तो एक prompt में एक ही scene रखिए।
+
+# तीन भारतीय उदाहरण
+@ indian sweet shop counter
+पहला, Indore की एक मिठाई की दुकान। मालिक ने गरम जलेबी निकलने का पाँच second का clip AI से बनाया, ऊपर दुकान का नाम और phone number ख़ुद लिखा, और WhatsApp status पर लगाया।
+@ teacher classroom explaining science
+दूसरा, एक गाँव की science teacher। उन्होंने बादल से बारिश बनने का छोटा सा clip बनाया, और class में दिखाया। बच्चों ने वो बात पहली बार ठीक से समझी।
+@ young woman wedding invitation laptop
+तीसरा, हमारी नेहा। उसने तीन अलग prompts से तीन छोटे clips बनाए, दरवाज़ा, दीये, और फूलों की बारिश। फिर उन्हें जोड़कर, ऊपर नाम और तारीख़ लिखकर, invitation पूरा किया।
+@ family happy wedding preparations
+हर उदाहरण में एक बात एक जैसी है। AI ने बस scene बनाया। नाम, तारीख़, और असली जानकारी इंसान ने ख़ुद डाली।
+
+# आम गलतियाँ
+@ warning sign caution
+अब वो गलतियाँ, जो ज़्यादातर लोग करते हैं।
+@ fake news phone shocked
+पहली, AI से किसी असली इंसान का नकली video बनाना, या ऐसा video बनाकर फैलाना जिसे लोग सच मान लें। ये ग़लत है, और इसमें क़ानूनी मुसीबत भी हो सकती है।
+@ business owner watermark screen
+दूसरी, free plan के watermark वाले video को client के paid काम में लगा देना। पहले terms पढ़िए, कुछ free plans commercial इस्तेमाल की इजाज़त नहीं देते।
+@ phone suspicious download warning
+तीसरी, unlimited free AI video वाले ads पर भरोसा करके कोई अनजान apk download करना। हमेशा Play Store या official website से ही लीजिए।
+@ person uploading photos worried
+और चौथी, बच्चों की या परिवार की निजी photos किसी भी tool में बेझिझक upload कर देना। एक बार सोचिए, ये photo कहाँ जा रही है।
+
+# आज का plan, और quiz
+@ man planning notebook phone
+आज का plan। एक, computer पर vids dot new खोलिए, और छह हिस्सों वाला एक prompt लिखिए। दो, वही prompt किसी दूसरे free tool में डालकर देखिए, कि किसका नतीजा बेहतर है। तीन, अच्छे clip पर अपना text ख़ुद जोड़िए।
+@ quiz question mark board
+अब quiz। आपको किसी दुकान का reel बनाना है, जिसे आप पैसे लेकर client को देंगे। Free tool के watermark वाले video के साथ सबसे पहले क्या करेंगे?
+@ person thinking answer
+A, सीधे client को भेज देंगे। B, tool की terms पढ़कर देखेंगे कि commercial इस्तेमाल की इजाज़त है या नहीं। C, watermark crop कर देंगे।
+@ correct answer tick
+सही जवाब है B। C भी गलत है, क्योंकि watermark हटाने से नियम नहीं बदलते। Comment में अपना जवाब लिखिए।
+
+# Recap, और अगला video
+@ notebook recap list
+तो आज का recap। Sora app बंद है, CapCut India में बंद है, Grok और Gemini app का video अभी paid है। Free में सबसे अच्छी शुरुआत Google Vids, phone पर Meta AI, और watermark के साथ Kling, Hailuo, Firefly।
+@ young creator smiling phone
+और याद रखिए, सबसे बड़ा tool आपका prompt है। छह चीज़ें, एक scene।
+@ phone video call scam warning
+अगले बड़े video में, AI scams। Deepfake call, नकली apps, और आवाज़ की नकल से कैसे बचें। Channel subscribe कर लीजिए, और ये video उस दोस्त को भेजिए, जो editor को पाँच हज़ार देने वाला था।
