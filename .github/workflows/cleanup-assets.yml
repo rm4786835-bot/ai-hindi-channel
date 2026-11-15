@@ -1,0 +1,16 @@
+name: Remove test assets
+on:
+  push:
+    branches: [main]
+    paths: [".github/cleanup-assets.txt"]
+permissions:
+  contents: write
+jobs:
+  c:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          while read -r a; do [ -n "$a" ] && gh release delete-asset fonttest "$a" -y || true; done < .github/cleanup-assets.txt
