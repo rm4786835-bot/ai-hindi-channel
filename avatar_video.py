@@ -26,9 +26,9 @@ def ts(t):
     return f"{int(t // 3600)}:{int(t % 3600 // 60):02d}:{t % 60:05.2f}"
 
 
-async def tts(text, out, voice, rate):
+async def tts(text, out, voice, rate, pitch="+0Hz"):
     import edge_tts
-    await edge_tts.Communicate(text, voice, rate=rate).save(out)
+    await edge_tts.Communicate(text, voice, rate=rate, pitch=pitch).save(out)
 
 
 def main():
@@ -38,6 +38,7 @@ def main():
     ap.add_argument("--out", required=True)
     ap.add_argument("--voice", default="hi-IN-MadhurNeural")
     ap.add_argument("--rate", default="+8%")
+    ap.add_argument("--pitch", default="+0Hz", help="e.g. +25Hz makes a child-like voice")
     ap.add_argument("--brand", default="")
     a = ap.parse_args()
     work = os.path.abspath("build/avatar_" + os.path.splitext(os.path.basename(a.out))[0]); os.makedirs(work, exist_ok=True)
@@ -49,7 +50,7 @@ def main():
         p = os.path.join(work, f"v{i:02d}.mp3")
         for k in range(4):
             try:
-                asyncio.run(tts(s, p, a.voice, a.rate)); break
+                asyncio.run(tts(s, p, a.voice, a.rate, a.pitch)); break
             except Exception as e:
                 if k == 3:
                     raise
@@ -59,6 +60,13 @@ def main():
     open(os.path.join(work, "list.txt"), "w").write("\n".join(f"file '{p}'" for p in parts))
     run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", "list.txt",
          "-af", "apad=pad_dur=0.15", "-ar", "16000", "-ac", "1", "voice.wav"], cwd=work)
+    try:  # log the voice pitch so a wrong (adult/child) voice is easy to spot
+        import librosa, numpy as np
+        y, sr = librosa.load(os.path.join(work, "voice.wav"), sr=16000)
+        f0 = librosa.yin(y, fmin=70, fmax=500, sr=sr)
+        print(f"::notice::voice {a.voice} {a.pitch}: median pitch {np.median(f0):.0f} Hz")
+    except Exception as e:
+        print("pitch check skipped", e)
 
     # 2. the photo talks
     res = os.path.join(work, "sad")

@@ -9,6 +9,9 @@ python mascot_job.py run <id>      -> render (if not in release yet), publish re
 import glob, json, os, subprocess, sys
 
 MASCOT_ID = "8635685"   # Pixabay 3D cartoon boy, black hair (character B, chosen 16 Nov 2026)
+# The character is ALWAYS this same boy, and his voice must sound like a boy (Rahul, 16 Nov 2026):
+# a young voice, not an adult man. Any "voice" key in the json is ignored on purpose.
+VOICE, PITCH, RATE = "hi-IN-SwaraNeural", "+20Hz", "+6%"
 
 
 def assets(tag):
@@ -45,7 +48,7 @@ def run(i):
         subprocess.run(["gh", "release", "download", tag, "-p", f"{i}.mp4", "-D", "output", "--clobber"], check=True)
     else:
         subprocess.run([sys.executable, "avatar_video.py", "--photo", mascot_image(), "--script", f"scripts/mascot/{i}.txt",
-                        "--out", mp4, "--voice", meta.get("voice", "hi-IN-MadhurNeural"), "--rate", meta.get("rate", "+8%"),
+                        "--out", mp4, "--voice", VOICE, "--pitch", PITCH, "--rate", RATE,
                         "--brand", meta.get("brand", "")], check=True)
         if have is None:
             subprocess.run(["gh", "release", "create", tag, mp4, "--title", meta["title"][:100], "--notes", "3D mascot Short"], check=True)
