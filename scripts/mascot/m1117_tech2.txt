@@ -1,0 +1,7 @@
+आपके phone की battery जल्दी खत्म होती है?
+तो settings में जाओ, और Background app refresh या background data देखो।
+जिन apps को आप रोज़ नहीं खोलते, उनका background data बंद कर दो।
+फिर screen की brightness auto पर कर दो।
+और location सिर्फ़ तब on रखो, जब map चला रहे हो।
+बस इतने से battery कई घंटे ज़्यादा चल सकती है।
+ऐसी और काम की tricks के लिए follow करो।

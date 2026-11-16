@@ -1,0 +1,7 @@
+ChatGPT का जवाब अक्सर बहुत general आता है ना?
+तो सवाल के आख़िर में ये एक line जोड़ो।
+Ask me questions before you answer.
+अब AI पहले आपसे पूछेगा, आपका budget क्या है, आपको किसके लिए चाहिए।
+और फिर जवाब सिर्फ़ आपके लिए बनेगा।
+Resume, trip plan, business idea, हर चीज़ में काम करता है।
+Try करो और comment में बताओ, फ़र्क दिखा या नहीं।
