@@ -1,0 +1,12 @@
+# पुराना phone फेंकने वाला था
+@ frustrated old indian man slow phone close up
+पापा बोले, ये phone बहुत धीमा लगता है, नया लेना पड़ेगा। बेटे ने कहा, रुकिए, बस सात बार tap।
+# Build number पर सात tap
+@ phone settings about phone screen
+Settings, फिर About phone, और Build number पर लगातार सात बार tap। Developer options खुल गए।
+# तीन animation
+@ phone developer settings screen
+वहाँ Window animation scale, Transition animation scale, और Animator duration scale, तीनों को एक से घटाकर आधा, यानी zero point five कर दिया।
+# आख़िरी लाइन
+@ happy father using phone son smiling
+अब हर screen तेज़ खुलती दिखती है। Phone की असली speed नहीं बदलती, बस animations छोटे हो जाते हैं। पर पापा ख़ुश हैं, और नया phone एक साल टल गया। Menu के नाम phone के हिसाब से अलग हो सकते हैं।
