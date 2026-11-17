@@ -1,0 +1,12 @@
+# मम्मी के phone में WhatsApp ख़ुद apps डाल सकता था
+@ worried young man checking mother phone close up
+मम्मी के phone में एक setting चालू थी। उसका मतलब था, WhatsApp पर आई कोई भी file, एक tap में app बनकर install हो सकती थी।
+# कैसे पता चला
+@ phone screen settings menu finger
+बेटे ने Settings खोली, Apps, फिर Special app access, फिर Install unknown apps।
+# वहाँ
+@ phone screen toggle switch off
+WhatsApp और Chrome, दोनों को permission मिली हुई थी। उसने दोनों बंद कर दीं।
+# आख़िरी लाइन
+@ mother son smiling phone
+अगले ही हफ़्ते मम्मी के पास "challan dot apk" आया। Tap किया, तो phone ने रुककर permission माँगी, और मम्मी समझ गईं, ये ख़तरा है। आप भी आज अपने घर के phones में ये setting check कीजिए।
