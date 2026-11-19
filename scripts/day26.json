@@ -1,0 +1,43 @@
+{
+ "day": "day26",
+ "channel": "tech",
+ "brand": "AI Hindi",
+ "stock_default": "young indian student laptop coding",
+ "thumb_query": "surprised indian woman looking at laptop close up",
+ "publish_long": "2026-11-19T18:00:00+05:30",
+ "publish_short": "2026-11-19T09:00:00+05:30",
+ "extra_shorts": [
+  {
+   "title": "बेटी को 'Like करो, ₹150 कमाओ' message, 3 दिन बाद… 😱 #shorts",
+   "description": "'YouTube video like करो, हर like के पैसे' — ये task scam है। पहले छोटी रक़म भेजकर भरोसा जीतते हैं, फिर Telegram पर 'premium task' के नाम पर पैसे जमा करवाते हैं। जिस काम में पहले पैसा जमा करना पड़े, वो नौकरी नहीं। ठगी हो तो तुरंत 1930 या cybercrime.gov.in।\n\nयह कहानी काल्पनिक है।\n\n#shorts #TaskScam #ScamAlert #CyberSafety #AIHindi",
+   "publish": "2026-11-19T15:30:00+05:30"
+  },
+  {
+   "title": "पापा के जाने के बाद Gmail नहीं खुला, फिर 1 mail… 😢 #shorts",
+   "description": "Google की Inactive Account Manager: myaccount.google.com/inactive पर तय कीजिए कि account कुछ महीने बंद रहे तो किस भरोसेमंद इंसान को कौन सा data और message मिले।\n\nयह कहानी काल्पनिक है।\n\n#shorts #GoogleAccount #InactiveAccountManager #PhoneTips #AIHindi",
+   "publish": "2026-11-19T22:30:00+05:30"
+  }
+ ],
+ "title": "AI से Coding सीखो Zero से | पहला App 1 घंटे में, बिना coding (Google AI Studio Build, Hindi 2026)",
+ "short_title": "App वाले ने ₹15,000 माँगे, दीदी ने 1 prompt से… 😳 #shorts",
+ "thumb": [
+  "₹0 में App 😳",
+  "AI Coding"
+ ],
+ "description": "App बनाने वाले ने पंद्रह हज़ार माँगे, tuition वाली नेहा दीदी ने AI से एक घंटे में अपना app बना लिया। इस video में zero से: Google AI Studio का Build mode कैसे खोलें, अच्छा prompt लिखने की 4 बातें, Preview में app चलाकर chat से सुधारना, Code खोलकर AI से Hindi में हर line समझना (HTML, CSS, JavaScript), और app का link कैसे बनता है। साथ में 3 Indian examples, आम गलतियाँ, 7 दिन का action plan और quiz।\n\nChapters:\n{chapters}\nध्यान दें: AI Studio शुरू करने के लिए free है। Google के I/O 2026 blog (मई 2026) के मुताबिक़ शुरुआत करने वाले पहले दो apps Cloud Run पर बिना credit card deploy कर सकते हैं; शर्तें बदल सकती हैं, deploy से पहले screen पर लिखी बातें पढ़िए। Practice app में Aadhaar, bank details या passwords मत डालिए। Menu के नाम थोड़े बदल सकते हैं। Examples समझाने के लिए हैं, काल्पनिक हैं।\nस्रोत: blog.google (Google AI Studio at I/O 2026); Google Cloud, \"How to build an app with AI\"।\n\nComment में quiz का जवाब लिखिए: A या B? और बताइए आप कौन सा app बनाएँगे।\n\n#AICoding #VibeCoding #GoogleAIStudio #AppKaiseBanaye #AIHindi",
+ "short_description": "App बनाने वाले ने पंद्रह हज़ार और तीन हफ़्ते माँगे। Tuition वाली दीदी ने Google AI Studio के Build में अपनी भाषा में बताया कि क्या चाहिए, और एक घंटे में हाज़िरी और fees वाला app चल रहा था। पूरा तरीका आज शाम 6 बजे।\n\nयह कहानी काल्पनिक है।\n\n#shorts #AICoding #GoogleAIStudio #AIHindi",
+ "tags": [
+  "AI se coding seekho",
+  "app kaise banaye bina coding",
+  "Google AI Studio Hindi",
+  "vibe coding Hindi",
+  "AI Studio Build mode",
+  "coding for beginners Hindi",
+  "first app in 1 hour",
+  "HTML CSS JavaScript Hindi",
+  "AI app builder free",
+  "task scam",
+  "Inactive Account Manager",
+  "AI Hindi"
+ ]
+}

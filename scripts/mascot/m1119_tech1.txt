@@ -1,0 +1,7 @@
+Gmail पर गलत इंसान को mail चला गया? घबराओ मत।
+Gmail में Undo का एक छोटा सा मौक़ा मिलता है, पर default में बस पाँच second का।
+Computer पर Gmail खोलो, settings में See all settings पर जाओ।
+वहाँ Undo Send मिलेगा, उसे तीस second कर दो, और नीचे Save changes दबाओ।
+अब send दबाने के बाद तीस second तक Undo कर सकते हो।
+Boss को गलत mail जाने से पहले, आज ही कर लो।
+Done किया? Comment में लिखो done।

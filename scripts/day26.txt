@@ -1,0 +1,110 @@
+# App वाले ने पंद्रह हज़ार माँगे
+@ young indian woman teacher worried laptop close up
+नेहा दीदी मोहल्ले में बच्चों को tuition पढ़ाती हैं। उन्हें बस एक छोटा सा app चाहिए था, जिसमें बच्चों की हाज़िरी और fees का हिसाब रहे।
+@ man quoting price office desk
+एक app बनाने वाले ने कहा, "पंद्रह हज़ार रुपये लगेंगे, और तीन हफ़्ते।"
+@ woman typing laptop night room
+नेहा दीदी ने उस रात laptop खोला, AI को अपनी भाषा में बताया कि उन्हें क्या चाहिए। और एक घंटे के अंदर, उनकी screen पर एक चलता हुआ app था।
+@ young man smiling laptop learning
+आज इस video में आप भी यही करेंगे। Zero से। बिना coding जाने। आप अपना पहला app बनाएँगे, और साथ साथ coding की असली समझ भी सीखेंगे। आख़िर में एक quiz भी है, तो अंत तक रुकिए।
+
+# ये क्यों ज़रूरी है
+@ indian college students laptops classroom
+पहले app बनाने के लिए महीनों की पढ़ाई चाहिए थी। HTML, CSS, JavaScript, और न जाने क्या क्या।
+@ person talking to ai chat screen
+अब AI ने खेल बदल दिया है। आप AI को बोलकर बताते हैं कि क्या चाहिए, और वो code लिख देता है। इसे लोग vibe coding कहते हैं।
+@ young man thinking idea notebook
+पर एक बात साफ़ समझ लीजिए। AI से app बनाना शुरुआत है, मंज़िल नहीं। जो इंसान ये समझता है कि code में क्या हो रहा है, वही AI से सबसे अच्छा काम निकलवा पाता है। इसलिए आज हम app भी बनाएँगे, और समझेंगे भी।
+
+@ laptop on table with tea cup
+बस तीन चीज़ें। एक, laptop या computer, जिसमें Chrome जैसा कोई browser हो। Phone से सीखना मुश्किल होगा, क्योंकि screen छोटी है।
+@ google account login screen
+दो, एक Google account। वही जो आपके Gmail का है।
+@ notebook pen writing idea
+और तीन, एक छोटा सा idea। बड़ा सपना नहीं, एक छोटी सी परेशानी जो आप रोज़ झेलते हैं। जैसे घर का ख़र्च लिखना, पढ़ाई का timer, या दुकान का हिसाब।
+
+# Step एक: AI Studio खोलिए
+@ browser typing website address
+Browser में जाइए aistudio dot google dot com, और अपने Google account से login कीजिए। Google का AI Studio शुरू करने के लिए free है।
+@ screen menu build option
+यहाँ आपको Build नाम का एक हिस्सा मिलेगा। इसे build mode कहते हैं। यहीं आप शब्दों से app बनवाते हैं। Menu की जगह थोड़ी बदल सकती है, पर नाम Build ही रहता है।
+@ text box typing prompt
+Build में एक box होता है, जहाँ आप अपने app के बारे में लिखते हैं। Google वहाँ कुछ तैयार examples भी दिखाता है, जिन्हें दबाकर आप देख सकते हैं कि बाकी लोग क्या बना रहे हैं।
+
+# Step दो: अच्छा prompt कैसे लिखें
+@ person writing detailed list notebook
+अब सबसे ज़रूरी हिस्सा। ज़्यादातर लोग लिखते हैं, "मेरे लिए एक app बनाओ।" और फिर शिकायत करते हैं कि AI ने बेकार app बनाया।
+@ checklist four points
+अच्छे prompt में चार बातें होती हैं। पहली, app किसके लिए है। दूसरी, उसमें कौन से buttons या हिस्से हों। तीसरी, data कैसे दिखे। चौथी, दिखने में कैसा हो।
+@ woman typing carefully laptop
+नेहा दीदी का prompt कुछ ऐसा था। "एक simple tuition app बनाओ। मैं बच्चों के नाम जोड़ सकूँ। हर दिन हाज़िरी के लिए present और absent का button हो। हर बच्चे की महीने की fees paid या pending दिखे। Design साफ़ और बड़े अक्षरों वाला हो, Hindi labels के साथ।"
+@ thumbs up happy student
+देखिए, इसमें कोई coding शब्द नहीं है। बस साफ़ साफ़ बताया गया है कि चाहिए क्या।
+
+# Step तीन: Preview देखिए और सुधारिए
+@ app preview screen laptop
+Prompt भेजने के बाद AI code लिखना शुरू करता है। कुछ देर में screen पर Preview दिखता है। यानी आपका app वहीं चलकर दिखता है।
+@ person clicking buttons testing
+अब app को चलाइए। बच्चे का नाम जोड़िए, button दबाइए। देखिए क्या ठीक है और क्या नहीं।
+@ chat message feedback typing
+जो पसंद नहीं आया, उसे chat में बोलिए। जैसे, "Fees वाला हिस्सा ऊपर रखो।" या, "Absent वाला button लाल रंग का करो।" AI बदलाव करता जाएगा।
+@ patience calm person laptop
+याद रखिए, पहली बार में perfect app नहीं बनता। तीन चार बार सुधारने के बाद ही अच्छा बनता है। यही असली तरीका है।
+
+# Step चार: Code खोलिए, यहीं से coding सीखिए
+@ code editor screen colorful
+अब असली सीख। Preview के पास Code वाला हिस्सा होता है। उसे खोलिए। आपको अजीब से शब्द दिखेंगे। घबराइए मत।
+@ student asking question laptop
+किसी भी AI chat में, जैसे Gemini या ChatGPT, वो code का एक छोटा हिस्सा डालिए, और लिखिए, "इसे ऐसे समझाओ जैसे मैं पहली बार code देख रहा हूँ। Hindi में, हर line का मतलब बताओ।"
+@ teacher explaining whiteboard simple
+आप जल्दी समझ जाएँगे कि app के तीन हिस्से होते हैं। HTML, यानी app का ढाँचा, जैसे घर की दीवारें। CSS, यानी रंग रूप, जैसे घर का paint। और JavaScript, यानी दिमाग़, जो button दबाने पर काम करता है।
+@ young man writing notes notebook
+रोज़ बस एक छोटी चीज़ ख़ुद बदलकर देखिए। Button का रंग, कोई शब्द, कोई heading। Code में बदलाव कीजिए और preview में असर देखिए। ऐसे ही असली coding सीखी जाती है।
+
+# Step पाँच: App को दुनिया तक पहुँचाइए
+@ sharing link phone friends
+App तैयार है, तो उसे बाकी लोगों तक कैसे पहुँचाएँ? Google के मुताबिक़, AI Studio से बने app को Cloud Run पर deploy करके एक live link मिल सकता है।
+@ credit card crossed out free
+Google ने मई दो हज़ार छब्बीस में बताया, कि शुरुआत करने वाले अपने पहले दो apps बिना credit card के, बिना कोई पैसा दिए deploy कर सकते हैं।
+@ person reading terms carefully screen
+पर ये शर्तें बदल सकती हैं। इसलिए deploy करने से पहले screen पर लिखी बातें ध्यान से पढ़िए। अगर कहीं card या payment माँगा जाए, तो रुकिए, और समझकर ही आगे बढ़िए।
+
+# तीन Indian examples
+@ small shop owner counting money
+पहला, किराने की दुकान वाले रमेश भैया। उन्होंने उधार का हिसाब रखने वाला app बनवाया। ग्राहक का नाम, कितना उधार, कब लौटाया। Notebook खोने का डर ख़त्म।
+@ indian student studying desk timer
+दूसरा, बारहवीं की छात्रा अंजलि। उसने पढ़ाई का timer app बनाया। पच्चीस मिनट पढ़ाई, पाँच मिनट आराम, और दिन के आख़िर में कुल घंटे।
+@ village grandfather smiling phone
+तीसरा, कॉलेज का लड़का अमन। उसने दादा जी के लिए दवाई याद दिलाने वाली बड़ी बड़ी buttons वाली एक simple screen बनाई।
+@ people collaborating ideas
+तीनों में से किसी ने पहले कभी code नहीं लिखा था। फ़र्क़ बस इतना था, कि उन्होंने अपनी असली परेशानी से शुरुआत की।
+
+# लोग कौन सी गलतियाँ करते हैं
+@ frustrated young man laptop
+पहली गलती, पहले ही दिन बहुत बड़ा app। "मुझे Instagram जैसा app चाहिए।" ऐसा मत कीजिए। छोटे से शुरू कीजिए।
+@ password lock security warning
+दूसरी गलती, app में असली ज़रूरी data डाल देना। Aadhaar number, bank details, passwords, ये सब किसी practice app में कभी मत डालिए।
+@ person copying without reading
+तीसरी गलती, code बिना समझे copy करना। AI भी गलती करता है। जो समझेगा, वही गलती पकड़ पाएगा।
+@ giving up closing laptop
+और चौथी गलती, पहली बार error आते ही हार मान लेना। Error message copy कीजिए, AI से पूछिए, "ये error क्यों आया और कैसे ठीक होगा?" ज़्यादातर बार हल मिल जाता है।
+
+# आपका Action Plan, इस हफ़्ते
+@ calendar planning week notebook
+पहले दिन, AI Studio खोलिए और एक छोटा app बनाइए। जैसे अपना ख़र्च लिखने वाला app।
+@ student learning code evening
+अगले तीन दिन, उसी app का code थोड़ा थोड़ा समझिए। हर दिन AI से एक हिस्सा Hindi में समझवाइए, और ख़ुद एक छोटा बदलाव कीजिए।
+@ proud young woman showing laptop
+और हफ़्ते के आख़िर में, वो app किसी दोस्त या घर वाले को दिखाइए। उनकी राय लीजिए, और एक नया feature जोड़िए।
+
+# Quiz का समय
+@ quiz question mark screen
+अब एक सवाल। App में button दबाने पर कुछ काम होना है, जैसे हाज़िरी लगना। ये काम code का कौन सा हिस्सा करता है? A, CSS। B, JavaScript।
+@ two options choice concept
+सोचिए। CSS तो रंग रूप है। जवाब comment में लिखिए, A या B।
+
+# Recap और अगला video
+@ notebook summary points
+याद रखिए। aistudio dot google dot com पर Build खोलिए। साफ़ prompt लिखिए, चार बातों के साथ। Preview में चलाइए, chat से सुधारिए, और Code खोलकर AI से समझिए। Data संभालकर, और छोटे से शुरुआत।
+@ young man smiling laptop subscribe
+और comment में बताइए, आप कौन सा app बनाएँगे। सबसे अच्छे idea पर अगला video बनाऊँगा। Channel subscribe कीजिए, क्योंकि अगले video में बताऊँगा कि AI Agents क्या होते हैं, और वो आपका कौन सा काम ख़ुद कर सकते हैं।
