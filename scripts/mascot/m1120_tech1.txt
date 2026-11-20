@@ -1,0 +1,7 @@
+Phone की storage full है, और photos delete करने का दिल नहीं करता?
+अगर आपकी photos Google Photos में backup हो चुकी हैं, तो ये trick आज़माओ।
+Google Photos खोलो, ऊपर अपनी profile photo दबाओ।
+वहाँ Free up space का option मिलेगा।
+ये सिर्फ़ उन photos की phone वाली copy हटाता है, जिनका backup हो चुका है।
+Photos आपके Google account में सुरक्षित रहती हैं।
+कितनी GB बची? Comment में लिखो।

@@ -1,0 +1,12 @@
+# Unlock नहीं किया, फिर भी OTP पढ़ लिया
+@ phone lock screen notification close up
+शादी में भैया का phone table पर पड़ा था। Lock था। फिर भी पास बैठे एक अनजान मेहमान ने OTP पढ़ लिया।
+# कैसे?
+@ man glancing at phone table
+OTP का message सीधे lock screen पर चमक रहा था। Phone खोलने की ज़रूरत ही नहीं पड़ी।
+# दस second का इलाज
+@ hand changing phone settings
+iPhone में Settings, Notifications, Show Previews को When Unlocked कीजिए। Android में Notifications की settings में lock screen पर sensitive content छुपाने का option बंद कीजिए। नाम phone के हिसाब से थोड़ा अलग हो सकता है।
+# आख़िरी लाइन
+@ relieved man holding phone smiling
+अब lock screen पर message आएगा, पर अंदर क्या लिखा है, कोई नहीं पढ़ पाएगा।
