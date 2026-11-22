@@ -1,0 +1,7 @@
+घर आए मेहमान ने Wi Fi का password माँगा, और आपको याद ही नहीं? तो ये तरीक़ा देखो।
+Android phone में Settings खोलो, फिर Wi Fi में अपने network पर tap करो।
+वहाँ Share का option मिलेगा, phone आपका lock या fingerprint माँगेगा।
+अब screen पर एक QR code आ जाएगा।
+मेहमान बस अपने camera से इसे scan करे, और Wi Fi चालू।
+Password बोलने की ज़रूरत ही नहीं, और लंबा password भी सुरक्षित रहेगा।
+आपका Wi Fi password कितना लंबा है? Comment में बताओ, पर password मत लिखना।

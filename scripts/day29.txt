@@ -1,0 +1,117 @@
+# दो सौ पचपन views, और एक सबक़
+@ surprised young indian man looking at phone close up
+तीस दिन। हर दिन videos। Script AI ने लिखी, आवाज़ AI की, editing भी मशीन ने की। और सबसे ज़्यादा देखा गया Short, बस दो सौ पचपन views।
+@ person looking at laptop analytics graph
+सुनने में छोटा लगता है, है न? पर उन दो सौ पचपन views ने वो सिखाया, जो कोई course नहीं सिखाता।
+@ young man talking camera honest
+आज मैं आपको बिल्कुल असली numbers दिखाऊँगा। क्या चला, क्या बुरी तरह fail हुआ, और AI से channel चलाने में असल में क्या होता है। कोई झूठा दावा नहीं, कोई लाखों की कमाई की कहानी नहीं।
+@ notebook checklist pen
+और आख़िर में एक quiz है, जिसका जवाब इसी video में छिपा है। तो अंत तक रुकिए।
+
+# ये क्यों ज़रूरी है
+@ indian youth watching phone reels
+आजकल हर दूसरी reel कहती है, AI से YouTube चलाओ, घर बैठे लाखों कमाओ। और लाखों लोग ये सपना लेकर शुरू करते हैं।
+@ disappointed young man laptop night
+पर कुछ हफ़्तों बाद views नहीं आते, और वो छोड़ देते हैं। क्योंकि किसी ने उन्हें असली तस्वीर नहीं दिखाई।
+@ person thinking planning desk
+इसलिए आज का video ज़रूरी है। अगर आप भी AI से channel शुरू करना चाहते हैं, तो पहले ये जान लीजिए, कि मशीन क्या कर सकती है, और क्या सिर्फ़ आप कर सकते हैं।
+
+# Setup: पूरा system, बिना पैसे के
+@ laptop code screen dark room
+पहले system समझिए। हमने तीन channels एक साथ चलाए। एक tech का, एक English सिखाने का, और एक पैसे और कहानियों का।
+@ person typing chat ai screen
+पहला काम, script। AI को topic, लंबाई और format बताया जाता है, और वो Hindi में पूरी script लिखता है। पर हर fact, उसी दिन web search से जाँचा जाता है।
+@ headphones microphone voice recording
+दूसरा, आवाज़। एक free text to speech tool से, जो लिखे हुए शब्दों को आवाज़ में बदलता है। Hindi के लिए एक पुरुष और एक महिला की आवाज़।
+@ stock video footage city people
+तीसरा, video। Free stock footage वाली sites से, हर दो तीन sentences पर नया दृश्य। जैसे कहानी में बारिश आई, तो बारिश का दृश्य।
+@ server computer automation lights
+और चौथा, सब कुछ जोड़ना। GitHub के free automation पर एक program चलता है, जो आवाज़, दृश्य, subtitles और music जोड़कर video बनाता है, और ख़ुद YouTube पर upload कर देता है।
+@ calendar schedule planner
+यानी मेरा काम था, सिर्फ़ सही topic चुनना, script को जाँचना, और नतीजों से सीखना।
+
+# असली numbers
+@ analytics chart phone screen close up
+अब वो हिस्सा, जिसका आप इंतज़ार कर रहे थे। ये numbers हमारे पैसे वाले channel के YouTube Studio से हैं, चार नवंबर के।
+@ tea seller smiling roadside stall
+सबसे ज़्यादा देखा गया Short था, चाय वाले पर हँसता था सेठ, पंद्रह साल बाद। दो सौ पचपन views।
+@ father son emotional salary moment
+दूसरा, पहली salary पर पापा का मज़ाक उड़ाया, फिर। दो सौ तैंतालीस views।
+@ little girl hungry school sad
+तीसरा, बेटी रोज़ भूखी रहती थी, वजह जानकर पापा रो पड़े। पचास views।
+@ grandmother envelopes table
+चौथा, दादी के तीन लिफ़ाफ़े। तीस views। और पाँचवाँ, भाई हर राखी पर दो हज़ार देता था। बस चौदह views।
+@ man surprised realizing laptop
+और सबसे बड़ा झटका? Channel के लगभग सारे views इन्हीं छोटी emotional कहानियों से आए। लंबी videos और facts वाले Shorts, बहुत पीछे रह गए।
+
+# क्या चला, और क्यों
+@ crowd people watching phones emotional
+तो जो चला, उसमें एक pattern था। एक आम इंसान, जैसे चाय वाला या पापा। कोई उसका मज़ाक उड़ाता है, या वो कोई त्याग करता है। फिर समय बीतता है, और आख़िर में एक twist।
+@ emotional face close up tears
+इंसान facts भूल जाता है, पर भावना याद रखता है। जब कोई कहानी दिल को छूती है, तो लोग आख़िर तक देखते हैं। और YouTube उसी video को आगे दिखाता है, जिसे लोग पूरा देखते हैं।
+@ phone screen title text close up
+दूसरी बात, title। जो title चले, उनमें एक किरदार था, एक टकराव था, और आख़िर में तीन dots, यानी अधूरी बात। पाँच साल बाद, फिर। दिमाग़ अधूरी बात पूरी किए बिना नहीं रहता।
+@ hand scrolling phone fast
+तीसरी बात, पहला second। Shorts में अगर पहली line में झटका नहीं, तो उंगली आगे बढ़ जाती है। इसलिए हमने हर Short की पहली line को सबसे मज़बूत बनाया, बिना नमस्ते, बिना intro।
+
+# क्या fail हुआ
+@ frustrated man error screen laptop
+अब ईमानदारी से, क्या बिगड़ा।
+@ empty chair boring lecture
+पहला, सीधे facts वाले Shorts। जैसे, पैसे बचाने के पाँच तरीके। जानकारी अच्छी थी, पर लोग रुके नहीं। क्योंकि उसमें कोई इंसान नहीं था, कोई कहानी नहीं।
+@ computer warning error message
+दूसरा, मशीन की गलतियाँ। एक बार एक Short की script ज़्यादा लंबी हो गई, और video बनते बनते रुक गया। उसे छोटा करके दोबारा बनाना पड़ा। एक बार English की एक आवाज़ ने आवाज़ ही नहीं दी, तो program को दूसरी आवाज़ पर जाना पड़ा।
+@ man reading carefully checking document
+तीसरा, सबसे ख़तरनाक। AI कभी कभी आत्मविश्वास से गलत बात लिख देता है। कोई feature जो है ही नहीं, या कोई तारीख़ जो बदल चुकी है। इसलिए हर fact उसी दिन जाँचना पड़ता है। ये काम आप AI के भरोसे नहीं छोड़ सकते।
+
+# तीन Indian examples
+@ college student laptop hostel room
+अब तीन उदाहरण, जो आप पर लागू हो सकते हैं।
+@ young woman teacher tutoring kids
+पहला, नेहा, एक tuition teacher। वो हर रोज़ एक math trick का तीस second का Short बना सकती हैं। AI script में मदद करे, पर उदाहरण उनके अपने बच्चों वाले हों।
+@ shopkeeper small shop smiling
+दूसरा, रमेश भैया, एक किराने की दुकान वाले। वो ग्राहकों की असली कहानियाँ, बिना नाम लिए, छोटी कहानियों में बदल सकते हैं। AI बस शब्दों को चमकाए।
+@ young man village farm phone
+तीसरा, सुनील, गाँव का एक लड़का। खेती की नई तकनीक, जो उसने ख़ुद आज़माई। AI उसकी Hindi को साफ़ करे, पर अनुभव उसका अपना हो।
+@ person smiling confident idea
+तीनों में एक बात common है। AI औज़ार है, कहानी आपकी।
+
+# आम गलतियाँ
+@ warning sign mistake caution
+अब वो गलतियाँ, जिनसे बचना है।
+@ copy paste screen repeated
+पहली, एक जैसी videos की भरमार। YouTube की monetization policy, बार बार दोहराए गए, या बड़े पैमाने पर एक जैसे बनाए गए content को पसंद नहीं करती। हर video में कुछ नया और काम का होना चाहिए।
+@ person reading policy screen
+दूसरी, कमाई के झूठे सपने। YouTube की official help page पर Partner Program की शर्तें लिखी हैं, जैसे एक हज़ार subscribers के साथ, या तो एक साल में चार हज़ार घंटे का public watch time, या नब्बे दिन में एक करोड़ Shorts views। शर्तें बदल सकती हैं, इसलिए ख़ुद जाँचिए।
+@ person avoiding copy content
+तीसरी, किसी और का video, music या photo उठा लेना। Copyright strike, channel ख़त्म कर सकती है। हमेशा free और इस्तेमाल की इजाज़त वाली चीज़ें लीजिए।
+@ impatient man checking phone repeatedly
+और चौथी, दस दिन में हार मान लेना। हमारे सबसे अच्छे Shorts भी, कई हफ़्तों की कोशिश के बाद आए।
+
+# आपका सात दिन का plan
+@ calendar planner week desk
+तो अगर आप शुरू करना चाहते हैं, तो ये सात दिन का plan आज़माइए।
+@ notebook writing topics list
+पहला और दूसरा दिन। एक ही विषय चुनिए, जो आपको पसंद हो, और उस पर दस ideas लिखिए।
+@ person typing ai chat laptop
+तीसरा दिन। AI से एक Short की script लिखवाइए, पर पहली line ख़ुद सुधारिए, ताकि उसमें झटका हो।
+@ phone recording simple video
+चौथा और पाँचवाँ दिन। Phone से ही video बनाइए, free editing app से। Perfect की चिंता मत कीजिए।
+@ analytics phone checking
+छठा दिन। Upload कीजिए, और Studio में देखिए, लोग कितने second रुके।
+@ man thinking improving notes
+और सातवाँ दिन। जो second लोगों ने छोड़ा, वहीं सुधार कीजिए। यही असली सीख है।
+
+# Quiz का समय
+@ quiz question mark screen
+अब quiz। हमारे channel पर सबसे ज़्यादा views किस तरह के Shorts से आए? A, पैसे बचाने के facts वाले Shorts। या B, आम इंसान की emotional कहानी, जिसमें आख़िर में twist हो।
+@ people thinking answer
+सोचिए, और comment में अपना जवाब लिखिए। सही जवाब इस video में दो बार आया है।
+
+# Recap, और अगला कदम
+@ notebook summary points
+तो आज की बातें याद रखिए। AI script, आवाज़ और editing में बहुत मदद करता है। पर topic, सच की जाँच, और दिल वाली कहानी, ये आपका काम है।
+@ emotional story people watching
+हमारे असली numbers ने दिखाया, लोग facts के लिए नहीं, कहानियों के लिए रुकते हैं। और पहला second, सब कुछ है।
+@ young man smiling subscribe phone
+अगर ये ईमानदार video काम का लगा, तो channel subscribe कीजिए। कल के video में, आप बताएँगे कि आप कौन सा AI tool सीखना चाहते हैं। Comment करना मत भूलिए।

@@ -1,0 +1,7 @@
+Doctor के पास गए, और English में बताना है कि बुख़ार कब से है? ये line याद करो।
+I've had a fever since last night.
+Since के साथ वो समय आता है, जब से बात शुरू हुई।
+और अगर बताना है कितनी देर से, तो for लगाओ, I've had a fever for two days.
+I am having fever since yesterday, ये गलत है।
+साथ में ये भी बोल सकते हो, I also have a headache.
+आपको English में कौन सी बीमारी बताना मुश्किल लगता है? Comment करो।
