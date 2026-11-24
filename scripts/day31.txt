@@ -1,0 +1,128 @@
+# तीन बार reject, फिर एक phone
+@ sad young indian man interview rejection close up
+Interview room से बाहर निकलते हुए, रवि ने तीसरी बार वही बात सुनी थी। "We will let you know." और वो जानता था, इसका मतलब क्या है।
+@ young man sitting bus stop phone sad
+Degree थी, knowledge था। पर सामने बैठे इंसान को देखते ही, उसकी ज़ुबान अटक जाती थी।
+@ young man practicing phone room night
+फिर उसने अपने phone के AI को interviewer बनाया। रोज़ रात बीस मिनट। और एक महीने बाद, चौथे interview में, कुछ अलग हुआ।
+@ smartphone ai assistant screen close up
+आज इस video में, मैं आपको step by step दिखाऊँगा, कि अपने phone के free AI से, Hindi या English में, बोलकर mock interview कैसे करें। Feedback कैसे लें। और वो तीन गलतियाँ, जो इस practice को बेकार कर देती हैं। आख़िर में एक छोटा सा quiz भी है।
+
+# ये क्यों ज़रूरी है
+@ young people waiting interview hall
+ज़्यादातर लोग interview में इसलिए fail नहीं होते, कि उन्हें जवाब नहीं पता। वो इसलिए fail होते हैं, क्योंकि उन्होंने कभी जवाब बोलकर practice नहीं किया।
+@ student reading notes silently
+हम notes पढ़ते हैं, दिमाग़ में जवाब सोचते हैं। पर interview में दिमाग़ नहीं, ज़ुबान चलानी होती है। और ज़ुबान, सिर्फ़ बोलने से चलती है।
+@ friends laughing awkward practice
+दोस्तों के साथ practice में शर्म आती है। Coaching महँगी है। और घर में कोई interviewer बनने वाला नहीं।
+@ phone voice assistant waveform
+यहीं phone का AI काम आता है। ये थकता नहीं, हँसता नहीं, और रात के बारह बजे भी आपका interview ले सकता है।
+@ young man village home phone studying
+और सबसे अच्छी बात। इसके लिए आपको किसी बड़े शहर की coaching की ज़रूरत नहीं। गाँव हो या कस्बा, बस एक smartphone और internet चाहिए। जो सुविधा पहले कुछ लोगों के पास थी, अब हर किसी की जेब में है।
+
+# कौन सा AI, और कैसे खोलें
+@ hand holding android phone app
+पहला tool, Google का Gemini। Android phones पर Gemini Live का feature free है, यानी आप उससे typing नहीं, सीधे बोलकर बात कर सकते हैं। Google के अनुसार, Gemini Live Hindi समेत कई Indian भाषाओं में चलता है।
+@ phone screen app icon tap
+Gemini app खोलिए। नीचे की तरफ़ Live का एक button दिखेगा। उसे दबाइए, और बोलना शुरू कीजिए। Phone के model और version के हिसाब से button थोड़ा अलग दिख सकता है।
+@ phone microphone talking young woman
+दूसरा tool, ChatGPT। इसकी app में भी voice mode है, जिसमें आप बोलकर बात कर सकते हैं। Free version में भी voice की सुविधा मिलती है, पर इस्तेमाल की कुछ सीमाएँ हो सकती हैं।
+@ young man earphones phone desk
+एक छोटी सी tip। Practice earphones लगाकर कीजिए, और शांत कमरे में। ताकि AI आपकी आवाज़ साफ़ सुने, और आप उसकी।
+
+# Step एक: AI को interviewer बनाइए
+@ young man speaking phone confident
+सबसे ज़रूरी चीज़ है, AI को साफ़ बताना, कि उसे क्या करना है। अगर आप बस इतना कहेंगे, मेरा interview लो, तो वो एक साथ दस सवाल पूछ देगा।
+@ notebook writing prompt close up
+इसलिए ऐसे बोलिए। तुम एक HR interviewer हो। मैं fresher हूँ, और customer support executive की job के लिए interview दे रहा हूँ। मुझसे एक बार में सिर्फ़ एक सवाल पूछो। मेरा जवाब पूरा होने का इंतज़ार करो। फिर अगला सवाल।
+@ phone screen chat conversation
+अपनी job का नाम ज़रूर बदलिए। Sales, data entry, teacher, bank, जो भी हो। जितना साफ़ बताएँगे, सवाल उतने असली होंगे।
+@ young man thinking listening phone
+और भाषा भी आप चुनिए। अगर interview English में होगा, तो कहिए, interview English में लो। अगर Hindi में, तो Hindi में।
+
+# Step दो: पूरा जवाब बोलिए
+@ young man answering out loud room
+अब AI पहला सवाल पूछेगा। ज़्यादातर, Tell me about yourself। यहाँ सबसे बड़ी गलती होती है, एक line बोलकर रुक जाना।
+@ young man gesturing explaining
+पूरा जवाब दीजिए, जैसे सच में interview में देते। अपना नाम, पढ़ाई, एक skill, और ये job क्यों चाहिए।
+@ notebook three steps diagram
+एक आसान formula याद रखिए। पहले, situation, यानी क्या हालत थी। फिर, आपने क्या किया। और आख़िर में, नतीजा क्या निकला। जैसे, college fest में sponsors नहीं मिल रहे थे। मैंने बीस दुकानों से ख़ुद बात की। और हमें पाँच sponsors मिले। ऐसा छोटा सा असली example, आपके जवाब को सबसे अलग बना देता है।
+@ timer clock close up
+कोशिश कीजिए, कि जवाब एक से डेढ़ मिनट का हो। बहुत छोटा जवाब कमज़ोर लगता है, और बहुत लंबा, बोरिंग।
+@ young man pausing calm breath
+अगर अटक जाएँ, तो घबराइए मत। यही तो practice है। रुकिए, साँस लीजिए, और फिर से शुरू कीजिए।
+
+# Step तीन: Feedback माँगिए, तारीफ़ नहीं
+@ phone feedback screen reading
+हर जवाब के बाद, AI से कहिए। मेरे जवाब की दो अच्छी बातें बताओ, और दो चीज़ें, जो मुझे सुधारनी चाहिए। सीधा और सच बताना।
+@ young man taking notes phone
+ये line ज़रूरी है। क्योंकि AI अक्सर तारीफ़ करने लगता है। आपको तारीफ़ नहीं, सुधार चाहिए।
+@ notebook list improvements close up
+जो feedback मिले, उसे एक copy में लिखिए। जैसे, बहुत बार umm बोलता हूँ। Example नहीं देता। आवाज़ धीमी है।
+@ young man repeating answer improved
+फिर कहिए, यही सवाल दोबारा पूछो। और इस बार, सुधरा हुआ जवाब दीजिए। एक सवाल को तीन बार बोलना, दस नए सवालों से ज़्यादा सिखाता है।
+@ young man smiling progress notebook
+आप चाहें, तो आख़िर में ये भी पूछ सकते हैं। आज के पूरे interview को दस में से कितने number दोगे, और क्यों? हर दिन का number copy में लिखिए। एक हफ़्ते बाद, जब number बढ़ता दिखेगा, तो आपका confidence भी बढ़ेगा।
+
+# Step चार: मुश्किल सवाल माँगिए
+@ serious interviewer office desk
+असली interview में आसान सवाल कम आते हैं। इसलिए AI से कहिए, अब मुझसे तीन मुश्किल सवाल पूछो, जो interviewers अक्सर freshers को फँसाने के लिए पूछते हैं।
+@ young man surprised question
+आपको ऐसे सवाल मिलेंगे। आपकी सबसे बड़ी कमज़ोरी क्या है? पाँच साल बाद आप ख़ुद को कहाँ देखते हैं? हम आपको ही क्यों चुनें?
+@ young man thinking hard answer
+इन सवालों पर झूठ मत बोलिए। AI से पूछिए, इस सवाल का ईमानदार और अच्छा जवाब कैसे बनाऊँ? फिर अपने शब्दों में, अपनी असली ज़िंदगी से जवाब बनाइए।
+@ phone screen english practice
+और अगर interview English में है, तो कहिए, मेरी English की grammar गलतियाँ भी बताओ, और सही sentence बोलकर सुनाओ।
+@ interviewer handshake candidate
+और आख़िर का वो सवाल मत भूलिए, जो लगभग हर interview में आता है। Do you have any questions for us? AI से कहिए, मुझे दो अच्छे सवाल सिखाओ, जो मैं interviewer से पूछ सकूँ। जैसे, इस role में पहले तीन महीने मुझसे क्या उम्मीद होगी? ये सवाल दिखाता है, कि आप सच में काम को लेकर गंभीर हैं।
+
+# तीन Indian examples
+@ young woman call center headset
+पहला example। Indore की पूजा, customer support की job के लिए तैयारी कर रही है। वो AI से कहती है, तुम एक गुस्साए customer बनो, और मैं support executive। इससे उसकी असली काम की practice भी हो जाती है।
+बीच बीच में वो AI से पूछती है, क्या मेरी आवाज़ में ग़ुस्सा या घबराहट लग रही थी? और फिर अपना tone सुधारती है।
+@ young man bank office formal
+दूसरा example। Patna का अमित, bank clerk के interview की तैयारी कर रहा है। वो AI से Hindi में कहता है, मुझसे banking और मेरे graduation के subject से सवाल पूछो, जैसे bank का interview panel पूछता है।
+@ young woman teacher classroom
+तीसरा example। Nagpur की सना, school teacher बनना चाहती है। वो AI से कहती है, तुम school के principal हो। मुझसे पूछो, कि मैं एक शरारती बच्चे को कैसे सँभालूँगी। और फिर, मेरी demo class का पहला मिनट सुनो।
+@ three young people smiling phones
+तीनों का तरीक़ा एक ही है। AI को एक साफ़ role दो, बोलकर जवाब दो, और सच्चा feedback माँगो।
+
+# आम गलतियाँ
+@ young man reading script phone wrong
+पहली गलती। AI से जवाब लिखवाकर, रट लेना। Interviewer तुरंत पहचान लेता है, कि जवाब रटा हुआ है। AI से तरीक़ा सीखिए, शब्द अपने रखिए।
+@ fake certificate resume concern
+दूसरी गलती। झूठा experience या झूठी skill जोड़ लेना, क्योंकि AI ने अच्छा लिख दिया। एक follow up सवाल, और सब पकड़ा जाता है।
+@ phone privacy lock warning
+तीसरी गलती। AI को अपना Aadhaar number, bank details, या कोई निजी जानकारी बताना। Mock interview के लिए इनकी कोई ज़रूरत नहीं।
+@ young man typing instead speaking
+और एक bonus गलती। बोलने की जगह typing करते रहना। Interview में आप type नहीं करेंगे। इसलिए Live या voice mode में ही practice कीजिए।
+@ ai answer screen check
+और याद रखिए, AI कभी कभी गलत जानकारी भी दे सकता है। Company या job की कोई ख़ास बात हो, तो उसकी official website पर ख़ुद check कीजिए।
+
+# आपका सात दिन का plan
+@ calendar planning notebook desk
+पहला दिन। Tell me about yourself, तीन बार, feedback के साथ।
+@ young man practicing evening room
+दूसरा और तीसरा दिन। अपनी job के पाँच आम सवाल। हर सवाल दो बार।
+@ young woman practicing headphones
+चौथा और पाँचवाँ दिन। तीन मुश्किल सवाल, और एक role play, जैसे गुस्साया customer या सख़्त manager।
+@ young man recording voice phone
+छठा दिन। पूरा पंद्रह मिनट का interview, बिना रुके। और अपनी आवाज़ record करके एक बार सुनिए।
+@ confident young man mirror smile
+सातवाँ दिन। आईने के सामने, AI के बिना, अपने तीन सबसे अच्छे जवाब बोलिए। क्योंकि असली interview में, AI नहीं, आप होंगे।
+
+# Quiz का समय
+@ quiz question mark screen
+अब एक छोटा सा quiz। AI से feedback लेते वक़्त, सबसे सही line कौन सी है?
+@ three options cards
+पहला option, मेरा जवाब अच्छा था न? दूसरा, मेरे जवाब की दो अच्छी बातें और दो सुधार बताओ। तीसरा, मेरे लिए पूरा जवाब लिख दो।
+@ people watching phone comment
+अपना जवाब comment में लिखिए, एक, दो या तीन। सही जवाब, pinned comment में।
+
+# Recap, और अगला कदम
+@ notebook summary checklist
+तो याद रखिए। Gemini Live या ChatGPT voice खोलिए। AI को साफ़ role दीजिए। एक बार में एक सवाल। पूरा जवाब बोलिए। सच्चा feedback माँगिए। और वही सवाल दोबारा कीजिए।
+@ happy young man job offer phone
+और रवि? चौथे interview में, जब interviewer ने पूछा, Tell me about yourself, तो उसकी ज़ुबान नहीं अटकी। क्योंकि वो ये जवाब पहले ही तीस बार बोल चुका था। इस बार उसे सुनने को मिला, When can you join?
+@ subscribe button phone hand
+अगर ये video काम का लगा, तो उस दोस्त को भेजिए, जिसका interview आने वाला है। Channel subscribe कीजिए। अगले video में, मैं बताऊँगा, कि AI से अपना पहला resume कैसे बनाएँ, बिना झूठ लिखे।

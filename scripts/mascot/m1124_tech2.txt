@@ -1,0 +1,7 @@
+आपका कोई password शायद पहले ही leak हो चुका है, और आपको पता भी नहीं।
+Google का एक free tool है, Password Checkup।
+Google Password Manager खोलो, या passwords dot google dot com पर जाओ।
+Checkup दबाओ, और ये बताएगा कि कौन से passwords leak हुए, कमज़ोर हैं, या बार बार इस्तेमाल हुए।
+जो leak हुआ है, उसे सबसे पहले बदलो।
+और हर ज़रूरी account के लिए अलग password रखो।
+आपको कितने leaked passwords मिले? Comment करो।
