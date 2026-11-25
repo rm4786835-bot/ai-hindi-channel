@@ -1,0 +1,123 @@
+# Bus में गया phone
+@ shocked indian woman bus checking bag close up
+Sunday की शाम थी। माँ bus से उतरीं, थैले में हाथ डाला, और उनका चेहरा सफ़ेद पड़ गया। Phone नहीं था।
+@ worried old woman crying street
+उस phone में बैंक की app थी, UPI थी, पापा की सारी photos थीं। और माँ बस इतना बोल पाईं, "अब क्या होगा?"
+@ young man calm laptop home night
+बेटे अंकित ने घबराने की जगह, अपना laptop खोला। दस मिनट में phone lock हो चुका था, SIM बंद थी, और बैंक को खबर हो चुकी थी।
+@ smartphone lock screen close up
+आज इस video में, मैं आपको वही सात काम बताऊँगा, जो phone चोरी होने के पहले तीस मिनट में करने हैं। किस order में, और क्यों। और एक तैयारी, जो आपको आज ही करनी है, phone खोने से पहले। आख़िर में एक छोटा सा quiz भी है।
+
+# ये क्यों ज़रूरी है
+@ crowded indian market people walking
+Phone अब सिर्फ़ phone नहीं है। वो आपका बटुआ है, आपकी पहचान है, और आपकी पूरी ज़िंदगी की diary है।
+@ thief running crowd street
+चोर के लिए असली कीमत phone की नहीं होती। असली कीमत होती है, आपकी SIM की। क्योंकि SIM पर OTP आता है।
+@ phone screen otp message close up
+जिसके पास आपकी SIM है, वो बहुत से accounts में password reset कर सकता है। इसलिए हर मिनट कीमती है।
+@ family worried sitting sofa
+और ज़्यादातर लोग पहला घंटा, बस इधर उधर फ़ोन करने और रोने में निकाल देते हैं। आज के बाद, आप ऐसा नहीं करेंगे।
+
+# आज की तैयारी: खोने से पहले
+@ man writing notebook phone desk
+पहला काम आज ही कीजिए। अपने phone में डायल कीजिए, स्टार हैश शून्य छह हैश।
+@ phone dial pad screen close up
+Screen पर एक लंबा number आएगा। इसे IMEI कहते हैं। ये आपके phone का आधार number समझिए। Dual SIM phone में दो IMEI होते हैं।
+@ phone box bill paper table
+इन्हें copy में लिख लीजिए, या photo लेकर किसी दूसरे के phone पर, या email में रख लीजिए। Phone का डिब्बा और bill भी सँभाल कर रखिए। चोरी के बाद यही सबसे पहले माँगा जाता है।
+@ android phone settings screen
+दूसरा, Settings में जाकर देखिए, कि Find Hub, जिसे पहले Find My Device कहते थे, चालू है। Location भी चालू रखिए।
+@ phone screen lock pattern finger
+और तीसरा, phone पर मज़बूत screen lock लगाइए। Lock नहीं, तो बाक़ी सारी तैयारी आधी है।
+@ phone backup cloud settings screen
+और चौथा, photos और contacts का backup चालू कीजिए। Phone तो दोबारा आ जाएगा, पर बच्चे की पहली photo दोबारा नहीं आएगी।
+@ android security settings theft protection
+नए Android phones में Theft protection नाम की settings भी होती हैं। कोई phone छीनकर भागे, तो screen अपने आप lock हो सकती है। इसे हमने पिछले एक Short में दिखाया था। अपने phone की Settings में search कीजिए, theft।
+
+# काम एक: दूसरे phone से Find Hub
+@ young man using friend phone urgent
+Phone चोरी हुआ, तो किसी दूसरे के phone या computer पर, android dot com slash find खोलिए। और अपने Google account से login कीजिए।
+@ map location screen laptop
+अगर आपका phone चालू है, और internet से जुड़ा है, तो map पर उसकी location दिख सकती है।
+@ phone ringing on sofa cushion
+अगर लगे कि phone घर में या आसपास ही गिरा है, तो Play sound दबाइए। Silent पर भी phone बजेगा।
+@ phone locked message screen
+अगर चोरी पक्की है, तो Secure device दबाइए। Phone lock हो जाएगा, और screen पर आप एक message और दूसरा number लिख सकते हैं।
+@ man thinking serious decision
+और आख़िरी रास्ता है, Factory reset, यानी phone का सारा data मिटाना। लेकिन याद रखिए, data मिटाने के बाद, location दिखनी भी बंद हो सकती है। इसलिए ये क़दम सोचकर, सबसे आख़िर में उठाइए।
+@ iphone user laptop browser
+iPhone वालों के लिए यही काम, Apple के Find My से होता है।
+
+# काम दो: SIM बंद करवाइए
+@ man calling customer care phone
+दूसरा काम, और सबसे ज़रूरी। तुरंत अपनी mobile company के customer care पर call कीजिए, और SIM block करवाइए।
+@ mobile shop counter india
+अगले दिन ID लेकर company के store पर जाइए। आपको उसी number की नई SIM मिल जाती है। पुरानी SIM बेकार हो जाती है।
+@ otp message phone hacker dark
+ऐसा क्यों? क्योंकि जब तक पुरानी SIM चालू है, चोर के phone पर आपके OTP आ सकते हैं।
+
+# काम तीन: बैंक और UPI
+@ woman calling bank helpline worried
+तीसरा काम, अपने बैंक की helpline पर call कीजिए। बताइए कि phone चोरी हुआ है, और UPI और mobile banking को रुकवाइए।
+@ bank card net banking laptop
+बहुत से बैंक, net banking या helpline से, UPI को तुरंत बंद करने की सुविधा देते हैं।
+@ man reporting online fraud laptop
+और अगर खाते से पैसे कट चुके हैं, तो बिल्कुल देर मत कीजिए। तुरंत एक नौ तीन शून्य पर call कीजिए, या cybercrime dot gov dot in पर शिकायत कीजिए। जितनी जल्दी शिकायत, पैसा रुकने की उतनी ज़्यादा उम्मीद।
+
+# काम चार और पाँच: Police और Sanchar Saathi
+@ indian police station desk complaint
+चौथा काम, police में शिकायत। कई राज्यों में खोए phone की शिकायत online भी हो जाती है। जो भी हो, शिकायत की copy और उसका number ज़रूर लीजिए।
+@ government website laptop screen
+पाँचवाँ काम, सरकार का free portal, Sanchar Saathi। sancharsaathi dot gov dot in पर जाइए, और खोए या चोरी हुए phone को block करने वाला option चुनिए।
+@ form filling laptop documents
+यहाँ phone का IMEI, brand, model, कहाँ और कब खोया, police शिकायत का number और copy, और अपनी ID की जानकारी भरनी होती है। एक दूसरे number पर OTP आता है।
+@ phone blocked network screen
+Block होने के बाद, वो phone India के mobile networks पर काम नहीं करता। यानी चोर के लिए वो लगभग बेकार हो जाता है।
+@ happy woman receiving lost phone
+और अगर phone मिल जाए, तो उसी portal से unblock की request कर सकते हैं। सरकार के मुताबिक़, इस पहल से लाखों खोए phone वापस भी मिले हैं।
+@ man reading phone carefully
+अब समझ आया, कि IMEI पहले से लिखकर रखना क्यों ज़रूरी था?
+
+# काम छह और सात: Accounts सुरक्षित कीजिए
+@ laptop password change screen
+छठा काम, दूसरे device से अपने Google account का password बदलिए। और जिन apps पर एक ही password है, उनका भी।
+@ whatsapp chat new phone setup
+सातवाँ काम, WhatsApp। नई SIM आते ही, उसी number से नए phone में WhatsApp चालू कीजिए। एक number पर एक समय में एक ही phone पर WhatsApp register रहता है, तो पुराने phone से वो निकल जाता है।
+@ family group chat warning message
+और परिवार के group में एक message डाल दीजिए, "मेरा phone चोरी हुआ है। मेरे नाम से कोई पैसे माँगे, तो मत भेजना।" यही छोटी सी line, बहुतों को ठगी से बचाती है।
+
+# तीन Indian examples
+@ college student metro station phone
+पहला, Pune की कॉलेज student सना। Metro में phone गया। उसके पास IMEI नहीं था। डिब्बा ढूँढने में दो दिन लगे, और तब तक, उसके नाम से दोस्तों को पैसे माँगने वाले messages जा चुके थे।
+@ shopkeeper counter small shop india
+दूसरा, Lucknow के दुकानदार रमेश जी। Phone गुम होते ही, उन्होंने बेटे के phone से पहले SIM बंद करवाई, फिर बैंक को call किया। बाद में पता चला, किसी ने उनकी UPI खोलने की कोशिश की थी, पर तब तक SIM बंद थी।
+@ old woman smiling son phone
+और तीसरा, हमारी कहानी वाली माँ। अंकित ने Find Hub से phone lock किया, SIM बंद करवाई, बैंक को बताया, और अगले दिन police शिकायत के बाद Sanchar Saathi पर phone block किया। माँ का पैसा भी बचा, और photos Google Photos के backup में सुरक्षित थीं।
+@ young man explaining parents living room
+अंकित ने उस रात एक और काम किया। उसने माँ के नए phone में, पहले दिन ही, ये पूरी तैयारी कर दी। IMEI copy में, backup चालू, और lock मज़बूत।
+
+# आम गलतियाँ
+@ man panicking phone street
+पहली गलती, घबराकर सीधे phone का data मिटा देना। पहले location देखिए, फिर lock कीजिए।
+@ man ignoring problem sleeping
+दूसरी गलती, सोचना कि कल देख लेंगे। SIM और बैंक, ये दोनों पहले घंटे के काम हैं।
+@ fake call scam man phone
+तीसरी गलती, उन लोगों पर भरोसा करना, जो call करके कहें कि आपका phone मिल गया है, बस एक OTP बता दीजिए। ये भी ठगी का तरीक़ा हो सकता है। OTP किसी को नहीं।
+@ man sharing otp phone call worried
+चौथी गलती, नई SIM लेने में हफ़्ता लगा देना। जब तक नई SIM नहीं, तब तक बैंक के OTP भी नहीं, और WhatsApp भी नहीं।
+@ second hand phone shop counter
+और पाँचवीं गलती, उल्टी तरफ़ से। सस्ता second hand phone ख़रीदने से पहले, उसका IMEI Sanchar Saathi पर check कर लीजिए। वहाँ IMEI की असलियत जाँचने वाला option भी है। कहीं आप किसी और का चोरी हुआ phone तो नहीं ख़रीद रहे।
+
+# Quiz, और आज का Action Plan
+@ quiz question screen phone
+अब quiz। Phone चोरी हुआ है, और आपके पास दस मिनट हैं। सबसे पहले क्या करेंगे? एक, phone का data मिटाना। दो, SIM block करवाना। तीन, नया phone ख़रीदना। जवाब comment में लिखिए।
+@ checklist notebook pen close up
+और आज का action plan, सिर्फ़ पाँच मिनट का। स्टार हैश शून्य छह हैश डायल करके IMEI लिखिए। Find Hub चालू है, ये check कीजिए। मज़बूत screen lock लगाइए। Photos का backup चालू कीजिए। और बैंक की helpline का number किसी copy में लिख लीजिए।
+@ family sitting together phone helping parents
+और ये सब, अपने माँ पापा के phone में भी आज ही कर दीजिए। क्योंकि अगली बार, phone शायद उन्हीं का खोए।
+
+# Recap, और अगला video
+@ young man smiling camera room
+Recap। एक, Find Hub से location, lock। दो, SIM block। तीन, बैंक और UPI, और ठगी हो तो एक नौ तीन शून्य। चार, police शिकायत। पाँच, Sanchar Saathi पर block। छह, passwords बदलिए। सात, WhatsApp और परिवार को खबर।
+@ subscribe button phone screen
+ये video उस इंसान को भेजिए, जिसका phone सबसे ज़्यादा खोता है। Channel subscribe कीजिए। अगले video में, phone की ऐसी ही एक छुपी हुई setting, जो आपकी privacy की रखवाली करती है।
