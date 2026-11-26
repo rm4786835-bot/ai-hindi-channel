@@ -1,0 +1,120 @@
+# दोपहर दो बजे, phone बंद
+@ worried old indian man phone dead close up
+दोपहर के दो बजे थे। पापा bank की line में खड़े थे, और OTP आने वाला था। तभी phone की screen काली हो गई। Battery ख़त्म।
+@ old man frustrated bank queue
+सुबह सौ percent charge किया था। और दोपहर तक phone बंद। पापा ने घर आकर कहा, "ये phone ख़राब है। नया लेना पड़ेगा।"
+@ young woman checking phone settings smiling
+बेटी नेहा ने phone लिया, दस मिनट settings में घूमी, और बोली, "पापा, phone ख़राब नहीं है। बस गलत settings पर चल रहा है।"
+@ phone battery full icon close up
+अगले दिन वही phone, रात नौ बजे तक चला। आज इस video में, मैं आपको वही आठ settings बताऊँगा, जो नेहा ने बदलीं। हर setting क्या करती है, और क्यों। और आख़िर में एक छोटा सा quiz भी है।
+
+# Battery ख़त्म क्यों होती है
+@ smartphone screen bright sunlight
+सबसे पहले ये समझिए, कि आपकी battery खाता कौन है। सबसे बड़ा खाने वाला है, screen। जितनी तेज़ रोशनी, और जितनी देर screen जली, उतनी battery गई।
+@ phone apps icons notification close up
+दूसरा है, पीछे चलने वाले apps। आप app बंद कर देते हैं, पर कई apps पीछे से internet, location और notifications चलाते रहते हैं।
+@ weak mobile signal tower village
+और तीसरा है, कमज़ोर network। जब signal कमज़ोर होता है, तो phone को network पकड़ने के लिए ज़्यादा ज़ोर लगाना पड़ता है। और battery जल्दी गिरती है।
+@ phone settings menu scrolling
+अब हम एक एक करके, इन तीनों को ठीक करेंगे। एक बात पहले से। हर company के phone में, settings के नाम थोड़े अलग हो सकते हैं। अगर नाम ना मिले, तो Settings के ऊपर search में, वो शब्द लिखकर ढूँढिए।
+
+# Setting एक: पहले चोर पकड़िए
+@ phone battery usage screen graph
+सबसे पहला काम। Settings में जाइए, Battery खोलिए, और Battery usage देखिए।
+@ man looking phone surprised close up
+यहाँ दिखेगा, कि पिछले चौबीस घंटे में, किस app ने कितनी battery खाई। कई बार कोई ऐसा app सबसे ऊपर होता है, जिसे आपने खोला भी नहीं।
+@ finger tapping phone app settings
+उस app पर दबाइए। ज़्यादातर phones में यहाँ तीन option मिलते हैं। Unrestricted, Optimized, और Restricted।
+@ phone screen restricted option close up
+जिस app से तुरंत message या call की ज़रूरत नहीं, जैसे कोई shopping app या game, उसे Restricted कर दीजिए। अब वो पीछे से battery नहीं खाएगा।
+@ woman thinking phone careful
+पर ध्यान रहे, WhatsApp, बैंक या calling वाले apps को Restricted मत कीजिए। वरना ज़रूरी message देर से आ सकते हैं।
+
+# Setting दो: Adaptive battery
+@ phone battery settings menu
+दूसरी setting, Adaptive battery। ये ज़्यादातर Android phones में Battery के अंदर मिलती है। कुछ phones में इसका नाम अलग होता है।
+@ phone learning habits ai concept
+इसे चालू करने से phone सीख जाता है, कि आप कौन से apps रोज़ चलाते हैं, और कौन से हफ़्ते में एक बार। जो apps कम चलते हैं, उन्हें phone पीछे कम चलने देता है।
+@ young man using phone daily routine
+ये एक बार चालू कीजिए, और भूल जाइए। कुछ दिन में phone आपकी आदतें समझ लेता है।
+
+# Setting तीन और चार: Screen
+@ phone brightness slider close up
+तीसरी setting, brightness। ऊपर से नीचे swipe कीजिए, और Adaptive brightness, या Auto brightness चालू कीजिए। कमरे में phone ख़ुद रोशनी कम कर देगा, धूप में बढ़ा देगा।
+@ phone screen timeout setting
+चौथी setting, Screen timeout। Settings में Display खोलिए। अगर screen दो या पाँच मिनट तक जलती रहती है, तो इसे तीस सेकंड कर दीजिए।
+@ phone lying table screen on
+सोचिए। दिन में सौ बार आप phone रखते हैं, और हर बार screen बेवजह कुछ मिनट जलती रहती है। ये छोटी सी चीज़, दिन भर में बड़ा फ़र्क़ डालती है।
+@ dark mode phone screen night
+और एक bonus. Dark theme। अगर आपके phone में AMOLED या OLED screen है, तो काले रंग वाले हिस्से में pixel लगभग बंद रहते हैं। इसलिए dark theme से battery कुछ बचती है। LCD screen में ये फ़र्क़ बहुत कम होता है।
+
+# Setting पाँच: Network
+@ mobile network settings 5g icon
+पाँचवीं setting, network। अगर आपके इलाक़े में 5G का signal कमज़ोर है, और phone बार बार 4G और 5G के बीच कूदता है, तो battery जल्दी गिर सकती है।
+@ phone sim settings menu
+ऐसे में SIM की settings में जाकर, Preferred network type में 4G या LTE चुनकर देखिए। एक दो दिन battery पर नज़र रखिए।
+@ phone airplane mode icon
+और जहाँ network बिल्कुल नहीं है, जैसे पहाड़ या basement, वहाँ थोड़ी देर Airplane mode चला दीजिए। phone बेकार में network ढूँढता नहीं रहेगा।
+
+# Setting छह और सात: Location और Battery saver
+@ phone location permission settings
+छठी setting, location। Settings में Location खोलिए, फिर App location permissions देखिए।
+@ map pin phone screen close up
+जिस app को हमेशा location चाहिए ही नहीं, उसे Only while using the app पर रखिए। Allow all the time सिर्फ़ उसी app को दीजिए, जिसकी सच में ज़रूरत है।
+@ phone battery saver mode icon
+सातवीं setting, Battery saver। जब battery बीस percent के आसपास हो, और charger दूर हो, तो इसे चालू कर दीजिए। Phone पीछे के काम कम करके, कुछ और घंटे निकाल देता है।
+@ phone battery saver schedule settings
+कई phones में इसे अपने आप चालू होने का option भी मिलता है। जैसे, battery एक तय percent पर पहुँचे, तो ख़ुद चालू हो जाए।
+
+# Setting आठ: Battery की लंबी उम्र
+@ phone charging cable night table
+आठवीं setting, battery की लंबी उम्र के लिए। ये आज की battery नहीं, आने वाले सालों की battery बचाती है।
+@ phone charging settings screen close up
+लगातार सौ percent तक charge करने से, battery धीरे धीरे जल्दी बूढ़ी हो सकती है। इसलिए नए Samsung phones में Battery protection, और Pixel phones में Charging optimization नाम की setting मिलती है। इससे charge लगभग अस्सी percent पर रोका जा सकता है।
+@ man reading phone settings carefully
+बाक़ी companies के नए phones में भी, ऐसा option अलग नाम से हो सकता है। Settings में search कीजिए, charging, या battery protection।
+@ phone charger original box
+और हाँ, सस्ता नकली charger मत लगाइए। अच्छी quality का charger ही battery और phone दोनों को बचाता है।
+
+# दो छोटी चीज़ें, बड़ा फ़र्क़
+@ phone always on display clock dark
+दो छोटी चीज़ें और। पहली, Always on display। कई phones में screen बंद होने पर भी, घड़ी और notifications दिखते रहते हैं। ये अच्छा दिखता है, पर थोड़ी battery लगातार लेता है। ज़रूरत नहीं, तो Display settings में इसे बंद कर दीजिए।
+@ keyboard typing phone vibration
+दूसरी, keyboard की vibration। हर अक्षर दबाने पर जो हल्का सा झटका आता है, वो भी battery से चलता है। Keyboard की settings में vibration और sound बंद कीजिए। दिन भर chat करने वालों के लिए, ये छोटी सी बचत भी जुड़ती जाती है।
+@ phone live wallpaper moving
+और चलते फिरते live wallpaper की जगह, एक सादी, गहरे रंग की photo लगाइए। सुंदर भी, और हल्की भी।
+
+# तीन examples
+@ college student phone library
+पहला example, दिल्ली की कॉलेज student साक्षी। उसके phone में एक photo editing app, जो उसने महीनों से खोला नहीं था, पीछे से सबसे ज़्यादा battery खा रहा था। Battery usage देखकर उसने उसे हटा दिया।
+@ delivery rider phone map bike
+दूसरा example, Pune का delivery partner इमरान। उसे दिन भर map चाहिए। उसने brightness auto की, screen timeout तीस सेकंड किया, और बाक़ी apps की location बंद की। अब शाम तक charge बचता है।
+@ old woman phone village home
+तीसरा example, गाँव में रहने वाली दादी। वहाँ 5G का signal कमज़ोर था। Phone को 4G पर रखते ही battery का गिरना कम हुआ।
+@ young man smiling phone battery
+ये तीनों examples समझाने के लिए बनाए गए हैं। पर हर किसी की असली problem अलग निकली। इसलिए सबसे पहले, Battery usage ज़रूर देखिए।
+
+# आम गलतियाँ
+@ phone recent apps swipe close
+पहली गलती। हर थोड़ी देर में सारे apps swipe करके बंद करना। ज़्यादातर नए phones में इससे फ़ायदा कम होता है। Apps दोबारा खुलने में उल्टा ज़्यादा battery खा सकते हैं।
+@ battery saver app download store
+दूसरी गलती। Battery saver या cleaner नाम के अलग apps download करना। कई ऐसे apps ख़ुद पीछे चलते हैं, ads दिखाते हैं, और permissions माँगते हैं। Phone की अपनी settings ही काफ़ी हैं।
+@ phone charging bed pillow
+तीसरी गलती। तकिये के नीचे या बिस्तर पर phone charge करना। गर्मी battery की सबसे बड़ी दुश्मन है।
+@ phone hot sun car dashboard
+और चौथी गलती। Phone को धूप में, या car के dashboard पर छोड़ देना। गर्मी से battery जल्दी ख़राब होती है।
+
+# Quiz, action plan और recap
+@ quiz question card screen
+अब एक छोटा सा quiz। पापा का phone दोपहर तक dead हो जाता है। सबसे पहले क्या देखना चाहिए?
+@ three options card
+एक, नया phone ख़रीदना। दो, Battery usage में देखना, कि battery कौन खा रहा है। तीन, battery saver app download करना। Comment में अपना जवाब लिखिए, एक, दो, या तीन।
+@ checklist notebook pen
+और आज का action plan, बस दस मिनट का। Battery usage देखिए, फ़ालतू app Restricted कीजिए। Adaptive battery और auto brightness चालू कीजिए। Screen timeout तीस सेकंड कीजिए। और charging protection वाली setting ढूँढिए।
+
+@ phone battery full happy family
+याद रखिए। Battery का दुश्मन है, तेज़ screen, पीछे चलते apps, कमज़ोर network, और गर्मी। इन चारों को settings से काबू कीजिए।
+@ young woman showing phone father smiling
+आज ही ये video अपने पापा, मम्मी, या उस दोस्त को भेजिए, जिसका phone हमेशा दोपहर तक बंद हो जाता है।
+@ young man subscribe phone smiling
+Channel subscribe कीजिए। अगले video में, एक और ऐसी phone trick, जो पूरे घर के काम आएगी। कल शाम छह बजे मिलते हैं।
